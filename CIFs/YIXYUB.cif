@@ -1,0 +1,463 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_960383(1)
+_audit_block_doi                 10.5517/cc117c3r
+_database_code_depnum_ccdc_archive 'CCDC 960383'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1039/C4CE00045E 2014
+_audit_update_record             
+;
+2014-02-04 deposited with the CCDC.	2024-07-14 downloaded from the CCDC.
+;
+
+_audit_creation_method           SHELXL-97
+_chemical_name_systematic        
+; 
+ ? 
+;
+_chemical_name_common            ?
+_chemical_melting_point          ?
+_chemical_formula_moiety         ?
+_chemical_formula_sum            'C18 H16 Cd2 N6 O7'
+_chemical_formula_weight         653.17
+
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cd Cd -0.8075 1.2024 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+_symmetry_cell_setting           Tetragonal
+_symmetry_space_group_name_H-M   P4(2)/n
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x+1/2, z+1/2'
+'y+1/2, -x, z+1/2'
+'-x+1/2, -y+1/2, z'
+'-x, -y, -z'
+'y, -x-1/2, -z-1/2'
+'-y-1/2, x, -z-1/2'
+'x-1/2, y-1/2, -z'
+
+_cell_length_a                   20.872(8)
+_cell_length_b                   20.872(8)
+_cell_length_c                   5.882(2)
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_volume                     2562.4(16)
+_cell_formula_units_Z            4
+_cell_measurement_temperature    298(2)
+_cell_measurement_reflns_used    1332
+_cell_measurement_theta_min      2.76
+_cell_measurement_theta_max      21.17
+
+_exptl_crystal_description       block
+_exptl_crystal_colour            colorless
+_exptl_crystal_size_max          0.22
+_exptl_crystal_size_mid          0.18
+_exptl_crystal_size_min          0.11
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_diffrn    1.693
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             1272
+_exptl_absorpt_coefficient_mu    1.705
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_correction_T_min  0.7055
+_exptl_absorpt_correction_T_max  0.8346
+_exptl_absorpt_process_details   
+; 
+SADABS (Sheldrick, G. M. (1998)). 
+Program for Absorption Correction. 
+University of G\"ottingen, Germany. 
+;
+
+_exptl_special_details           
+; 
+ ? 
+;
+
+_diffrn_ambient_temperature      298(2)
+_diffrn_radiation_wavelength     0.71073
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_monochromator  graphite
+_diffrn_measurement_device_type  'Bruker APEX-II CCD'
+_diffrn_measurement_method       '\f and \w scans'
+_diffrn_detector_area_resol_mean ?
+_diffrn_reflns_number            11891
+_diffrn_reflns_av_R_equivalents  0.0683
+_diffrn_reflns_av_sigmaI/netI    0.0477
+_diffrn_reflns_limit_h_min       -24
+_diffrn_reflns_limit_h_max       23
+_diffrn_reflns_limit_k_min       -24
+_diffrn_reflns_limit_k_max       22
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_theta_min         1.38
+_diffrn_reflns_theta_max         24.68
+_reflns_number_total             2173
+_reflns_number_gt                1530
+_reflns_threshold_expression     >2sigma(I)
+
+_computing_data_collection       'Bruker APEX2'
+_computing_cell_refinement       'Bruker SAINT'
+_computing_data_reduction        'Bruker SAINT'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 2008)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+
+_refine_special_details          
+; 
+ Refinement of F^2^ against ALL reflections.  The weighted R-factor wR and 
+ goodness of fit S are based on F^2^, conventional R-factors R are based 
+ on F, with F set to zero for negative F^2^. The threshold expression of 
+ F^2^ > 2sigma(F^2^) is used only for calculating R-factors(gt) etc. and is 
+ not relevant to the choice of reflections for refinement.  R-factors based 
+ on F^2^ are statistically about twice as large as those based on F, and R- 
+ factors based on ALL data will be even larger. 
+;
+
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_matrix_type           full
+_refine_ls_weighting_scheme      calc
+_refine_ls_weighting_details     
+'calc w=1/[\s^2^(Fo^2^)+(0.0725P)^2^+1.3529P] where P=(Fo^2^+2Fc^2^)/3'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_atom_sites_solution_hydrogens   geom
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_extinction_method     SHELXL
+_refine_ls_extinction_coef       0.00059(18)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_number_reflns         2173
+_refine_ls_number_parameters     167
+_refine_ls_number_restraints     4
+_refine_ls_R_factor_all          0.0657
+_refine_ls_R_factor_gt           0.0429
+_refine_ls_wR_factor_ref         0.1351
+_refine_ls_wR_factor_gt          0.1184
+_refine_ls_goodness_of_fit_ref   1.089
+_refine_ls_restrained_S_all      1.088
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Cd1 Cd 0.32988(2) 0.76803(2) 0.04003(9) 0.0259(2) Uani 1 1 d . . .
+O1 O 0.7011(2) 0.4044(2) 0.1544(8) 0.0403(13) Uani 1 1 d . . .
+O2 O 0.6448(3) 0.4001(3) 0.4702(9) 0.0452(14) Uani 1 1 d . . .
+O3 O 0.31242(19) 0.7666(2) -0.3346(8) 0.0238(10) Uani 1 1 d D . .
+H3 H 0.345(3) 0.777(4) -0.411(14) 0.06(3) Uiso 1 1 d D . .
+O4 O 0.610(2) 0.7584(16) 0.115(10) 0.51(6) Uani 0.50 1 d PD . .
+H4A H 0.614(6) 0.761(4) 0.257(9) 0.53(3) Uiso 0.50 1 d PD . .
+H4B H 0.612(7) 0.793(4) 0.040(12) 0.55(4) Uiso 0.50 1 d PD . .
+N1 N 0.4201(3) 0.7002(3) -0.0360(10) 0.0375(15) Uani 1 1 d . . .
+N2 N 0.5057(3) 0.6593(3) -0.2176(12) 0.0521(18) Uani 1 1 d . . .
+N3 N 0.4984(3) 0.6320(3) -0.0089(10) 0.0379(15) Uani 1 1 d . . .
+C1 C 0.4472(3) 0.6567(3) 0.0951(13) 0.0389(18) Uani 1 1 d . . .
+H1 H 0.4327 0.6449 0.2388 0.047 Uiso 1 1 calc R . .
+C2 C 0.4577(3) 0.7007(3) -0.2268(15) 0.046(2) Uani 1 1 d . . .
+H2 H 0.4503 0.7275 -0.3504 0.055 Uiso 1 1 calc R . .
+C3 C 0.5412(4) 0.5823(3) 0.0683(13) 0.0386(19) Uani 1 1 d . . .
+C4 C 0.5364(5) 0.5594(5) 0.2789(16) 0.107(5) Uani 1 1 d . . .
+H4 H 0.5079 0.5773 0.3824 0.129 Uiso 1 1 calc R . .
+C5 C 0.5748(5) 0.5081(5) 0.3405(17) 0.104(5) Uani 1 1 d . . .
+H5 H 0.5710 0.4922 0.4876 0.125 Uiso 1 1 calc R . .
+C6 C 0.6170(3) 0.4801(3) 0.2009(12) 0.0343(17) Uani 1 1 d . . .
+C7 C 0.6206(5) 0.5037(5) -0.0073(16) 0.082(4) Uani 1 1 d . . .
+H7 H 0.6491 0.4854 -0.1101 0.098 Uiso 1 1 calc R . .
+C8 C 0.5821(5) 0.5561(5) -0.0786(17) 0.093(4) Uani 1 1 d . . .
+H8 H 0.5855 0.5719 -0.2259 0.111 Uiso 1 1 calc R . .
+C9 C 0.6577(3) 0.4251(3) 0.2794(13) 0.0340(17) Uani 1 1 d . . .
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Cd1 0.0220(3) 0.0278(3) 0.0278(4) 0.0011(2) -0.0005(2) -0.0019(2)
+O1 0.042(3) 0.040(3) 0.039(3) -0.005(2) -0.003(2) 0.016(2)
+O2 0.044(3) 0.042(3) 0.049(4) 0.016(3) 0.001(3) 0.009(3)
+O3 0.021(2) 0.026(2) 0.024(3) 0.0017(19) 0.0020(19) -0.0005(19)
+O4 0.28(4) 0.30(5) 0.96(14) -0.40(7) -0.33(7) 0.16(4)
+N1 0.033(4) 0.038(4) 0.042(4) 0.003(3) 0.000(3) 0.008(3)
+N2 0.047(4) 0.065(4) 0.044(4) 0.017(4) 0.010(3) 0.023(3)
+N3 0.030(3) 0.040(4) 0.044(4) 0.003(3) -0.002(3) 0.009(3)
+C1 0.037(4) 0.038(4) 0.042(5) 0.000(3) 0.001(4) 0.014(3)
+C2 0.034(4) 0.047(5) 0.057(5) 0.014(4) 0.000(4) 0.011(4)
+C3 0.037(4) 0.035(4) 0.043(5) -0.001(3) 0.005(3) 0.015(3)
+C4 0.149(10) 0.133(10) 0.041(6) 0.039(6) 0.043(7) 0.116(8)
+C5 0.139(10) 0.133(10) 0.041(6) 0.036(6) 0.032(6) 0.103(8)
+C6 0.039(4) 0.035(4) 0.029(4) -0.003(3) 0.002(3) 0.005(3)
+C7 0.087(8) 0.103(8) 0.055(6) 0.034(6) 0.039(5) 0.070(7)
+C8 0.093(8) 0.127(10) 0.059(7) 0.056(7) 0.035(6) 0.079(7)
+C9 0.034(4) 0.030(4) 0.038(4) 0.000(3) -0.003(3) 0.001(3)
+
+_geom_special_details            
+; 
+ All esds (except the esd in the dihedral angle between two l.s. planes) 
+ are estimated using the full covariance matrix.  The cell esds are taken 
+ into account individually in the estimation of esds in distances, angles 
+ and torsion angles; correlations between esds in cell parameters are only 
+ used when they are defined by crystal symmetry.  An approximate (isotropic) 
+ treatment of cell esds is used for estimating esds involving l.s. planes. 
+;
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cd1 O3 2.234(5) . ?
+Cd1 O3 2.259(4) 3_465 ?
+Cd1 O3 2.337(4) 2_655 ?
+Cd1 O2 2.338(5) 6_576 ?
+Cd1 N1 2.398(6) . ?
+Cd1 O1 2.463(5) 6_576 ?
+Cd1 C9 2.734(7) 6_576 ?
+Cd1 Cd1 3.4183(15) 4_565 ?
+O1 C9 1.244(8) . ?
+O1 Cd1 2.463(5) 7_756 ?
+O2 C9 1.266(8) . ?
+O2 Cd1 2.338(5) 7_756 ?
+O3 Cd1 2.259(4) 2_654 ?
+O3 Cd1 2.337(4) 3_464 ?
+O3 H3 0.835(10) . ?
+O4 H4A 0.841(10) . ?
+O4 H4B 0.840(10) . ?
+N1 C1 1.319(9) . ?
+N1 C2 1.370(10) . ?
+N2 C2 1.324(8) . ?
+N2 N3 1.362(9) . ?
+N3 C1 1.335(9) . ?
+N3 C3 1.441(9) . ?
+C1 H1 0.9300 . ?
+C2 H2 0.9300 . ?
+C3 C4 1.332(11) . ?
+C3 C8 1.333(11) . ?
+C4 C5 1.385(11) . ?
+C4 H4 0.9300 . ?
+C5 C6 1.339(11) . ?
+C5 H5 0.9300 . ?
+C6 C7 1.322(11) . ?
+C6 C9 1.502(9) . ?
+C7 C8 1.421(11) . ?
+C7 H7 0.9300 . ?
+C8 H8 0.9300 . ?
+C9 Cd1 2.734(7) 7_756 ?
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O3 Cd1 O3 102.53(16) . 3_465 ?
+O3 Cd1 O3 100.12(15) . 2_655 ?
+O3 Cd1 O3 71.83(17) 3_465 2_655 ?
+O3 Cd1 O2 94.99(17) . 6_576 ?
+O3 Cd1 O2 162.42(17) 3_465 6_576 ?
+O3 Cd1 O2 103.91(17) 2_655 6_576 ?
+O3 Cd1 N1 86.36(18) . . ?
+O3 Cd1 N1 94.63(18) 3_465 . ?
+O3 Cd1 N1 165.90(18) 2_655 . ?
+O2 Cd1 N1 87.83(18) 6_576 . ?
+O3 Cd1 O1 145.74(15) . 6_576 ?
+O3 Cd1 O1 108.96(16) 3_465 6_576 ?
+O3 Cd1 O1 102.16(15) 2_655 6_576 ?
+O2 Cd1 O1 54.50(17) 6_576 6_576 ?
+N1 Cd1 O1 78.13(18) . 6_576 ?
+O3 Cd1 C9 120.6(2) . 6_576 ?
+O3 Cd1 C9 136.0(2) 3_465 6_576 ?
+O3 Cd1 C9 106.21(18) 2_655 6_576 ?
+O2 Cd1 C9 27.51(19) 6_576 6_576 ?
+N1 Cd1 C9 80.6(2) . 6_576 ?
+O1 Cd1 C9 27.07(18) 6_576 6_576 ?
+O3 Cd1 Cd1 80.68(11) . 4_565 ?
+O3 Cd1 Cd1 42.83(11) 3_465 4_565 ?
+O3 Cd1 Cd1 41.09(10) 2_655 4_565 ?
+O2 Cd1 Cd1 141.56(14) 6_576 4_565 ?
+N1 Cd1 Cd1 129.49(15) . 4_565 ?
+O1 Cd1 Cd1 132.35(11) 6_576 4_565 ?
+C9 Cd1 Cd1 146.47(15) 6_576 4_565 ?
+C9 O1 Cd1 88.7(4) . 7_756 ?
+C9 O2 Cd1 93.9(4) . 7_756 ?
+Cd1 O3 Cd1 115.82(19) . 2_654 ?
+Cd1 O3 Cd1 112.78(18) . 3_464 ?
+Cd1 O3 Cd1 96.08(16) 2_654 3_464 ?
+Cd1 O3 H3 113(7) . . ?
+Cd1 O3 H3 105(6) 2_654 . ?
+Cd1 O3 H3 112(6) 3_464 . ?
+H4A O4 H4B 118(3) . . ?
+C1 N1 C2 103.8(6) . . ?
+C1 N1 Cd1 129.4(5) . . ?
+C2 N1 Cd1 126.7(5) . . ?
+C2 N2 N3 103.0(6) . . ?
+C1 N3 N2 109.9(6) . . ?
+C1 N3 C3 128.9(6) . . ?
+N2 N3 C3 121.1(6) . . ?
+N1 C1 N3 109.9(7) . . ?
+N1 C1 H1 125.0 . . ?
+N3 C1 H1 125.0 . . ?
+N2 C2 N1 113.3(7) . . ?
+N2 C2 H2 123.4 . . ?
+N1 C2 H2 123.4 . . ?
+C4 C3 C8 120.2(7) . . ?
+C4 C3 N3 120.4(7) . . ?
+C8 C3 N3 119.2(7) . . ?
+C3 C4 C5 118.5(8) . . ?
+C3 C4 H4 120.7 . . ?
+C5 C4 H4 120.7 . . ?
+C6 C5 C4 123.9(9) . . ?
+C6 C5 H5 118.1 . . ?
+C4 C5 H5 118.1 . . ?
+C7 C6 C5 116.3(7) . . ?
+C7 C6 C9 122.5(7) . . ?
+C5 C6 C9 121.2(7) . . ?
+C6 C7 C8 121.9(8) . . ?
+C6 C7 H7 119.1 . . ?
+C8 C7 H7 119.1 . . ?
+C3 C8 C7 119.2(8) . . ?
+C3 C8 H8 120.4 . . ?
+C7 C8 H8 120.4 . . ?
+O1 C9 O2 122.5(7) . . ?
+O1 C9 C6 119.7(6) . . ?
+O2 C9 C6 117.8(6) . . ?
+O1 C9 Cd1 64.2(4) . 7_756 ?
+O2 C9 Cd1 58.5(4) . 7_756 ?
+C6 C9 Cd1 174.9(5) . 7_756 ?
+
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+O3 Cd1 O3 Cd1 90.78(7) 3_465 . . 2_654 ?
+O3 Cd1 O3 Cd1 17.3(2) 2_655 . . 2_654 ?
+O2 Cd1 O3 Cd1 -87.8(2) 6_576 . . 2_654 ?
+N1 Cd1 O3 Cd1 -175.3(2) . . . 2_654 ?
+O1 Cd1 O3 Cd1 -112.6(3) 6_576 . . 2_654 ?
+C9 Cd1 O3 Cd1 -98.5(2) 6_576 . . 2_654 ?
+Cd1 Cd1 O3 Cd1 53.71(16) 4_565 . . 2_654 ?
+O3 Cd1 O3 Cd1 -18.5(2) 3_465 . . 3_464 ?
+O3 Cd1 O3 Cd1 -91.99(5) 2_655 . . 3_464 ?
+O2 Cd1 O3 Cd1 162.9(2) 6_576 . . 3_464 ?
+N1 Cd1 O3 Cd1 75.4(2) . . . 3_464 ?
+O1 Cd1 O3 Cd1 138.0(2) 6_576 . . 3_464 ?
+C9 Cd1 O3 Cd1 152.22(19) 6_576 . . 3_464 ?
+Cd1 Cd1 O3 Cd1 -55.61(14) 4_565 . . 3_464 ?
+O3 Cd1 N1 C1 -151.5(6) . . . . ?
+O3 Cd1 N1 C1 -49.2(6) 3_465 . . . ?
+O3 Cd1 N1 C1 -33.5(12) 2_655 . . . ?
+O2 Cd1 N1 C1 113.4(6) 6_576 . . . ?
+O1 Cd1 N1 C1 59.2(6) 6_576 . . . ?
+C9 Cd1 N1 C1 86.7(6) 6_576 . . . ?
+Cd1 Cd1 N1 C1 -76.7(7) 4_565 . . . ?
+O3 Cd1 N1 C2 32.2(6) . . . . ?
+O3 Cd1 N1 C2 134.5(6) 3_465 . . . ?
+O3 Cd1 N1 C2 150.3(6) 2_655 . . . ?
+O2 Cd1 N1 C2 -62.9(6) 6_576 . . . ?
+O1 Cd1 N1 C2 -117.1(6) 6_576 . . . ?
+C9 Cd1 N1 C2 -89.6(6) 6_576 . . . ?
+Cd1 Cd1 N1 C2 107.0(6) 4_565 . . . ?
+C2 N2 N3 C1 0.9(8) . . . . ?
+C2 N2 N3 C3 178.8(7) . . . . ?
+C2 N1 C1 N3 0.1(8) . . . . ?
+Cd1 N1 C1 N3 -176.9(5) . . . . ?
+N2 N3 C1 N1 -0.6(9) . . . . ?
+C3 N3 C1 N1 -178.3(7) . . . . ?
+N3 N2 C2 N1 -0.9(9) . . . . ?
+C1 N1 C2 N2 0.6(9) . . . . ?
+Cd1 N1 C2 N2 177.6(5) . . . . ?
+C1 N3 C3 C4 -7.5(14) . . . . ?
+N2 N3 C3 C4 175.1(9) . . . . ?
+C1 N3 C3 C8 167.3(9) . . . . ?
+N2 N3 C3 C8 -10.1(12) . . . . ?
+C8 C3 C4 C5 0.1(19) . . . . ?
+N3 C3 C4 C5 174.8(10) . . . . ?
+C3 C4 C5 C6 0(2) . . . . ?
+C4 C5 C6 C7 -0.6(18) . . . . ?
+C4 C5 C6 C9 179.4(11) . . . . ?
+C5 C6 C7 C8 0.5(17) . . . . ?
+C9 C6 C7 C8 -179.5(10) . . . . ?
+C4 C3 C8 C7 -0.2(18) . . . . ?
+N3 C3 C8 C7 -175.0(10) . . . . ?
+C6 C7 C8 C3 -0.1(19) . . . . ?
+Cd1 O1 C9 O2 -6.0(7) 7_756 . . . ?
+Cd1 O1 C9 C6 176.2(6) 7_756 . . . ?
+Cd1 O2 C9 O1 6.3(7) 7_756 . . . ?
+Cd1 O2 C9 C6 -175.8(5) 7_756 . . . ?
+C7 C6 C9 O1 7.5(12) . . . . ?
+C5 C6 C9 O1 -172.5(9) . . . . ?
+C7 C6 C9 O2 -170.4(9) . . . . ?
+C5 C6 C9 O2 9.6(12) . . . . ?
+C7 C6 C9 Cd1 146(5) . . . 7_756 ?
+C5 C6 C9 Cd1 -34(6) . . . 7_756 ?
+
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_site_symmetry_A
+O3 H3 O1 0.835(10) 1.95(3) 2.770(6) 165(9) 6_575
+
+_diffrn_measured_fraction_theta_max 0.998
+_diffrn_reflns_theta_full        24.68
+_diffrn_measured_fraction_theta_full 0.998
+_refine_diff_density_max         0.847
+_refine_diff_density_min         -0.663
+_refine_diff_density_rms         0.149

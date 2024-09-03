@@ -1,0 +1,271 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_STA12MN-DH
+_audit_block_doi                 10.5517/cczrqyc
+_database_code_depnum_ccdc_archive 'CCDC 916544'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1016/j.micromeso.2011.12.003 2012
+_audit_update_record             
+;
+2012-12-20 deposited with the CCDC.	2024-07-13 downloaded from the CCDC.
+;
+
+_pd_block_id                     
+2011-10-29T17:27|STA-12(Mn)-DH|MTWharmby|Stoe_Stadi_P
+
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_creation_date             2011-10-29T17:27
+# 5. OVERALL REFINEMENT & COMPUTING DETAILS
+
+_refine_special_details          
+; ?
+;
+_pd_proc_ls_special_details      
+; ?
+;
+
+# The following items are used to identify the programs used.
+_computing_molecular_graphics    ?
+_computing_publication_material  ?
+
+_refine_ls_weighting_scheme      ?
+_refine_ls_weighting_details     ?
+_refine_ls_hydrogen_treatment    ?
+_refine_ls_extinction_method     ?
+_refine_ls_extinction_coef       ?
+_refine_ls_number_constraints    ?
+
+_refine_ls_restrained_S_all      ?
+_refine_ls_restrained_S_obs      ?
+
+_refine_diff_density_max         0.369
+_refine_diff_density_min         -0.437
+#==============================================================================
+# 6. SAMPLE PREPARATION DATA
+
+# (In the unusual case where multiple samples are used in a single
+# Rietveld study, this information should be moved into the phase
+# blocks)
+
+# The following three fields describe the preparation of the material.
+# The cooling rate is in K/min. The pressure at which the sample was
+# prepared is in kPa. The temperature of preparation is in K.
+
+_pd_prep_cool_rate               ?
+_pd_prep_pressure                ?
+_pd_prep_temperature             ?
+
+_pd_char_colour                  white
+_refine_ls_shift/su_max          0.05
+_refine_ls_shift/su_mean         0.01
+_computing_structure_refinement  GSAS
+_refine_ls_number_parameters     32
+_refine_ls_goodness_of_fit_all   1.38
+_refine_ls_number_restraints     37
+_refine_ls_matrix_type           full
+#==============================================================================
+# 7. CHEMICAL, STRUCTURAL AND CRYSTAL DATA
+
+_pd_char_particle_morphology     ?
+
+_chemical_name_systematic        
+; ?
+;
+_chemical_name_common            ?
+_chemical_formula_moiety         'C3 Mn N O3 P'
+_chemical_formula_structural     'Mn2 (C6 H12 N2 O6 P2)'
+_chemical_formula_analytical     ?
+_chemical_melting_point          ?
+_chemical_compound_source        ? # for minerals and
+# natural products
+_symmetry_space_group_name_Hall  '-R 3'
+
+_exptl_crystal_F_000             ?
+_exptl_crystal_density_diffrn    1.567
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    ?
+
+_cell_measurement_temperature    298
+
+_cell_special_details            
+; ?
+;
+
+_geom_special_details            ?
+
+# The following item identifies the program(s) used (if appropriate).
+_computing_structure_solution    ?
+
+#==============================================================================
+
+# 8. Phase information from GSAS
+
+_pd_phase_name                   'STA-12(Mn) - Dehydrated'
+_cell_length_a                   26.0701(18)
+_cell_length_b                   26.0701
+_cell_length_c                   5.9630(6)
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_volume                     3509.8(5)
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_H-M   'R -3'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,x-y,+z
+3 y-x,-x,+z
+-1 -x,-y,-z
+-2 +y,y-x,-z
+-3 x-y,+x,-z
+101 +x+1/3,+y+2/3,+z+2/3
+102 -y+1/3,x-y+2/3,+z+2/3
+103 y-x+1/3,-x+2/3,+z+2/3
+-101 -x+2/3,-y+1/3,-z+1/3
+-102 +y+2/3,y-x+1/3,-z+1/3
+-103 x-y+2/3,+x+1/3,-z+1/3
+201 +x+2/3,+y+1/3,+z+1/3
+202 -y+2/3,x-y+1/3,+z+1/3
+203 y-x+2/3,-x+1/3,+z+1/3
+-201 -x+1/3,-y+2/3,-z+2/3
+-202 +y+1/3,y-x+2/3,-z+2/3
+-203 x-y+1/3,+x+2/3,-z+2/3
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Mn Mn1 0.28852(33) 0.02433(28) -0.2761(12) 1.0 Uiso 0.0227(10) 18
+P P1 0.4275(5) 0.0580(6) -0.4787(21) 1.0 Uiso 0.0227(10) 18
+O O1 0.4481(10) 0.1059(8) -0.6521(31) 1.0 Uiso 0.0227(10) 18
+O O2 0.3850(5) 0.0600(8) -0.3102(21) 1.0 Uiso 0.0227(10) 18
+O O3 0.4090(5) 0.0029(5) -0.6165(23) 1.0 Uiso 0.0227(10) 18
+N N1 0.4809(7) 0.0383(7) -0.1026(24) 1.0 Uiso 0.0227(10) 18
+C C1 0.4947(6) 0.0768(7) -0.3105(26) 1.0 Uiso 0.0227(10) 18
+C C2 0.4678(8) -0.0205(7) -0.2104(19) 1.0 Uiso 0.0227(10) 18
+C C3 0.5394(8) 0.06378(28) 0.0249(31) 1.0 Uiso 0.0227(10) 18
+
+# If you change Z, be sure to change all 3 of the following
+_chemical_formula_sum            'C3 Mn N O3 P'
+_chemical_formula_weight         183.95
+_cell_formula_units_Z            18
+
+# MOLECULAR GEOMETRY
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn1 O1 2.250(22) . 102_545 N
+Mn1 O2 2.212(9) . 1_555 N
+Mn1 O2 2.312(12) . 102_544 N
+Mn1 O3 2.280(12) . 102_545 N
+Mn1 O3 2.331(11) . 203_555 N
+Mn1 N1 2.338(14) . 102_544 N
+P1 O1 1.500(6) . 1_555 N
+P1 O2 1.517(6) . 1_555 N
+P1 O3 1.510(6) . 1_555 N
+P1 C1 1.859(6) . 1_555 N
+O1 Mn1 2.250(22) . 203_554 N
+O1 P1 1.500(6) . 1_555 N
+O2 Mn1 2.212(9) . 1_555 N
+O2 Mn1 2.312(12) . 203_555 N
+O2 P1 1.517(6) . 1_555 N
+O3 Mn1 2.331(11) . 102_544 N
+O3 Mn1 2.280(12) . 203_554 N
+O3 P1 1.510(6) . 1_555 N
+N1 Mn1 2.338(14) . 203_555 N
+N1 C1 1.521(7) . 1_555 N
+N1 C2 1.534(7) . 1_555 N
+N1 C3 1.527(7) . 1_555 N
+C1 P1 1.859(6) . 1_555 N
+C1 N1 1.521(7) . 1_555 N
+C2 N1 1.534(7) . 1_555 N
+C2 C3 1.524(6) . -1_655 N
+C3 N1 1.527(7) . 1_555 N
+C3 C2 1.524(6) . -1_655 N
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Mn1 O2 134.5(6) 102_545 . 1_555 N
+O1 Mn1 O2 133.5(7) 102_545 . 102_544 N
+O1 Mn1 O3 62.8(4) 102_545 . 102_545 N
+O1 Mn1 O3 90.8(7) 102_545 . 203_555 N
+O1 Mn1 N1 101.2(7) 102_545 . 102_544 N
+O2 Mn1 O2 91.0(8) 1_555 . 102_544 N
+O2 Mn1 O3 73.5(4) 1_555 . 102_545 N
+O2 Mn1 O3 97.1(6) 1_555 . 203_555 N
+O2 Mn1 N1 92.0(7) 1_555 . 102_544 N
+O2 Mn1 O3 163.6(7) 102_544 . 102_545 N
+O2 Mn1 O3 70.8(4) 102_544 . 203_555 N
+O2 Mn1 N1 83.2(4) 102_544 . 102_544 N
+O3 Mn1 O3 115.5(5) 102_545 . 203_555 N
+O3 Mn1 N1 92.0(4) 102_545 . 102_544 N
+O3 Mn1 N1 152.4(4) 203_555 . 102_544 N
+O1 P1 O2 112.9(12) 1_555 . 1_555 N
+O1 P1 O3 103.3(11) 1_555 . 1_555 N
+O1 P1 C1 104.8(13) 1_555 . 1_555 N
+O2 P1 O3 120.2(12) 1_555 . 1_555 N
+O2 P1 C1 104.0(9) 1_555 . 1_555 N
+O3 P1 C1 110.8(9) 1_555 . 1_555 N
+Mn1 O1 P1 95.7(11) 203_554 . 1_555 N
+Mn1 O2 Mn1 96.9(5) 1_555 . 203_555 N
+Mn1 O2 P1 138.0(9) 1_555 . 1_555 N
+Mn1 O2 P1 114.3(7) 203_555 . 1_555 N
+Mn1 O3 Mn1 94.6(6) 102_544 . 203_554 N
+Mn1 O3 P1 117.0(7) 102_544 . 1_555 N
+Mn1 O3 P1 94.2(7) 203_554 . 1_555 N
+Mn1 N1 C1 102.2(8) 203_555 . 1_555 N
+Mn1 N1 C2 118.5(12) 203_555 . 1_555 N
+Mn1 N1 C3 119.0(12) 203_555 . 1_555 N
+C1 N1 C2 100.3(12) 1_555 . 1_555 N
+C1 N1 C3 105.3(12) 1_555 . 1_555 N
+C2 N1 C3 108.6(7) 1_555 . 1_555 N
+P1 C1 N1 112.6(10) 1_555 . 1_555 N
+N1 C2 C3 108.6(7) 1_555 . -1_655 N
+N1 C3 C2 108.2(7) 1_555 . -1_655 N
+
+
+
+# start Validation Reply Form
+_vrf_PLAT601_STA12MN-DH          
+;
+PROBLEM: Structure Contains Solvent Accessible VOIDS of . 423 A**3
+RESPONSE: Dehydrated microporous material.
+;

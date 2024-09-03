@@ -1,0 +1,482 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_mn2(nitbzim)3c12h25so4
+_audit_block_doi                 10.5517/ccqwpjs
+_database_code_depnum_ccdc_archive 'CCDC 682016'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1016/j.ica.2008.03.109 2008
+_audit_update_record             
+;
+2008-03-17 deposited with the CCDC.	2024-07-07 downloaded from the CCDC.
+;
+
+#===============================================================================
+
+# 5. CHEMICAL DATA
+
+_chemical_name_systematic        
+;
+;
+_chemical_name_common            ?
+_chemical_melting_point          ?
+_chemical_formula_moiety         'C42 H42 Mn2 N12 O6, C12 H25 O4 S'
+# Ex: 'C12 H16 N2 O6, H2 O' and '(Cd 2+)3, (C6 N6 Cr 3-)2, 2(H2 O)'
+_chemical_formula_structural     ?
+_chemical_formula_sum            'C54 H67 Mn2 N12 O10 S'
+_chemical_formula_iupac          ?
+_chemical_formula_weight         1186.15
+_chemical_compound_source        'see text'
+
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mn Mn 0.3368 0.7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+#===============================================================================
+
+# 6. CRYSTAL DATA
+
+_symmetry_cell_setting           Orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_symmetry_Int_Tables_number      19
+
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,-y,1/2+z
+3 1/2+x,1/2-y,-z
+4 -x,1/2+y,1/2-z
+
+_cell_length_a                   29.42660
+_cell_length_b                   11.15370
+_cell_length_c                   17.81130
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     5845.94
+_cell_formula_units_Z            4
+_cell_measurement_temperature    0
+_cell_measurement_reflns_used    ?
+_cell_measurement_theta_min      ?
+_cell_measurement_theta_max      ?
+_cell_special_details            
+;
+;
+
+_exptl_crystal_description       ' ?'
+_exptl_crystal_colour            ' ?'
+
+_exptl_crystal_size_max          ?
+_exptl_crystal_size_mid          ?
+_exptl_crystal_size_min          ?
+_exptl_crystal_size_rad          ?
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_diffrn    1.348
+_exptl_crystal_density_method    'Not Measured'
+_exptl_crystal_F_000             2484
+_exptl_absorpt_coefficient_mu    0.533
+_exptl_crystal_density_meas_temp ?
+
+# Permitted for _exptl_absorpt_correction_type :
+# analytical 'analytical from crystal shape'
+# Example: de Meulenaer&Tompa: ABST
+# cylinder 'cylindrical'
+# gaussian 'Gaussian from crystal shape'
+# Example: PLATON/ABSG
+# integration 'integration from crystal shape'
+# multi-scan 'symmetry-related measurements'
+# Example: SADABS, MULABS
+# none 'no absorption corr. applied'
+# numerical 'numerical from crystal shape'
+# psi-scan 'psi-scan corrections'
+# Example: PLATON/ABSP
+# refdelf 'refined from delta-F'
+# Example: SHELXA, DIFABS, DELABS
+# sphere 'spherical'
+# Example: PLATON/ABSS
+_exptl_absorpt_correction_type   ' ?'
+# Example: '(North et al., 1968)'
+_exptl_absorpt_process_details   ?
+_exptl_absorpt_correction_T_min  ?
+_exptl_absorpt_correction_T_max  ?
+
+#===============================================================================
+
+# 7. EXPERIMENTAL DATA
+
+_exptl_special_details           
+;
+;
+_diffrn_ambient_temperature      ?
+_diffrn_radiation_wavelength     1.54
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_source         ?
+_diffrn_radiation_monochromator  ?
+
+_diffrn_measurement_device_type  ?
+_diffrn_measurement_method       ?
+_diffrn_detector_area_resol_mean ?
+
+_diffrn_standards_number         0
+_diffrn_standards_interval_count .
+_diffrn_standards_interval_time  .
+_diffrn_standards_decay_%        ?
+
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+? ? ?
+
+# number of measured reflections (redundant set)
+_diffrn_reflns_number            326
+_diffrn_reflns_av_R_equivalents  ?
+_diffrn_reflns_av_sigmaI/netI    ?
+_diffrn_reflns_limit_h_min       ?
+_diffrn_reflns_limit_h_max       ?
+_diffrn_reflns_limit_k_min       ?
+_diffrn_reflns_limit_k_max       ?
+_diffrn_reflns_limit_l_min       ?
+_diffrn_reflns_limit_l_max       ?
+_diffrn_reflns_theta_min         ?
+_diffrn_reflns_theta_max         ?
+_diffrn_reflns_theta_full        ?
+_diffrn_measured_fraction_theta_max ?
+_diffrn_measured_fraction_theta_full ?
+_diffrn_reflns_reduction_process 
+;
+;
+
+# number of unique reflections
+_reflns_number_total             ?
+# number of observed reflections (> n sig(I))
+_reflns_number_gt                ?
+_reflns_threshold_expression     ?
+
+_computing_data_collection       ?
+_computing_cell_refinement       ?
+_computing_data_reduction        ?
+_computing_structure_solution    ?
+_computing_structure_refinement  ?
+_computing_molecular_graphics    ?
+_computing_publication_material  'PLATON (Spek, 2003)'
+
+#===============================================================================
+
+# 8. REFINEMENT DATA
+
+_refine_special_details          
+;
+Reflex Summary Report for Rietveld Refinement of Mn2(NITBzIm)3C12H25SO4
+Final Rwp:7.86% Final Rp:5.74%
+Setup
+2teta Range (degrees):5.00-30.00 Step Size (degrees):0.020
+Experiment:Mn2(NITBzIm)3C12H25SO4.xcd
+Radiation
+Type:X-raySource:Copper
+l1 (\%A):1.540562 l2 (\%A):1.544390
+I2/I1:0.500Monochromator:None
+Anom. Dispersion:NoPolarization:0.500
+Lattice Parameters
+Lattice Type:OrthorhombicSpace Group:P 21 21 21
+Parameter Value Refined?
+a 29.42663 +- 0.00287 Yes
+b 11.15367 +- 0.00529 Yes
+c 17.81127 +- 0.04843 Yes
+a 90.00000 No
+b 90.00000 No
+g 0.00000 No
+Pattern Parameters
+Profile Function:Pseudo-Voigt
+FWHM
+Parameter Value Refined?
+U -0.02294 +- 0.88204 Yes
+V -0.11750 +- 0.21322 Yes
+W 0.21195 +- 0.00902 Yes
+Profile
+Parameter Value Refined?
+NA 0.53309 +- 0.01182 Yes
+NB -0.00139 +- 0.00195 Yes
+Line Shift
+Instrument Geometry:Bragg-Brentano
+Parameter Value Refined?
+Zero Point 0.01860 +- 0.00106 Yes
+Shift # 10.02455 +- 0.00107 Yes
+Shift # 2-0.14313 +- 0.00487 Yes
+Asymmetry
+Correction:Berar-Baldinozzi2q Limit:90.000
+Parameter Value Refined?
+P1 0.02153 +- 0.00022 Yes
+P2 0.01407 +- 0.00002 Yes
+P3 0.01050 +- 0.00044 Yes
+P4 -0.02594 +- 0.00004 Yes
+Sample Parameters
+Preferred Orientation
+Function:March-Dollase
+Parameter Value Refined?
+a* -0.00013 +- 0.00308 Yes
+b* -0.25103 +- 0.00175 Yes
+c* 0.96798 +- 0.00045 Yes
+R0 72.56345 +- 44.17039 Yes
+Global Isotropic Temperature Factors
+Parameter Value Refined?
+U 0.04310 +- 0.00521 Yes
+;
+_refine_ls_structure_factor_coef ?
+_refine_ls_matrix_type           ?
+_refine_ls_weighting_scheme      ' ?'
+_refine_ls_weighting_details     ?
+_atom_sites_solution_primary     ' ?'
+_atom_sites_solution_secondary   ' ?'
+_atom_sites_solution_hydrogens   ' ?'
+
+
+# Permitted for _refine_ls_hydrogen_treatment :
+# refall - refined all H parameters
+# refxyz - refined H coordinates only
+# refU - refined H U only
+# noref - no refinement of H parameters
+# constr - H parameters constrained
+# mixed - some constrained, some independent
+# undef - H-atom parameters not defined
+_refine_ls_hydrogen_treatment    ' ?'
+
+_refine_ls_extinction_method     ' ?'
+_refine_ls_extinction_coef       ?
+_refine_ls_extinction_expression ?
+_refine_ls_abs_structure_details 'Flack H.D. (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   ?
+
+# Permitted for _chemical_absolute_configuration:
+# Absolute configuration details
+# rm = Det. by chiral ref. mol. with known abs.conf
+# ad = Det. by anomalous dispersion
+# rmad = Det. by 'rm' and 'ad'
+# syn = Det. with reference to synthesis
+# unk = Unknown/Arbitrary
+_chemical_absolute_configuration ?
+
+_refine_ls_number_reflns         ?
+_refine_ls_number_parameters     ?
+_refine_ls_number_restraints     0
+_refine_ls_number_constraints    ?
+_refine_ls_R_factor_all          ?
+_refine_ls_R_factor_gt           ?
+_refine_ls_wR_factor_ref         ?
+_refine_ls_wR_factor_gt          ?
+_refine_ls_goodness_of_fit_ref   ?
+_refine_ls_restrained_S_all      ?
+_refine_ls_shift/su_max          ?
+_refine_ls_shift/su_mean         ?
+_refine_diff_density_max         ?
+_refine_diff_density_min         ?
+_refine_diff_density_rms         ?
+
+#===============================================================================
+
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Mn1 Mn Uiso 0.26207 0.68220 0.11953 1.000 0.0500 . .
+Mn2 Mn Uiso 0.25940 0.82118 -0.21237 1.000 0.0500 . .
+O1 O Uiso 0.20500 0.73965 0.08288 1.000 0.0500 . .
+O2 O Uiso 0.32077 0.61225 0.14653 1.000 0.0500 . .
+O3 O Uiso 0.23449 0.69088 0.23896 1.000 0.0500 . .
+O4 O Uiso 0.18129 1.08829 0.24616 1.000 0.0500 . .
+O5 O Uiso 0.30884 0.26701 0.26815 1.000 0.0500 . .
+O6 O Uiso 0.23816 0.93916 -0.14743 1.000 0.0500 . .
+N1 N Uiso 0.28572 0.67984 0.00465 1.000 0.0500 . .
+N6 N Uiso 0.28111 0.72582 -0.11775 1.000 0.0500 . .
+N2 N Uiso 0.28660 0.85127 0.14672 1.000 0.0500 . .
+N5 N Uiso 0.22940 0.32453 0.19448 1.000 0.0500 . .
+N3 N Uiso 0.23592 0.50940 0.12982 1.000 0.0500 . .
+N4 N Uiso 0.28286 1.04595 0.20473 1.000 0.0500 . .
+N5 N Uiso 0.20538 0.82956 0.03434 1.000 0.0500 . .
+N6 N Uiso 0.21223 0.89933 -0.08575 1.000 0.0500 . .
+N20 N Uiso 0.21062 0.78276 0.25876 1.000 0.0500 . .
+N21 N Uiso 0.18871 0.97648 0.26721 1.000 0.0500 . .
+N34 N Uiso 0.31968 0.55703 0.21465 1.000 0.0500 . .
+N35 N Uiso 0.31828 0.38157 0.26640 1.000 0.0500 . .
+C9 C Uiso 0.22733 0.82016 -0.03434 1.000 0.0500 . .
+C10 C Uiso 0.16029 0.90463 0.01965 1.000 0.0500 . .
+C11 C Uiso 0.17722 0.98895 -0.05277 1.000 0.0500 . .
+C12 C Uiso 0.12330 0.82072 -0.00163 1.000 0.0500 . .
+C13 C Uiso 0.15384 0.98098 0.08518 1.000 0.0500 . .
+C14 C Uiso 0.20188 1.10399 -0.03151 1.000 0.0500 . .
+C15 C Uiso 0.14104 1.01060 -0.10910 1.000 0.0500 . .
+C16 C Uiso 0.26617 0.76007 -0.04492 1.000 0.0500 . .
+C17 C Uiso 0.32268 0.61284 -0.03027 1.000 0.0500 . .
+C18 C Uiso 0.31801 0.64869 -0.10499 1.000 0.0500 . .
+C23 C Uiso 0.22290 0.89703 0.23904 1.000 0.0500 . .
+C24 C Uiso 0.16896 0.78781 0.31041 1.000 0.0500 . .
+C25 C Uiso 0.15731 0.91608 0.31904 1.000 0.0500 . .
+C26 C Uiso 0.18305 0.71366 0.37601 1.000 0.0500 . .
+C27 C Uiso 0.13936 0.70205 0.26708 1.000 0.0500 . .
+C28 C Uiso 0.16585 0.96465 0.39841 1.000 0.0500 . .
+C29 C Uiso 0.11043 0.95162 0.28898 1.000 0.0500 . .
+C30 C Uiso 0.26199 0.93254 0.19427 1.000 0.0500 . .
+C31 C Uiso 0.31864 0.91740 0.12814 1.000 0.0500 . .
+C32 C Uiso 0.32012 1.02869 0.15716 1.000 0.0500 . .
+C37 C Uiso 0.29664 0.45565 0.21500 1.000 0.0500 . .
+C38 C Uiso 0.36064 0.56041 0.26075 1.000 0.0500 . .
+C39 C Uiso 0.35068 0.45578 0.31291 1.000 0.0500 . .
+C40 C Uiso 0.40126 0.53788 0.20133 1.000 0.0500 . .
+C41 C Uiso 0.36622 0.68044 0.29282 1.000 0.0500 . .
+C42 C Uiso 0.32102 0.49541 0.38219 1.000 0.0500 . .
+C43 C Uiso 0.39182 0.36992 0.33219 1.000 0.0500 . .
+C44 C Uiso 0.25241 0.42733 0.17378 1.000 0.0500 . .
+C45 C Uiso 0.19506 0.46002 0.10437 1.000 0.0500 . .
+C46 C Uiso 0.19288 0.34868 0.14524 1.000 0.0500 . .
+C47 C Uiso 0.15488 0.26902 0.13469 1.000 0.0500 . .
+C48 C Uiso 0.11906 0.30071 0.08328 1.000 0.0500 . .
+C49 C Uiso 0.12123 0.41205 0.04241 1.000 0.0500 . .
+C50 C Uiso 0.15923 0.49171 0.05295 1.000 0.0500 . .
+C52 C Uiso 0.34864 0.60774 -0.15907 1.000 0.0500 . .
+C53 C Uiso 0.38396 0.53092 -0.13843 1.000 0.0500 . .
+C54 C Uiso 0.38863 0.49506 -0.06372 1.000 0.0500 . .
+C55 C Uiso 0.35800 0.53602 -0.00964 1.000 0.0500 . .
+C56 C Uiso 0.35422 1.10328 0.13855 1.000 0.0500 . .
+C57 C Uiso 0.38684 1.06656 0.09093 1.000 0.0500 . .
+C58 C Uiso 0.38538 0.95527 0.06191 1.000 0.0500 . .
+C59 C Uiso 0.35127 0.88069 0.08052 1.000 0.0500 . .
+S65 S Uiso -0.07525 0.77236 0.25133 1.000 0.0500 . .
+O66 O Uiso -0.05298 0.69357 0.31787 1.000 0.0500 . .
+O67 O Uiso -0.12159 0.70770 0.22632 1.000 0.0500 . .
+O68 O Uiso -0.08830 0.89929 0.28565 1.000 0.0500 . .
+O69 O Uiso -0.03905 0.78917 0.17591 1.000 0.0500 . .
+C63 C Uiso 0.00772 -0.13301 0.02418 1.000 0.0500 . .
+C64 C Uiso 0.01918 -0.16049 -0.05630 1.000 0.0500 . .
+C70 C Uiso 0.00163 0.83792 0.20268 1.000 0.0500 . .
+C71 C Uiso 0.03381 0.73576 0.22316 1.000 0.0500 . .
+C72 C Uiso 0.02144 0.62142 0.18076 1.000 0.0500 . .
+C73 C Uiso 0.04577 0.61560 0.10520 1.000 0.0500 . .
+C74 C Uiso 0.02156 0.52992 0.05185 1.000 0.0500 . .
+C75 C Uiso 0.02018 0.40445 0.08412 1.000 0.0500 . .
+C76 C Uiso 0.01592 0.31307 0.02136 1.000 0.0500 . .
+C77 C Uiso -0.00949 0.20303 0.04866 1.000 0.0500 . .
+C78 C Uiso 0.00769 0.09099 0.00888 1.000 0.0500 . .
+C79 C Uiso -0.02014 -0.01872 0.02927 1.000 0.0500 . .
+H105 H Uiso 0.33994 0.63727 -0.22006 1.000 0.0500 . .
+H106 H Uiso 0.40412 0.49774 -0.18257 1.000 0.0500 . .
+H107 H Uiso 0.41260 0.43258 -0.04687 1.000 0.0500 . .
+H108 H Uiso 0.35695 0.50700 0.05136 1.000 0.0500 . .
+H109 H Uiso 0.15317 0.18099 0.16703 1.000 0.0500 . .
+H110 H Uiso 0.08899 0.23774 0.07492 1.000 0.0500 . .
+H111 H Uiso 0.09287 0.43716 0.00173 1.000 0.0500 . .
+H112 H Uiso 0.16095 0.57985 0.02062 1.000 0.0500 . .
+H113 H Uiso 0.35547 1.19763 0.16315 1.000 0.0500 . .
+H114 H Uiso 0.41575 1.12981 0.07514 1.000 0.0500 . .
+H115 H Uiso 0.41304 0.92424 0.02155 1.000 0.0500 . .
+H116 H Uiso 0.35002 0.78642 0.05595 1.000 0.0500 . .
+H117 H Uiso 0.13799 0.74414 -0.03625 1.000 0.0500 . .
+H118 H Uiso 0.09675 0.87069 -0.03625 1.000 0.0500 . .
+H119 H Uiso 0.10676 0.78336 0.05127 1.000 0.0500 . .
+H120 H Uiso 0.17027 1.07215 0.07464 1.000 0.0500 . .
+H121 H Uiso 0.17027 0.93732 0.13625 1.000 0.0500 . .
+H122 H Uiso 0.11595 0.99364 0.09593 1.000 0.0500 . .
+H123 H Uiso 0.43391 0.58033 0.22338 1.000 0.0500 . .
+H124 H Uiso 0.39197 0.58033 0.14513 1.000 0.0500 . .
+H125 H Uiso 0.40656 0.43754 0.19358 1.000 0.0500 . .
+H126 H Uiso 0.33715 0.74054 0.27336 1.000 0.0500 . .
+H127 H Uiso 0.39994 0.72021 0.27336 1.000 0.0500 . .
+H128 H Uiso 0.36594 0.67443 0.35671 1.000 0.0500 . .
+H129 H Uiso 0.29100 0.55137 0.36182 1.000 0.0500 . .
+H130 H Uiso 0.34265 0.55137 0.42218 1.000 0.0500 . .
+H131 H Uiso 0.30794 0.41263 0.41274 1.000 0.0500 . .
+H132 H Uiso 0.42444 0.40841 0.30738 1.000 0.0500 . .
+H133 H Uiso 0.38520 0.27750 0.30738 1.000 0.0500 . .
+H134 H Uiso 0.39549 0.36243 0.39573 1.000 0.0500 . .
+H135 H Uiso 0.16023 0.73499 0.42600 1.000 0.0500 . .
+H136 H Uiso 0.21985 0.73499 0.39104 1.000 0.0500 . .
+H137 H Uiso 0.17987 0.61474 0.36119 1.000 0.0500 . .
+H138 H Uiso 0.16158 0.64263 0.23024 1.000 0.0500 . .
+H139 H Uiso 0.11481 0.75501 0.23024 1.000 0.0500 . .
+H140 H Uiso 0.11930 0.64406 0.30798 1.000 0.0500 . .
+H141 H Uiso 0.13570 1.02191 0.41673 1.000 0.0500 . .
+H142 H Uiso 0.19798 1.02191 0.39843 1.000 0.0500 . .
+H143 H Uiso 0.17023 0.88668 0.43904 1.000 0.0500 . .
+H144 H Uiso 0.11465 1.00713 0.23564 1.000 0.0500 . .
+H145 H Uiso 0.09176 1.00713 0.33307 1.000 0.0500 . .
+H146 H Uiso 0.08999 0.86751 0.27588 1.000 0.0500 . .
+H80 H Uiso 0.05021 -0.12142 0.05759 1.000 0.0500 . .
+H81 H Uiso -0.00304 -0.21015 0.04895 1.000 0.0500 . .
+H82 H Uiso 0.06345 -0.12021 -0.07064 1.000 0.0500 . .
+H83 H Uiso 0.00186 -0.12021 -0.09457 1.000 0.0500 . .
+H84 H Uiso 0.03010 -0.26172 -0.06465 1.000 0.0500 . .
+H85 H Uiso 0.00424 0.89476 0.25459 1.000 0.0500 . .
+H86 H Uiso 0.02738 0.89622 0.15724 1.000 0.0500 . .
+H87 H Uiso 0.04138 0.71819 0.28612 1.000 0.0500 . .
+H88 H Uiso 0.07985 0.76205 0.20803 1.000 0.0500 . .
+H89 H Uiso -0.00712 0.61929 0.17105 1.000 0.0500 . .
+H90 H Uiso 0.04149 0.54007 0.21552 1.000 0.0500 . .
+H91 H Uiso 0.09186 0.58347 0.11425 1.000 0.0500 . .
+H92 H Uiso 0.05615 0.70872 0.07878 1.000 0.0500 . .
+H93 H Uiso 0.05004 0.52825 -0.00413 1.000 0.0500 . .
+H94 H Uiso -0.00504 0.56213 0.04238 1.000 0.0500 . .
+H95 H Uiso -0.00048 0.39596 0.12346 1.000 0.0500 . .
+H96 H Uiso 0.06251 0.38661 0.11684 1.000 0.0500 . .
+H97 H Uiso 0.06102 0.28565 0.00175 1.000 0.0500 . .
+H98 H Uiso 0.00627 0.35447 -0.02762 1.000 0.0500 . .
+H99 H Uiso -0.03758 0.21461 0.03680 1.000 0.0500 . .
+H100 H Uiso 0.00562 0.19218 0.11169 1.000 0.0500 . .
+H101 H Uiso 0.05438 0.07495 0.02526 1.000 0.0500 . .
+H102 H Uiso 0.01527 0.10457 -0.05445 1.000 0.0500 . .
+H103 H Uiso -0.02371 -0.00825 0.08904 1.000 0.0500 . .
+H104 H Uiso -0.04044 -0.02448 -0.01098 1.000 0.0500 . .
+
+#===============================================================================
+
+# 10. MOLECULAR GEOMETRY
+
+_geom_special_details            
+;
+Bond distances, angles etc. have been calculated using the
+rounded fractional coordinates. All su's are estimated
+from the variances of the (full) variance-covariance matrix.
+The cell esds are taken into account in the estimation of
+distances, angles and torsion angles
+;
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_

@@ -1,0 +1,650 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_1-2PhCl
+_audit_block_doi                 10.5517/cc54twz
+_database_code_depnum_ccdc_archive 'CCDC 153601'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1039/b003733h 2000
+_audit_update_record             
+;
+2000-11-28 deposited with the CCDC.	2024-07-11 downloaded from the CCDC.
+;
+
+#===============================================================================
+
+# 5. CHEMICAL DATA
+
+_chemical_name_systematic        
+;
+?  #Insert the chemical name here.
+;
+_chemical_name_common            1-2PhCl
+_chemical_formula_moiety         'Ni C58 N6 Cl2 O6 H26 '
+_chemical_formula_structural     ?
+_chemical_formula_analytical     ?
+_chemical_formula_sum            'Ni C58 N6 Cl2 O6 H26 '
+_chemical_formula_weight         1032.49
+_chemical_compound_source        ?
+
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ni ? 0.285 1.113 'International Tables Vol. IV Table 2.2B'
+C ? 0.002 0.002 'International Tables Vol. IV Table 2.2B'
+N ? 0.004 0.003 'International Tables Vol. IV Table 2.2B'
+Cl ? 0.132 0.159 'International Tables Vol. IV Table 2.2B'
+O ? 0.008 0.006 'International Tables Vol. IV Table 2.2B'
+H ? 0.000 0.000 'International Tables Vol. IV Table 2.2B'
+
+#===============================================================================
+
+# 6. CRYSTAL DATA
+
+_symmetry_cell_setting           Monoclinic
+_symmetry_space_group_name_H-M   'C 2/c'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+
+x,y,z
+-x,-y,-z
+1/2+x,1/2+y,z
+1/2-x,1/2-y,-z
+-x,y,1/2-z
+x,-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+_cell_length_a                   21.678(3)
+_cell_length_b                   11.4111(10)
+_cell_length_c                   12.9139(16)
+_cell_angle_alpha                90.0
+_cell_angle_beta                 103.401(11)
+_cell_angle_gamma                90.0
+_cell_volume                     3107.5(7)
+_cell_formula_units_Z            4
+_cell_measurement_temperature    293
+_cell_measurement_reflns_used    24
+_cell_measurement_theta_min      20.00
+_cell_measurement_theta_max      25.00
+_cell_special_details            
+;
+?  #Insert any comments here.
+;
+_exptl_crystal_description       ?
+_exptl_crystal_colour            ?
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.20
+_exptl_crystal_size_rad          ?
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_diffrn    2.207
+_exptl_crystal_density_method    ?
+_exptl_crystal_F_000             2107.04
+_exptl_absorpt_coefficient_mu    0.89
+_exptl_absorpt_correction_type   none
+_exptl_absorpt_correction_T_min  1.0000
+_exptl_absorpt_correction_T_max  1.0000
+
+#===============================================================================
+
+# 7. EXPERIMENTAL DATA
+
+_exptl_special_details           
+;
+?  #Insert any special details here.
+;
+
+_diffrn_ambient_temperature      293
+_diffrn_radiation_wavelength     0.70930
+_diffrn_radiation_type           'Molybdenum K\a'
+_diffrn_radiation_source         'xray tube'
+
+_diffrn_radiation_monochromator  graphite
+_diffrn_measurement_device       'Nonius CAD-4    '
+_diffrn_measurement_method       'Omega scan b/P/b        '
+_diffrn_standards_number         ?
+_diffrn_standards_interval_count ?
+_diffrn_standards_interval_time  ?
+_diffrn_standards_decay_%        ?
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+? ? ?
+
+_diffrn_reflns_number            2863
+_diffrn_reflns_av_R_equivalents  0.015
+_diffrn_reflns_av_sigmaI/netI    ?
+_diffrn_reflns_limit_h_min       -25
+_diffrn_reflns_limit_h_max       24
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_theta_min         0.00
+_diffrn_reflns_theta_max         24.92
+_diffrn_reflns_reduction_process ?
+
+_reflns_number_total             2739
+_reflns_number_observed          2186
+_reflns_observed_criterion       'Inet > 3.0\s(Inet)'
+
+_computing_data_collection       ?
+_computing_cell_refinement       ?
+_computing_data_reduction        'NRCVAX DATRD2'
+_computing_structure_solution    'NRCVAX SOLVER'
+_computing_structure_refinement  'NRCVAX LSTSQ'
+_computing_molecular_graphics    NRCVAX
+_computing_publication_material  'NRCVAX TABLES Jan 94 Version'
+
+#===============================================================================
+
+# 8. REFINEMENT DATA
+
+_refine_special_details          
+;
+?  #Insert any special details here.
+;
+
+_refine_ls_structure_factor_coef F
+_refine_ls_matrix_type           atomblock
+_refine_ls_weighting_scheme      1/(\s^2^(F)+0.0000F^2^)
+_refine_ls_hydrogen_treatment    ?
+_refine_ls_extinction_method     ?
+_refine_ls_extinction_coef       ?
+_refine_ls_number_reflns         2186
+_refine_ls_number_parameters     215
+_refine_ls_number_restraints     ?
+_refine_ls_number_constraints    ?
+_refine_ls_R_factor_all          0.054
+_refine_ls_R_factor_obs          0.054
+_refine_ls_wR_factor_all         0.056
+_refine_ls_wR_factor_obs         0.056
+_refine_ls_goodness_of_fit_all   ?
+_refine_ls_goodness_of_fit_obs   4.35
+_refine_ls_restrained_S_all      ?
+_refine_ls_restrained_S_obs      ?
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        ?
+_refine_diff_density_max         1.08
+_refine_diff_density_min         -1.17
+
+#===============================================================================
+
+# 9. ATOMIC COORDINATES AND THERMAL PARAMETERS
+
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_type_symbol
+Ni 0.50000 0.81181(7) 0.75000 0.0198(3) Uani ? S Ni
+Cl101 0.15618(15) 0.1243(3) 0.2082(4) 0.225(4) Uani ? . Cl
+N1 0.42463(17) 0.8116(4) 0.9277(3) 0.0358(21) Uani ? . N
+N11 0.50000 1.0007(4) 0.75000 0.026(3) Uani ? S N
+N12 0.50000 0.6246(4) 0.75000 0.025(3) Uani ? S N
+N21 0.59531(15) 0.8002(3) 0.8377(3) 0.0250(18) Uani ? . N
+O1 0.47796(13) 0.8079(3) 0.90007(23) 0.0330(17) Uani ? . O
+O2 0.39452(19) 0.9018(3) 0.9181(4) 0.079(3) Uani ? . O
+O3 0.40643(19) 0.7238(4) 0.9640(4) 0.082(3) Uani ? . O
+C11 0.48682(21) 1.0630(4) 0.8299(4) 0.0297(24) Uani ? . C
+C12 0.48590(21) 1.1846(4) 0.8332(4) 0.0319(25) Uani ? . C
+C13 0.50000 1.2485(5) 0.75000 0.027(3) Uani ? S C
+C14 0.50000 0.3790(5) 0.75000 0.030(4) Uani ? S C
+C15 0.51702(22) 0.4418(4) 0.8443(4) 0.033(3) Uani ? . C
+C16 0.51621(21) 0.5629(4) 0.8405(4) 0.0303(24) Uani ? . C
+C21 0.61605(19) 0.8566(4) 0.9296(4) 0.0304(24) Uani ? . C
+C22 0.67570(19) 0.8395(4) 0.9953(4) 0.0318(24) Uani ? . C
+C23 0.71735(18) 0.7609(4) 0.9658(3) 0.0233(22) Uani ? . C
+C24 0.69623(19) 0.7039(4) 0.8692(4) 0.0314(24) Uani ? . C
+C25 0.63570(20) 0.7252(4) 0.8083(4) 0.0297(23) Uani ? . C
+C101 0.2089(3) 0.0324(7) 0.1637(8) 0.116(7) Uani ? . C
+C102 0.2688(3) 0.0251(6) 0.2307(6) 0.080(5) Uani ? . C
+C103 0.3090(3) -0.0462(7) 0.1980(8) 0.113(6) Uani ? . C
+C104 0.3016(5) -0.1132(7) 0.1085(7) 0.113(7) Uani ? . C
+C105 0.2394(7) -0.0978(9) 0.0445(8) 0.221(15) Uani ? . C
+C106 0.1918(5) -0.0252(9) 0.0773(8) 0.165(8) Uani ? . C
+H11 0.477 1.019 0.892 0.0392 Uiso ? . H
+H12 0.475 1.227 0.895 0.0409 Uiso ? . H
+H15 0.529 0.400 0.915 0.0412 Uiso ? . H
+H16 0.527 0.607 0.910 0.0393 Uiso ? . H
+H21 0.587 0.915 0.953 0.0386 Uiso ? . H
+H22 0.689 0.884 1.064 0.0398 Uiso ? . H
+H24 0.725 0.648 0.843 0.0388 Uiso ? . H
+H25 0.621 0.682 0.739 0.0382 Uiso ? . H
+H102 0.283 0.070 0.302 0.0853 Uiso ? . H
+H103 0.352 -0.052 0.247 0.1147 Uiso ? . H
+H104 0.333 -0.168 0.085 0.1225 Uiso ? . H
+H105 0.216 -0.125 -0.033 0.1741 Uiso ? . H
+H106 0.144 -0.012 0.040 0.1196 Uiso ? . H
+
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Ni 0.0140(3) 0.0164(3) 0.0243(4) 0.00000 -0.0049(3) 0.00000 Ni
+Cl101 0.148(3) 0.198(4) 0.368(6) 0.061(3) 0.141(4) 0.119(4) Cl
+N1 0.0327(20) 0.0383(22) 0.0320(21) -0.0085(19) -0.0014(17) 0.0031(21) N
+N11 0.021(3) 0.021(3) 0.030(3) 0.00000 -0.0043(23) 0.00000 N
+N12 0.024(3) 0.0122(25) 0.034(3) 0.00000 -0.0015(24) 0.00000 N
+N21 0.0177(17) 0.0237(20) 0.0292(20) 0.0011(15) -0.0038(15) -0.0030(17) N
+O1 0.0265(16) 0.0420(18) 0.0300(17) 0.0056(15) 0.0054(14) -0.0007(17) O
+O2 0.055(3) 0.055(3) 0.134(4) 0.0188(22) 0.038(3) -0.004(3) O
+O3 0.061(3) 0.080(3) 0.098(4) -0.0288(24) 0.006(3) 0.050(3) O
+C11 0.0332(25) 0.0227(22) 0.033(3) 0.0002(20) 0.0061(21) 0.0024(21) C
+C12 0.0374(25) 0.0237(21) 0.035(3) 0.0028(22) 0.0091(21) -0.0025(24) C
+C13 0.029(3) 0.019(3) 0.028(4) 0.00000 -0.003(3) 0.00000 C
+C14 0.028(3) 0.020(3) 0.041(4) 0.00000 0.007(3) 0.00000 C
+C15 0.042(3) 0.0225(23) 0.031(3) -0.0006(21) 0.0010(22) 0.0024(21) C
+C16 0.036(3) 0.0224(23) 0.029(3) -0.0004(20) 0.0003(21) -0.0020(20) C
+C21 0.0183(22) 0.0316(24) 0.037(3) 0.0044(19) -0.0024(20) -0.0098(22) C
+C22 0.0199(22) 0.038(3) 0.032(3) 0.0036(20) -0.0053(19) -0.0118(22) C
+C23 0.0160(21) 0.0234(22) 0.0271(24) -0.0010(18) -0.0020(19) -0.0018(19) C
+C24 0.0202(21) 0.037(3) 0.0327(25) 0.0088(20) -0.0030(19) -0.0045(23) C
+C25 0.0231(22) 0.0328(25) 0.0282(25) 0.0035(20) -0.0045(19) -0.0083(21) C
+C101 0.054(4) 0.103(7) 0.193(10) -0.001(4) 0.036(5) 0.089(7) C
+C102 0.073(5) 0.083(5) 0.084(5) -0.019(4) 0.017(4) 0.041(4) C
+C103 0.069(5) 0.105(7) 0.167(9) -0.005(4) 0.033(5) 0.073(6) C
+C104 0.166(9) 0.067(5) 0.128(8) -0.039(5) 0.078(7) -0.009(5) C
+C105 0.443(23) 0.105(8) 0.114(9) -0.151(11) 0.059(12) -0.027(7) C
+C106 0.164(9) 0.148(9) 0.135(8) -0.131(8) -0.065(7) 0.042(7) C
+
+#===============================================================================
+
+# 10. MOLECULAR GEOMETRY
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ni N21 2.118(3) ? ? ?
+Ni N21a 2.118(3) ? ? ?
+Ni O1 2.101(3) ? ? ?
+Ni O1a 2.101(3) ? ? ?
+Cl101 C101 1.745(9) ? ? ?
+N1 O1 1.287(5) ? ? ?
+N1 O2 1.210(6) ? ? ?
+N1 O3 1.210(5) ? ? ?
+N11 C11 1.337(5) ? ? ?
+N11 C11a 1.337(5) ? ? ?
+N11 Ct 1.420(5) ? ? ?
+N12 C16 1.340(5) ? ? ?
+N12 C16a 1.340(5) ? ? ?
+N12 Ct2 1.397(4) ? ? ?
+N21 C21 1.333(6) ? ? ?
+N21 C25 1.342(5) ? ? ?
+N21 Ct3 1.397(3) ? ? ?
+C11 C12 1.389(6) ? ? ?
+C11 H11 1.015(5) ? ? ?
+C11 Ct 1.337(4) ? ? ?
+C11 E1 0.695(4) ? ? ?
+C11 E2a 0.695(4) ? ? ?
+C12 C13 1.389(5) ? ? ?
+C12 H12 1.014(4) ? ? ?
+C12 Ct 1.364(4) ? ? ?
+C12 E1 0.694(4) ? ? ?
+C12 E2a 0.694(4) ? ? ?
+C13 C12a 1.389(5) ? ? ?
+C13 C14b 1.489(8) ? ? ?
+C13 Ct 1.407(6) ? ? ?
+C14 C13c 1.489(8) ? ? ?
+C14 C15 1.388(6) ? ? ?
+C14 C15a 1.388(6) ? ? ?
+C14 Ct2 1.406(6) ? ? ?
+C14 E3 1.827(5) ? ? ?
+C14 E3a 1.827(5) ? ? ?
+C14 E4 1.827(5) ? ? ?
+C14 E4a 1.827(5) ? ? ?
+C15 C16 1.382(6) ? ? ?
+C15 H15 1.009(5) ? ? ?
+C15 Ct2 1.373(5) ? ? ?
+C15 E3 0.691(4) ? ? ?
+C15 E4a 0.691(4) ? ? ?
+C16 H16 1.012(4) ? ? ?
+C16 Ct2 1.334(4) ? ? ?
+C16 E3 0.691(4) ? ? ?
+C16 E4a 0.691(4) ? ? ?
+C21 C22 1.387(6) ? ? ?
+C21 H21 1.009(4) ? ? ?
+C21 Ct3 1.334(4) ? ? ?
+C21 E5 0.693(4) ? ? ?
+C22 C23 1.387(6) ? ? ?
+C22 H22 1.006(4) ? ? ?
+C22 Ct3 1.367(4) ? ? ?
+C22 E5 0.693(4) ? ? ?
+C23 C23d 1.506(7) ? ? ?
+C23 C24 1.388(6) ? ? ?
+C23 Ct3 1.415(4) ? ? ?
+C24 C25 1.386(6) ? ? ?
+C24 H24 1.007(4) ? ? ?
+C24 Ct3 1.367(4) ? ? ?
+C24 E6 0.693(4) ? ? ?
+C25 H25 1.005(4) ? ? ?
+C25 Ct3 1.338(4) ? ? ?
+C25 E6 0.693(4) ? ? ?
+C101 C102 1.385(10) ? ? ?
+C101 C106 1.274(14) ? ? ?
+C101 Ct4 1.352(8) ? ? ?
+C101 E7 1.773(7) ? ? ?
+C101 F 1.738(10) ? ? ?
+C102 C103 1.330(11) ? ? ?
+C102 H102 1.037(8) ? ? ?
+C102 Ct4 1.377(8) ? ? ?
+C102 E7 0.665(7) ? ? ?
+C103 C104 1.363(13) ? ? ?
+C103 H103 0.999(8) ? ? ?
+C103 Ct4 1.283(8) ? ? ?
+C103 E7 0.665(9) ? ? ?
+C103 E8 0.682(10) ? ? ?
+C103 E9 1.734(10) ? ? ?
+C104 C105 1.420(18) ? ? ?
+C104 H104 1.027(9) ? ? ?
+C104 Ct4 1.470(9) ? ? ?
+C104 E8 0.682(9) ? ? ?
+C104 E9 0.710(10) ? ? ?
+C105 C106 1.460(20) ? ? ?
+C105 H105 1.054(11) ? ? ?
+
+
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_1
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+? ? ? ? ? ?
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N21 Ni N21a 172.84(14) ? ? ? ?
+N21 Ni O1 84.69(12) ? ? ? ?
+N21 Ni O1a 95.15(12) ? ? ? ?
+N21a Ni O1 95.15(12) ? ? ? ?
+N21a Ni O1a 84.69(12) ? ? ? ?
+O1 Ni O1a 177.55(13) ? ? ? ?
+O1 N1 O2 119.8(4) ? ? ? ?
+O1 N1 O3 118.3(4) ? ? ? ?
+O2 N1 O3 121.9(4) ? ? ? ?
+C11 N11 C11a 115.9(4) ? ? ? ?
+C11 N11 Ct 57.9(3) ? ? ? ?
+C11a N11 Ct 57.9(3) ? ? ? ?
+C16 N12 C16a 116.6(4) ? ? ? ?
+C16 N12 Ct2 58.30(25) ? ? ? ?
+C16a N12 Ct2 58.30(25) ? ? ? ?
+Ni N21 C21 122.1(3) ? ? ? ?
+Ni N21 C25 120.5(3) ? ? ? ?
+Ni N21 Ct3 173.41(24) ? ? ? ?
+C21 N21 C25 116.9(3) ? ? ? ?
+C21 N21 Ct3 58.48(22) ? ? ? ?
+C25 N21 Ct3 58.45(22) ? ? ? ?
+Ni O1 N1 131.76(25) ? ? ? ?
+N11 C11 C12 124.1(4) ? ? ? ?
+N11 C11 H11 118.2(4) ? ? ? ?
+N11 C11 Ct 64.1(3) ? ? ? ?
+N11 C11 E1 124.1(5) ? ? ? ?
+N11 C11 E2a 124.1(5) ? ? ? ?
+C12 C11 H11 117.7(4) ? ? ? ?
+C12 C11 Ct 60.0(3) ? ? ? ?
+C12 C11 E1 0.0 ? ? ? ?
+C12 C11 E2a 0.0 ? ? ? ?
+H11 C11 Ct 177.7(4) ? ? ? ?
+H11 C11 E1 117.7(5) ? ? ? ?
+H11 C11 E2a 117.7(5) ? ? ? ?
+Ct C11 E1 60.0(3) ? ? ? ?
+Ct C11 E2a 60.0(3) ? ? ? ?
+E1 C11 E2a 0.1 ? ? ? ?
+C11 C12 C13 119.6(4) ? ? ? ?
+C11 C12 H12 120.3(4) ? ? ? ?
+C11 C12 Ct 58.1(3) ? ? ? ?
+C11 C12 E1 0.0 ? ? ? ?
+C11 C12 E2a 0.0 ? ? ? ?
+C13 C12 H12 120.1(4) ? ? ? ?
+C13 C12 Ct 61.5(3) ? ? ? ?
+C13 C12 E1 119.6(5) ? ? ? ?
+C13 C12 E2a 119.6(5) ? ? ? ?
+H12 C12 Ct 178.3(4) ? ? ? ?
+H12 C12 E1 120.3(5) ? ? ? ?
+H12 C12 E2a 120.3(5) ? ? ? ?
+Ct C12 E1 58.1(3) ? ? ? ?
+Ct C12 E2a 58.1(3) ? ? ? ?
+E1 C12 E2a 0.1 ? ? ? ?
+C12 C13 C12a 116.7(5) ? ? ? ?
+C12 C13 C14b 121.6(3) ? ? ? ?
+C12 C13 Ct 58.4(3) ? ? ? ?
+C12a C13 C14b 121.6(3) ? ? ? ?
+C12a C13 Ct 58.4(3) ? ? ? ?
+C14b C13 Ct 180.0 ? ? ? ?
+C13c C14 C15 121.1(3) ? ? ? ?
+C13c C14 C15a 121.1(3) ? ? ? ?
+C13c C14 Ct2 180.0 ? ? ? ?
+C13c C14 E3 140.42(12) ? ? ? ?
+C13c C14 E3a 140.42(12) ? ? ? ?
+C13c C14 E4 140.42(12) ? ? ? ?
+C13c C14 E4a 140.42(12) ? ? ? ?
+C15 C14 C15a 117.7(5) ? ? ? ?
+C15 C14 Ct2 58.9(3) ? ? ? ?
+C15 C14 E3 19.29(20) ? ? ? ?
+C15 C14 E3a 98.4(4) ? ? ? ?
+C15 C14 E4 98.4(4) ? ? ? ?
+C15 C14 E4a 19.29(20) ? ? ? ?
+C15a C14 Ct2 58.9(3) ? ? ? ?
+C15a C14 E3 98.4(4) ? ? ? ?
+C15a C14 E3a 19.29(20) ? ? ? ?
+C15a C14 E4 19.29(20) ? ? ? ?
+C15a C14 E4a 98.4(4) ? ? ? ?
+Ct2 C14 E3 39.58(12) ? ? ? ?
+Ct2 C14 E3a 39.58(12) ? ? ? ?
+Ct2 C14 E4 39.58(12) ? ? ? ?
+Ct2 C14 E4a 39.58(12) ? ? ? ?
+E3 C14 E3a 79.15(24) ? ? ? ?
+E3 C14 E4 79.15(24) ? ? ? ?
+E3 C14 E4a 0.0 ? ? ? ?
+E3a C14 E4 0.0 ? ? ? ?
+E3a C14 E4a 79.15(24) ? ? ? ?
+E4 C14 E4a 79.15(24) ? ? ? ?
+C14 C15 C16 119.2(4) ? ? ? ?
+C14 C15 H15 120.4(4) ? ? ? ?
+C14 C15 Ct2 61.2(3) ? ? ? ?
+C14 C15 E3 119.2(5) ? ? ? ?
+C14 C15 E4a 119.2(5) ? ? ? ?
+C16 C15 H15 120.5(4) ? ? ? ?
+C16 C15 Ct2 57.9(3) ? ? ? ?
+C16 C15 E3 0.0 ? ? ? ?
+C16 C15 E4a 0.0 ? ? ? ?
+H15 C15 Ct2 178.4(4) ? ? ? ?
+H15 C15 E3 120.5(6) ? ? ? ?
+H15 C15 E4a 120.5(6) ? ? ? ?
+Ct2 C15 E3 57.9(3) ? ? ? ?
+Ct2 C15 E4a 57.9(3) ? ? ? ?
+E3 C15 E4a 0.1 ? ? ? ?
+N12 C16 C15 123.7(4) ? ? ? ?
+N12 C16 H16 118.1(4) ? ? ? ?
+N12 C16 Ct2 63.0(3) ? ? ? ?
+N12 C16 E3 123.7(5) ? ? ? ?
+N12 C16 E4a 123.7(5) ? ? ? ?
+C15 C16 H16 118.2(4) ? ? ? ?
+C15 C16 Ct2 60.7(3) ? ? ? ?
+C15 C16 E3 0.0 ? ? ? ?
+C15 C16 E4a 0.0 ? ? ? ?
+H16 C16 Ct2 178.0(5) ? ? ? ?
+H16 C16 E3 118.2(5) ? ? ? ?
+H16 C16 E4a 118.2(5) ? ? ? ?
+Ct2 C16 E3 60.7(3) ? ? ? ?
+Ct2 C16 E4a 60.7(3) ? ? ? ?
+E3 C16 E4a 0.1 ? ? ? ?
+N21 C21 C22 123.5(4) ? ? ? ?
+N21 C21 H21 118.4(4) ? ? ? ?
+N21 C21 Ct3 63.17(24) ? ? ? ?
+N21 C21 E5 123.5(5) ? ? ? ?
+C22 C21 H21 118.1(4) ? ? ? ?
+C22 C21 Ct3 60.3(3) ? ? ? ?
+C22 C21 E5 0.0 ? ? ? ?
+H21 C21 Ct3 178.4(4) ? ? ? ?
+H21 C21 E5 118.1(5) ? ? ? ?
+Ct3 C21 E5 60.3(3) ? ? ? ?
+C21 C22 C23 119.8(4) ? ? ? ?
+C21 C22 H22 120.4(4) ? ? ? ?
+C21 C22 Ct3 57.96(25) ? ? ? ?
+C21 C22 E5 0.0 ? ? ? ?
+C23 C22 H22 119.9(4) ? ? ? ?
+C23 C22 Ct3 61.84(25) ? ? ? ?
+C23 C22 E5 119.8(5) ? ? ? ?
+H22 C22 Ct3 178.3(4) ? ? ? ?
+H22 C22 E5 120.4(5) ? ? ? ?
+Ct3 C22 E5 58.0(3) ? ? ? ?
+C22 C23 C23d 122.0(4) ? ? ? ?
+C22 C23 C24 116.8(4) ? ? ? ?
+C22 C23 Ct3 58.41(23) ? ? ? ?
+C23d C23 C24 121.3(4) ? ? ? ?
+C23d C23 Ct3 179.6(4) ? ? ? ?
+C24 C23 Ct3 58.35(23) ? ? ? ?
+C23 C24 C25 120.0(4) ? ? ? ?
+C23 C24 H24 120.1(4) ? ? ? ?
+C23 C24 Ct3 61.84(25) ? ? ? ?
+C23 C24 E6 120.0(5) ? ? ? ?
+C25 C24 H24 119.9(4) ? ? ? ?
+C25 C24 Ct3 58.16(24) ? ? ? ?
+C25 C24 E6 0.0 ? ? ? ?
+H24 C24 Ct3 177.6(4) ? ? ? ?
+H24 C24 E6 119.9(5) ? ? ? ?
+Ct3 C24 E6 58.2(3) ? ? ? ?
+N21 C25 C24 123.0(4) ? ? ? ?
+N21 C25 H25 118.4(4) ? ? ? ?
+N21 C25 Ct3 62.84(24) ? ? ? ?
+N21 C25 E6 123.0(5) ? ? ? ?
+C24 C25 H25 118.6(4) ? ? ? ?
+C24 C25 Ct3 60.2(3) ? ? ? ?
+C24 C25 E6 0.0 ? ? ? ?
+H25 C25 Ct3 178.8(4) ? ? ? ?
+H25 C25 E6 118.6(5) ? ? ? ?
+Ct3 C25 E6 60.2(3) ? ? ? ?
+Cl101 C101 C102 114.9(8) ? ? ? ?
+Cl101 C101 C106 121.2(7) ? ? ? ?
+Cl101 C101 Ct4 175.2(7) ? ? ? ?
+Cl101 C101 E7 134.7(6) ? ? ? ?
+Cl101 C101 F 143.1(5) ? ? ? ?
+C102 C101 C106 123.8(9) ? ? ? ?
+C102 C101 Ct4 60.4(4) ? ? ? ?
+C102 C101 E7 19.8(3) ? ? ? ?
+C102 C101 F 102.0(6) ? ? ? ?
+C106 C101 Ct4 63.5(7) ? ? ? ?
+C106 C101 E7 104.0(7) ? ? ? ?
+C106 C101 F 21.8(5) ? ? ? ?
+Ct4 C101 E7 40.54(19) ? ? ? ?
+Ct4 C101 F 41.7(3) ? ? ? ?
+E7 C101 F 82.2(4) ? ? ? ?
+C101 C102 C103 115.2(8) ? ? ? ?
+C101 C102 H102 124.5(7) ? ? ? ?
+C101 C102 Ct4 58.6(5) ? ? ? ?
+C101 C102 E7 115.2(9) ? ? ? ?
+C103 C102 H102 120.3(7) ? ? ? ?
+C103 C102 Ct4 56.6(5) ? ? ? ?
+C103 C102 E7 0.02(12) ? ? ? ?
+H102 C102 Ct4 176.9(7) ? ? ? ?
+H102 C102 E7 120.3(8) ? ? ? ?
+Ct4 C102 E7 56.6(6) ? ? ? ?
+C102 C103 C104 130.9(8) ? ? ? ?
+C102 C103 H103 114.9(9) ? ? ? ?
+C102 C103 Ct4 63.6(5) ? ? ? ?
+C102 C103 E7 0.0 ? ? ? ?
+C102 C103 E8 130.9(9) ? ? ? ?
+C102 C103 E9 108.2(6) ? ? ? ?
+C104 C103 H103 114.2(8) ? ? ? ?
+C104 C103 Ct4 67.4(6) ? ? ? ?
+C104 C103 E7 130.9(11) ? ? ? ?
+C104 C103 E8 0.02(14) ? ? ? ?
+C104 C103 E9 22.7(4) ? ? ? ?
+H103 C103 Ct4 178.3(9) ? ? ? ?
+H103 C103 E7 114.9(12) ? ? ? ?
+H103 C103 E8 114.2(9) ? ? ? ?
+H103 C103 E9 136.9(8) ? ? ? ?
+Ct4 C103 E7 63.6(6) ? ? ? ?
+Ct4 C103 E8 67.4(7) ? ? ? ?
+Ct4 C103 E9 44.7(3) ? ? ? ?
+E7 C103 E8 130.9(12) ? ? ? ?
+E7 C103 E9 108.2(8) ? ? ? ?
+E8 C103 E9 22.7(4) ? ? ? ?
+C103 C104 C105 109.5(8) ? ? ? ?
+C103 C104 H104 129.8(10) ? ? ? ?
+C103 C104 Ct4 53.7(4) ? ? ? ?
+C103 C104 E8 0.02(14) ? ? ? ?
+C103 C104 E9 109.5(9) ? ? ? ?
+C105 C104 H104 120.7(9) ? ? ? ?
+C105 C104 Ct4 55.8(6) ? ? ? ?
+C105 C104 E8 109.5(11) ? ? ? ?
+C105 C104 E9 0.02(3) ? ? ? ?
+H104 C104 Ct4 176.4(9) ? ? ? ?
+H104 C104 E8 129.8(13) ? ? ? ?
+H104 C104 E9 120.7(10) ? ? ? ?
+Ct4 C104 E8 53.7(6) ? ? ? ?
+Ct4 C104 E9 55.8(6) ? ? ? ?
+E8 C104 E9 109.5(12) ? ? ? ?
+C104 C105 C106 122.7(8) ? ? ? ?
+C104 C105 H105 134.1(13) ? ? ? ?
+C104 C105 Ct4 64.0(6) ? ? ? ?
+C104 C105 E8 21.3(4) ? ? ? ?
+C104 C105 E9 0.02(3) ? ? ? ?
+C104 C105 F 122.7(11) ? ? ? ?
+C106 C105 H105 103.0(12) ? ? ? ?
+C106 C105 Ct4 58.8(6) ? ? ? ?
+C106 C105 E8 101.4(6) ? ? ? ?
+C106 C105 E9 122.7(11) ? ? ? ?
+C106 C105 F 0.02(9) ? ? ? ?
+H105 C105 Ct4 161.0(14) ? ? ? ?
+H105 C105 E8 155.1(13) ? ? ? ?
+H105 C105 E9 134.1(17) ? ? ? ?
+H105 C105 F 103.0(15) ? ? ? ?
+Ct4 C105 E8 42.7(4) ? ? ? ?
+Ct4 C105 E9 64.0(7) ? ? ? ?
+Ct4 C105 F 58.8(7) ? ? ? ?
+E8 C105 E9 21.3(5) ? ? ? ?
+E8 C105 F 101.4(9) ? ? ? ?
+E9 C105 F 122.7(14) ? ? ? ?
+C101 C106 C105 117.7(8) ? ? ? ?
+C101 C106 H106 112.7(11) ? ? ? ?
+C101 C106 Ct4 61.0(5) ? ? ? ?
+C101 C106 F 117.7(9) ? ? ? ?
+C105 C106 H106 129.6(10) ? ? ? ?
+C105 C106 Ct4 56.7(6) ? ? ? ?
+C

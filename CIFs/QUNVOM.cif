@@ -1,0 +1,416 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_PMOF2a
+_audit_block_doi                 10.5517/cc14pjx8
+_database_code_depnum_ccdc_archive 'CCDC 1063390'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1039/C5CE00886G 2015
+_audit_update_record             
+;
+2015-05-06 deposited with the CCDC.	2024-07-12 downloaded from the CCDC.
+;
+#==============================================================================
+# start Validation Reply Form
+_vrf_PLAT027_I                   
+;
+PROBLEM: _diffrn_reflns_theta_full (too) Low ............
+RESPONSE: Crystals diffracted reasonably weakly, with few reflections observed 
+past 1.0 A resolution.  Despite the weak data, the structure of the complex 
+can be determined unambiguously.
+;
+# end Validation Reply Form
+
+# SQUEEZE RESULTS (APPEND TO CIF)
+# Note: Data are Listed for all Voids in the P1 Unit Cell
+# i.e. Centre of Gravity, Solvent Accessible Volume,
+# Recovered number of Electrons in the Void and
+# Details about the Squeezed Material
+loop_
+_platon_squeeze_void_nr
+_platon_squeeze_void_average_x
+_platon_squeeze_void_average_y
+_platon_squeeze_void_average_z
+_platon_squeeze_void_volume
+_platon_squeeze_void_count_electrons
+_platon_squeeze_void_content
+1 -0.022 0.000 -0.004 1072 338 ' '
+2 -0.014 0.500 0.481 1072 339 ' '
+3 0.204 0.296 0.608 8 1 ' '
+4 0.296 0.796 0.892 8 1 ' '
+5 0.704 0.204 0.108 9 1 ' '
+6 0.796 0.704 0.392 8 1 ' '
+_platon_squeeze_details          
+;
+;
+
+_exptl_special_details           
+; 
+ The crystal was 
+placed in the cold stream of an Oxford 
+Cryosystems open-flow nitrogen cryostat (Cosier & 
+Glazer, 1986) with a nominal stability of 0.1K. 
+ 
+Cosier, J. & Glazer, A.M., 1986. J. Appl. Cryst. 105-107. 
+;
+_refine_special_details          SQUEEZE
+
+_cell_length_a                   11.5165(9)
+_cell_length_b                   33.108(3)
+_cell_length_c                   15.3490(14)
+_cell_angle_alpha                90
+_cell_angle_beta                 103.074(6)
+_cell_angle_gamma                90
+_cell_volume                     5700.7(9)
+
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21/n '
+_symmetry_space_group_name_Hall  '-P 2yn'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+x+1/2,-y+1/2,z+1/2
+-x+1/2,y+1/2,-z+1/2
+
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+C 0.0181 0.0091 2.3100 20.8439 1.0200 10.2075 1.5886 0.5687 0.8650 51.6512
+0.2156 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+H 0.0000 0.0000 0.4930 10.5109 0.3229 26.1257 0.1402 3.1424 0.0408 57.7998
+0.0030 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+N 0.0311 0.0180 12.2126 0.0057 3.1322 9.8933 2.0125 28.9975 1.1663 0.5826
+-11.5290 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+O 0.0492 0.0322 3.0485 13.2771 2.2868 5.7011 1.5463 0.3239 0.8670 32.9089
+0.2508 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+Zn -1.5491 0.6778 14.0743 3.2655 7.0318 0.2333 5.1652 10.3163 2.4100 58.7097
+1.3041 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+
+_cell_formula_units_Z            4
+
+_chemical_formula_sum            'C55 H35 N O5 Zn'
+_chemical_formula_moiety         'C55 H35 N O5 Zn'
+_chemical_compound_source        synthesized
+_chemical_formula_weight         855.27
+
+_cell_measurement_reflns_used    9824
+_cell_measurement_theta_min      3.24
+_cell_measurement_theta_max      59.17
+_cell_measurement_temperature    90
+
+_exptl_crystal_description       block
+_exptl_crystal_colour            colourless
+_exptl_crystal_size_min          0.09
+_exptl_crystal_size_mid          0.21
+_exptl_crystal_size_max          0.55
+
+_exptl_crystal_density_diffrn    0.996
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+# Non-dispersive F(000): 
+_exptl_crystal_F_000             1768
+_exptl_absorpt_coefficient_mu    0.909
+
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'Apex2, (Bruker, 2007)'
+_exptl_absorpt_correction_T_min  0.803
+_exptl_absorpt_correction_T_max  1.00
+_diffrn_measurement_device_type  'Bruker Apex Duo'
+_diffrn_measurement_device       Serial
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.54178
+_diffrn_measurement_method       \w/2\q
+
+_computing_data_collection       'Apex2, (Bruker, 2007)'
+_computing_cell_refinement       'Apex2, (Bruker, 2007)'
+_computing_data_reduction        'Apex2, (Bruker, 2007)'
+_computing_structure_solution    'Superflip (Palatinus & Chapuis, 2007)'
+_computing_structure_refinement  'CRYSTALS (Betteridge et al., 2003)'
+_computing_publication_material  'CRYSTALS (Betteridge et al., 2003)'
+
+_diffrn_standards_interval_time  0
+_diffrn_standards_interval_count 0
+_diffrn_standards_number         0
+_diffrn_standards_decay_%        0
+
+_diffrn_ambient_temperature      90
+_diffrn_reflns_number            57455
+_reflns_number_total             8245
+_diffrn_reflns_av_R_equivalents  0.085
+
+_diffrn_reflns_theta_min         2.669
+_diffrn_reflns_theta_max         59.849
+_diffrn_measured_fraction_theta_max 0.981
+
+_diffrn_reflns_theta_full        57.455
+_diffrn_measured_fraction_theta_full 0.997
+
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_k_max       36
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_limit_l_max       17
+_reflns_limit_h_min              -12
+_reflns_limit_h_max              12
+_reflns_limit_k_min              0
+_reflns_limit_k_max              36
+_reflns_limit_l_min              0
+_reflns_limit_l_max              17
+
+_oxford_diffrn_Wilson_B_factor   2.63
+_oxford_diffrn_Wilson_scale      275.19
+
+_atom_sites_solution_primary     Other
+_atom_sites_solution_hydrogens   difmap
+
+_refine_diff_density_min         -0.59
+_refine_diff_density_max         0.92
+
+# The values actually used during refinement 
+_oxford_reflns_threshold_expression_ref I>-3.0\s(I)
+_refine_ls_number_reflns         6358
+_refine_ls_number_restraints     725
+_refine_ls_number_parameters     559
+_oxford_refine_ls_R_factor_ref   0.0816
+_refine_ls_wR_factor_ref         0.1986
+_refine_ls_goodness_of_fit_ref   0.9929
+_refine_ls_shift/su_max          0.0004579
+_refine_ls_shift/su_mean         0.0000206
+
+# The values computed with all filters except I/sigma 
+_oxford_reflns_number_all        6358
+_refine_ls_R_factor_all          0.0816
+_refine_ls_wR_factor_all         0.1986
+
+# The values computed with a 2 sigma cutoff - a la SHELX 
+_reflns_threshold_expression     I>2.0\s(I)
+_reflns_number_gt                5417
+_refine_ls_R_factor_gt           0.0747
+_refine_ls_wR_factor_gt          0.1941
+
+_chemical_absolute_configuration .
+
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_matrix_type           full
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_weighting_scheme      calc
+_refine_ls_weighting_details     
+;
+ Method= Modified Sheldrick 
+ w=1/[\s^2^(F^2^) + ( 0.09P)^2^ +25.96P] 
+ ,where P=(max(Fo^2^,0) + 2Fc^2^)/3 
+;
+
+# Uequiv = arithmetic mean of Ui i.e. Ueqiv = (U1+U2+U3)/3
+
+# Replace last . with number of unfound hydrogen atoms attached to an atom.
+
+# ..._refinement_flags_... 
+# . no refinement constraints           S special position constraint on site
+# G rigid group refinement of site      R riding atom
+# D distance or angle restraint on site T thermal displacement constraints
+# U Uiso or Uij restraint (rigid bond)  P partial occupancy constraint
+
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_attached_hydrogens
+C38 C 0.0776(5) 0.62012(17) -0.1254(5) 0.0422 1.0000 Uani . . . . . .
+C39 C 0.1718(5) 0.59277(18) -0.1158(5) 0.0435 1.0000 Uani . . . . . .
+C40 C 0.2133(5) 0.57465(16) -0.0346(4) 0.0341 1.0000 Uani . . . . . .
+C41 C 0.1647(5) 0.58352(19) 0.0386(4) 0.0448 1.0000 Uani . . . . . .
+C42 C 0.0738(5) 0.61209(19) 0.0270(5) 0.0497 1.0000 Uani . . . . . .
+C43 C 0.3197(5) 0.54678(18) -0.0188(4) 0.0372 1.0000 Uani . . . . . .
+C44 C -0.4539(5) 0.82140(18) -0.1461(4) 0.0374 1.0000 Uani . . . . . .
+C45 C -0.5222(5) 0.84828(18) -0.1693(4) 0.0369 1.0000 Uani . . . . . .
+C46 C -0.6062(5) 0.87738(18) -0.2160(4) 0.0415 1.0000 Uani . . . . . .
+C47 C -0.6252(5) 0.87894(18) -0.3079(4) 0.0432 1.0000 Uani . . . . . .
+C48 C -0.7097(5) 0.90431(18) -0.3599(5) 0.0459 1.0000 Uani . . . . . .
+C49 C -0.7747(5) 0.92941(17) -0.3182(4) 0.0390 1.0000 Uani . . . . . .
+C50 C -0.7569(5) 0.92861(18) -0.2262(5) 0.0480 1.0000 Uani . . . . . .
+C51 C -0.6724(5) 0.90235(19) -0.1738(5) 0.0513 1.0000 Uani . . . . . .
+C52 C -0.8690(5) 0.95592(18) -0.3733(5) 0.0403 1.0000 Uani . . . . . .
+C1 C -0.4354(5) 0.76921(18) 0.0234(4) 0.0371 1.0000 Uani . . . . . .
+C2 C -0.4962(5) 0.72892(18) 0.0214(4) 0.0378 1.0000 Uani . . . . . .
+C3 C -0.4153(5) 0.69675(17) 0.0374(4) 0.0363 1.0000 Uani . . . . . .
+C4 C -0.2881(5) 0.71029(17) 0.0555(4) 0.0384 1.0000 Uani . . . . . .
+C5 C -0.2791(5) 0.73399(16) -0.0279(4) 0.0319 1.0000 Uani . . . . . .
+C6 C -0.2046(5) 0.72391(16) -0.0852(4) 0.0311 1.0000 Uani . . . . . .
+C7 C -0.2117(4) 0.74773(17) -0.1619(4) 0.0307 1.0000 Uani . . . . . .
+C8 C -0.1372(5) 0.74255(18) -0.2315(4) 0.0378 1.0000 Uani . . . . . .
+C9 C -0.2273(5) 0.73555(17) -0.3190(4) 0.0364 1.0000 Uani . . . . . .
+C10 C -0.3120(5) 0.76602(18) -0.3395(4) 0.0392 1.0000 Uani . . . . . .
+C11 C -0.2928(5) 0.79953(18) -0.2698(4) 0.0394 1.0000 Uani . . . . . .
+C12 C -0.2943(5) 0.77896(16) -0.1810(4) 0.0345 1.0000 Uani . . . . . .
+C13 C -0.3680(5) 0.78872(16) -0.1235(4) 0.0334 1.0000 Uani . . . . . .
+C14 C -0.3582(5) 0.76543(17) -0.0463(4) 0.0317 1.0000 Uani . . . . . .
+C15 C -0.6169(6) 0.7212(2) 0.0050(4) 0.0489 1.0000 Uani . . . . . .
+C16 C -0.6555(6) 0.6812(2) 0.0043(4) 0.0556 1.0000 Uani . . . . . .
+C17 C -0.5766(7) 0.6495(2) 0.0187(5) 0.0599 1.0000 Uani . . . . . .
+C18 C -0.4552(6) 0.6572(2) 0.0361(4) 0.0508 1.0000 Uani . . . . . .
+C19 C -0.2308(5) 0.70241(19) -0.3735(4) 0.0451 1.0000 Uani . . . . . .
+C20 C -0.3225(6) 0.6998(2) -0.4511(4) 0.0492 1.0000 Uani . . . . . .
+C21 C -0.4062(6) 0.7294(2) -0.4705(4) 0.0548 1.0000 Uani . . . . . .
+C22 C -0.4019(6) 0.7627(2) -0.4139(4) 0.0493 1.0000 Uani . . . . . .
+C23 C -0.3495(5) 0.77259(17) 0.1136(4) 0.0373 1.0000 Uani . . . . . .
+C24 C -0.2696(5) 0.74088(17) 0.1306(4) 0.0350 1.0000 Uani . . . . . .
+C25 C -0.1833(5) 0.73914(19) 0.2099(4) 0.0425 1.0000 Uani . . . . . .
+C26 C -0.1807(6) 0.7699(2) 0.2726(5) 0.0532 1.0000 Uani . . . . . .
+C27 C -0.2607(6) 0.8012(2) 0.2561(5) 0.0500 1.0000 Uani . . . . . .
+C28 C -0.3463(5) 0.80298(19) 0.1775(4) 0.0407 1.0000 Uani . . . . . .
+C29 C -0.1653(5) 0.81521(18) -0.2592(4) 0.0409 1.0000 Uani . . . . . .
+C30 C -0.0816(6) 0.78437(19) -0.2391(4) 0.0417 1.0000 Uani . . . . . .
+C31 C 0.0381(6) 0.7935(2) -0.2247(4) 0.0498 1.0000 Uani . . . . . .
+C32 C 0.0726(6) 0.8337(2) -0.2318(5) 0.0620 1.0000 Uani . . . . . .
+C33 C -0.0128(7) 0.8632(2) -0.2516(5) 0.0644 1.0000 Uani . . . . . .
+C34 C -0.1310(6) 0.8547(2) -0.2658(4) 0.0509 1.0000 Uani . . . . . .
+C35 C -0.1276(5) 0.68916(18) -0.0710(4) 0.0340 1.0000 Uani . . . . . .
+C36 C -0.0600(5) 0.66160(19) -0.0644(4) 0.0388 1.0000 Uani . . . . . .
+C37 C 0.0295(5) 0.63078(17) -0.0543(4) 0.0378 1.0000 Uani . . . . . .
+Zn1 Zn 0.46553(6) 0.48261(2) 0.07945(5) 0.0350 1.0000 Uani . . . . . .
+O1 O 0.3389(3) 0.52462(12) 0.0486(3) 0.0403 1.0000 Uani . . . . . .
+O2 O 0.3828(3) 0.54811(11) -0.0779(3) 0.0422 1.0000 Uani . . . . . .
+O3 O -0.9282(3) 0.97845(12) -0.3328(3) 0.0446 1.0000 Uani . . . . . .
+O4 O -0.8825(3) 0.95347(12) -0.4584(3) 0.0468 1.0000 Uani . . . . . .
+O101 O 0.3994(3) 0.44435(12) 0.1556(3) 0.0465 1.0000 Uani . . . . . .
+C102 C 0.4356(5) 0.40859(19) 0.1672(4) 0.0438 1.0000 Uani . . . . . .
+N103 N 0.3926(5) 0.38131(16) 0.2113(4) 0.0535 1.0000 Uani . . . . . .
+C104 C 0.2923(7) 0.3913(3) 0.2519(6) 0.0796 1.0000 Uani . . . . . .
+C105 C 0.4384(7) 0.3410(2) 0.2258(6) 0.0680 1.0000 Uani . . . . . .
+H381 H 0.0457 0.6316 -0.1820 0.0516 1.0000 Uiso R . . . . .
+H391 H 0.2066 0.5866 -0.1640 0.0516 1.0000 Uiso R . . . . .
+H411 H 0.1937 0.5710 0.0940 0.0533 1.0000 Uiso R . . . . .
+H421 H 0.0406 0.6184 0.0753 0.0606 1.0000 Uiso R . . . . .
+H471 H -0.5797 0.8615 -0.3355 0.0524 1.0000 Uiso R . . . . .
+H481 H -0.7214 0.9047 -0.4227 0.0583 1.0000 Uiso R . . . . .
+H501 H -0.8027 0.9460 -0.1985 0.0582 1.0000 Uiso R . . . . .
+H511 H -0.6605 0.9014 -0.1105 0.0625 1.0000 Uiso R . . . . .
+H11 H -0.4914 0.7921 0.0112 0.0457 1.0000 Uiso R . . . . .
+H41 H -0.2325 0.6872 0.0679 0.0473 1.0000 Uiso R . . . . .
+H81 H -0.0778 0.7208 -0.2166 0.0482 1.0000 Uiso R . . . . .
+H111 H -0.3546 0.8200 -0.2859 0.0502 1.0000 Uiso R . . . . .
+H151 H -0.6713 0.7430 -0.0073 0.0621 1.0000 Uiso R . . . . .
+H161 H -0.7375 0.6759 -0.0059 0.0665 1.0000 Uiso R . . . . .
+H171 H -0.6047 0.6228 0.0167 0.0722 1.0000 Uiso R . . . . .
+H181 H -0.4013 0.6358 0.0474 0.0615 1.0000 Uiso R . . . . .
+H191 H -0.1735 0.6817 -0.3591 0.0565 1.0000 Uiso R . . . . .
+H201 H -0.3260 0.6773 -0.4879 0.0611 1.0000 Uiso R . . . . .
+H211 H -0.4674 0.7274 -0.5218 0.0664 1.0000 Uiso R . . . . .
+H221 H -0.4611 0.7830 -0.4267 0.0605 1.0000 Uiso R . . . . .
+H251 H -0.1296 0.7172 0.2205 0.0536 1.0000 Uiso R . . . . .
+H261 H -0.1229 0.7694 0.3275 0.0632 1.0000 Uiso R . . . . .
+H271 H -0.2562 0.8218 0.2994 0.0615 1.0000 Uiso R . . . . .
+H281 H -0.4023 0.8242 0.1657 0.0492 1.0000 Uiso R . . . . .
+H311 H 0.0953 0.7725 -0.2102 0.0610 1.0000 Uiso R . . . . .
+H321 H 0.1523 0.8402 -0.2224 0.0770 1.0000 Uiso R . . . . .
+H331 H 0.0106 0.8901 -0.2557 0.0803 1.0000 Uiso R . . . . .
+H341 H -0.1896 0.8751 -0.2797 0.0633 1.0000 Uiso R . . . . .
+H1021 H 0.4984 0.4004 0.1419 0.0528 1.0000 Uiso R . . . . .
+H1041 H 0.2299 0.3718 0.2327 0.1232 1.0000 Uiso R . . . . .
+H1043 H 0.3201 0.3901 0.3160 0.1231 1.0000 Uiso R . . . . .
+H1042 H 0.2641 0.4182 0.2337 0.1229 1.0000 Uiso R . . . . .
+H1052 H 0.3745 0.3215 0.2092 0.1041 1.0000 Uiso R . . . . .
+H1051 H 0.4755 0.3377 0.2887 0.1040 1.0000 Uiso R . . . . .
+H1053 H 0.4973 0.3364 0.1911 0.1043 1.0000 Uiso R . . . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+C38 0.022(3) 0.040(3) 0.065(4) -0.004(3) 0.012(3) 0.004(3)
+C39 0.030(3) 0.047(3) 0.056(4) -0.015(3) 0.014(3) 0.002(3)
+C40 0.027(3) 0.030(3) 0.045(4) -0.004(3) 0.008(3) -0.001(2)
+C41 0.038(3) 0.047(3) 0.051(4) 0.007(3) 0.014(3) 0.006(3)
+C42 0.043(3) 0.054(4) 0.059(4) 0.003(3) 0.026(3) 0.023(3)
+C43 0.030(3) 0.036(3) 0.049(4) -0.009(3) 0.017(3) -0.004(3)
+C44 0.031(3) 0.038(3) 0.046(4) -0.001(3) 0.014(3) 0.001(3)
+C45 0.032(3) 0.033(3) 0.045(4) -0.001(3) 0.008(3) 0.006(3)
+C46 0.024(3) 0.040(3) 0.059(4) 0.001(3) 0.005(3) 0.003(3)
+C47 0.035(3) 0.044(3) 0.051(4) 0.010(3) 0.010(3) 0.008(3)
+C48 0.027(3) 0.041(3) 0.070(4) 0.012(3) 0.012(3) 0.002(3)
+C49 0.032(3) 0.038(3) 0.048(4) -0.003(3) 0.010(3) -0.003(3)
+C50 0.038(3) 0.031(3) 0.073(5) 0.002(3) 0.010(3) 0.005(3)
+C51 0.035(3) 0.049(4) 0.068(4) -0.006(3) 0.005(3) 0.000(3)
+C52 0.027(3) 0.042(3) 0.052(4) 0.004(3) 0.010(3) -0.006(3)
+C1 0.030(3) 0.048(3) 0.033(3) 0.001(3) 0.007(3) 0.013(3)
+C2 0.033(3) 0.055(4) 0.027(3) -0.005(3) 0.008(3) -0.009(3)
+C3 0.042(3) 0.037(3) 0.035(3) -0.001(3) 0.017(3) -0.002(3)
+C4 0.044(3) 0.034(3) 0.041(3) 0.004(3) 0.015(3) 0.003(3)
+C5 0.030(3) 0.036(3) 0.030(3) 0.000(2) 0.005(3) 0.005(3)
+C6 0.027(3) 0.032(3) 0.033(3) 0.000(3) 0.003(2) 0.003(2)
+C7 0.022(3) 0.039(3) 0.032(3) 0.008(3) 0.008(2) 0.007(2)
+C8 0.020(3) 0.043(3) 0.052(4) 0.005(3) 0.012(3) 0.005(2)
+C9 0.038(3) 0.042(3) 0.038(3) -0.003(3) 0.024(3) -0.007(3)
+C10 0.045(3) 0.041(3) 0.034(3) 0.008(3) 0.012(3) 0.001(3)
+C11 0.034(3) 0.048(3) 0.036(3) 0.010(3) 0.008(3) 0.010(3)
+C12 0.041(3) 0.032(3) 0.032(3) 0.004(3) 0.012(3) -0.006(3)
+C13 0.026(3) 0.033(3) 0.041(3) -0.001(3) 0.006(3) 0.004(2)
+C14 0.026(3) 0.038(3) 0.032(3) -0.002(3) 0.009(2) 0.001(2)
+C15 0.042(3) 0.067(4) 0.044(4) -0.010(3) 0.021(3) -0.007(3)
+C16 0.040(3) 0.089(5) 0.044(4) -0.014(3) 0.021(3) -0.030(4)
+C17 0.063(4) 0.064(4) 0.057(4) -0.005(3) 0.023(3) -0.018(4)
+C18 0.052(4) 0.058(4) 0.050(4) -0.011(3) 0.028(3) -0.013(3)
+C19 0.036(3) 0.048(4) 0.052(4) 0.004(3) 0.011(3) -0.003(3)
+C20 0.051(3) 0.062(4) 0.037(4) -0.007(3) 0.016(3) -0.008(3)
+C21 0.058(4) 0.069(4) 0.034(4) -0.001(3) 0.005(3) 0.001(4)
+C22 0.047(3) 0.051(4) 0.047(4) 0.008(3) 0.005(3) 0.004(3)
+C23 0.036(3) 0.039(3) 0.042(3) 0.000(3) 0.020(3) 0.005(3)
+C24 0.036(3) 0.039(3) 0.032(3) 0.002(3) 0.012(3) -0.003(3)
+C25 0.033(3) 0.049(4) 0.046(4) -0.003(3) 0.009(3) 0.007(3)
+C26 0.049(3) 0.065(4) 0.044(4) -0.010(3) 0.009(3) 0.007(3)
+C27 0.048(3) 0.056(4) 0.049(4) -0.018(3) 0.014(3) 0.004(3)
+C28 0.032(3) 0.049(3) 0.041(4) -0.002(3) 0.007(3) 0.009(3)
+C29 0.052(3) 0.042(4) 0.036(3) 0.002(3) 0.026(3) -0.006(3)
+C30 0.051(3) 0.050(4) 0.034(3) -0.006(3) 0.029(3) -0.008(3)
+C31 0.044(3) 0.065(4) 0.046(4) -0.009(3) 0.023(3) -0.011(3)
+C32 0.049(4) 0.077(5) 0.070(4) -0.025(4) 0.035(3) -0.033(4)
+C33 0.078(4) 0.065(4) 0.060(4) -0.012(4) 0.037(4) -0.029(4)
+C34 0.061(4) 0.048(4) 0.048(4) 0.000(3) 0.023(3) -0.008(3)
+C35 0.028(3) 0.039(3) 0.036(3) -0.003(3) 0.010(3) 0.004(3)
+C36 0.032(3) 0.042(3) 0.044(4) -0.004(3) 0.011(3) 0.008(3)
+C37 0.024(3) 

@@ -1,0 +1,207 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_CPL-2
+_audit_block_doi                 10.5517/ccv7k1n
+_database_code_depnum_ccdc_archive 'CCDC 781821'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1039/C0SC00272K 2010
+_audit_update_record             
+;
+2010-06-21 deposited with the CCDC.	2024-07-09 downloaded from the CCDC.
+;
+
+
+#==============================================================================
+# 5. CHEMICAL DATA
+
+_chemical_name_systematic        
+;
+coordination pillared layer strcuture
+;
+_chemical_name_common            'coordination pillared layer strcuture'
+_chemical_formula_moiety         'C11 H6 Cu N3 O4'
+_chemical_formula_structural     'C11 H6 Cu N3 O4'
+_chemical_formula_analytical     ?
+_chemical_formula_iupac          'C11 H6 Cu N3 O4'
+_chemical_formula_sum            'C11 H6 Cu N3 O4'
+_chemical_formula_weight         307.73
+_chemical_melting_point          ?
+_chemical_compound_source        ?
+
+#==============================================================================
+
+
+
+#==============================================================================
+
+# 6. CRYSTAL DATA
+
+_space_group_crystal_system      monoclinic
+_space_group_name_H-M_alt        'P 21/c'
+_symmetry_Int_Tables_number      14
+
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y+1/2,-z+1/2
+3 -x,-y,-z
+4 x,-y+1/2,z+1/2
+
+_cell_length_a                   4.7160(3)
+_cell_length_b                   27.833(2)
+_cell_length_c                   10.8881(7)
+_cell_angle_alpha                90.0
+_cell_angle_beta                 96.103(7)
+_cell_angle_gamma                90.0
+_cell_volume                     1421.1(2)
+_cell_formula_units_Z            4
+_cell_measurement_temperature    300
+
+_pd_calibration_special_details  
+; ?
+;
+_cell_special_details            
+; ?
+;
+
+_pd_char_colour                  'light blue'
+#=======================================================================
+
+#=======================================================================
+
+# 7. EXPERIMENTAL DATA
+
+_exptl_special_details           
+; ?
+;
+
+_pd_instr_location               
+;
+SPring-8
+;
+
+_diffrn_ambient_temperature      300
+_diffrn_source                   synchrotron
+_diffrn_detector                 'Imaging Plate'
+_diffrn_measurement_device_type  Debye-Scherrer
+_pd_meas_scan_method             0.01
+
+_pd_meas_special_details         
+; ?
+;
+
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+synchrotron 0.80092
+
+_pd_meas_number_of_points        3411
+_pd_meas_2theta_range_min        1.90
+_pd_meas_2theta_range_max        36.00
+_pd_meas_2theta_range_inc        0.01
+
+_pd_calc_method                  'Rietveld Refinement'
+
+#==============================================================================
+
+# 8. REFINEMENT DATA
+
+_pd_proc_ls_special_details      
+; ?
+;
+
+# The next three items are given as text
+_pd_proc_ls_profile_function     'split Pearson VII function'
+
+_pd_proc_ls_prof_R_factor        0.0275
+_pd_proc_ls_prof_wR_factor       0.0415
+_pd_proc_ls_prof_wR_expected     0.0269
+_refine_special_details          
+;
+;
+
+_refine_ls_structure_factor_coef Inet
+_refine_ls_matrix_type           ?
+_refine_ls_weighting_sheme       ?
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_extinction_method     none
+_refine_ls_extinction_coef       ?
+_refine_ls_number_parameters     ?
+_refine_ls_number_constraints    0
+_refine_ls_goodness_of_fit_all   1.5416
+_refine_ls_R_I_factor            0.0456
+
+
+
+
+
+# The following four items apply to angular dispersive measurements.
+# 2theta minimum, maximum and increment (in degrees) are for the
+# intensities used in the refinement.
+_pd_proc_2theta_range_min        1.90
+_pd_proc_2theta_range_max        36.00
+_pd_proc_2theta_range_inc        0.01
+
+#==============================================================================
+
+
+
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+
+loop_
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_thermal_displace_type
+_atom_site_B_iso_or_equiv
+_atom_site_type_symbol
+Cu1 4 1.0 0.38898 0.18876 0.5792 Uiso 0.2 Cu
+O1 4 1.0 0.5478 0.17082 0.75158 Uiso 0.242 O
+O2 4 1.0 0.84697 0.19469 0.90949 Uiso 0.242 O
+O3 4 1.0 1.18968 0.29247 0.94162 Uiso 0.242 O
+O4 4 1.0 0.80318 0.30367 1.03272 Uiso 0.242 O
+N1 4 1.0 0.4762 0.2534 0.6522 Uiso 0.242 N
+N2 4 1.0 0.6895 0.3353 0.764 Uiso 0.242 N
+N3 4 1.0 0.25998 0.12026 0.54083 Uiso 0.242 N
+C1 4 1.0 0.6814 0.2008 0.8167 Uiso 0.242 C
+C2 4 1.0 0.6404 0.2515 0.763 Uiso 0.242 C
+C3 4 1.0 0.4154 0.2962 0.5978 Uiso 0.242 C
+C4 4 1.0 0.5254 0.3368 0.6582 Uiso 0.242 C
+C5 4 1.0 0.7511 0.2927 0.8193 Uiso 0.242 C
+C6 4 1.0 0.9268 0.2966 0.9413 Uiso 0.242 C
+C7 4 1.0 0.08577 0.10097 0.62469 Uiso 0.242 C
+C8 4 1.0 0.29936 0.0956 0.43356 Uiso 0.242 C
+C9 4 1.0 0.19071 0.04779 0.41519 Uiso 0.242 C
+C10 4 1.0 -0.02683 0.0536 0.60641 Uiso 0.242 C
+C11 4 1.0 0.03535 0.02677 0.50371 Uiso 0.242 C
+H1 4 1.0 0.037 0.1194 0.6921 Uiso 1.612 H
+H2 4 1.0 0.402 0.1095 0.3691 Uiso 1.612 H
+H3 4 1.0 0.224 0.0291 0.3437 Uiso 1.612 H
+H4 4 1.0 -0.148 0.0405 0.6614 Uiso 1.612 H
+H5 4 1.0 0.301 0.298 0.52 Uiso 1.612 H
+H6 4 1.0 0.481 0.37 0.622 Uiso 1.612 H
+#======================================================================
+#END OF CIF
+
+

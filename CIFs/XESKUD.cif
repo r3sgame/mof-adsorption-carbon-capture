@@ -1,0 +1,251 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_STA12FE-AP
+_audit_block_doi                 10.5517/cczrqzd
+_database_code_depnum_ccdc_archive 'CCDC 916545'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1016/j.micromeso.2011.12.003 2012
+_audit_update_record             
+;
+2012-12-20 deposited with the CCDC.	2024-07-13 downloaded from the CCDC.
+;
+
+_pd_block_id                     
+2011-07-29T11:18|STA12Fe-AP|MTWharmby|Stoe_Stadi_P
+
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_creation_date             2011-07-29T11:18
+# 5. OVERALL REFINEMENT & COMPUTING DETAILS
+
+_refine_special_details          
+; ?
+;
+_pd_proc_ls_special_details      
+; ?
+;
+
+# The following items are used to identify the programs used.
+_computing_molecular_graphics    ?
+_computing_publication_material  ?
+
+_refine_ls_weighting_scheme      ?
+_refine_ls_weighting_details     ?
+_refine_ls_hydrogen_treatment    ?
+_refine_ls_extinction_method     ?
+_refine_ls_extinction_coef       ?
+_refine_ls_number_constraints    ?
+
+_refine_ls_restrained_S_all      ?
+_refine_ls_restrained_S_obs      ?
+
+#==============================================================================
+# 6. SAMPLE PREPARATION DATA
+
+# (In the unusual case where multiple samples are used in a single
+# Rietveld study, this information should be moved into the phase
+# blocks)
+
+# The following three fields describe the preparation of the material.
+# The cooling rate is in K/min. The pressure at which the sample was
+# prepared is in kPa. The temperature of preparation is in K.
+
+_pd_prep_cool_rate               ?
+_pd_prep_pressure                ?
+_pd_prep_temperature             ?
+
+_pd_char_colour                  brown
+_refine_ls_shift/su_max          0.07
+_refine_ls_shift/su_mean         0.01
+_computing_structure_refinement  GSAS
+_refine_ls_number_parameters     44
+_refine_ls_goodness_of_fit_all   1.20
+_refine_ls_number_restraints     36
+_refine_ls_matrix_type           full
+
+_refine_diff_density_max         2.923
+_refine_diff_density_min         -1.397
+#==============================================================================
+# 7. CHEMICAL, STRUCTURAL AND CRYSTAL DATA
+
+_pd_char_particle_morphology     ?
+
+_chemical_name_systematic        
+; ?
+;
+_chemical_name_common            ?
+_chemical_formula_moiety         'C3 Fe N O4 P, 2.53(O)'
+_chemical_formula_structural     ?
+_chemical_formula_analytical     ?
+_chemical_melting_point          ?
+_chemical_compound_source        ? # for minerals and
+# natural products
+_symmetry_space_group_name_Hall  '-R 3'
+
+_exptl_crystal_F_000             ?
+_exptl_crystal_density_diffrn    1.658
+_exptl_crystal_density_meas      1.956
+_exptl_crystal_density_method    'He pycnometry'
+
+_cell_measurement_temperature    298
+
+_cell_special_details            
+; ?
+;
+
+_geom_special_details            ?
+
+# The following item identifies the program(s) used (if appropriate).
+_computing_structure_solution    ?
+
+#==============================================================================
+
+# 8. Phase information from GSAS
+
+_pd_phase_name                   'STA-12(Fe) As-Prepared'
+_cell_length_a                   28.0103(21)
+_cell_length_b                   28.0103
+_cell_length_c                   6.4044(5)
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_volume                     4351.5(6)
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_H-M   'R -3'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,x-y,+z
+3 y-x,-x,+z
+-1 -x,-y,-z
+-2 +y,y-x,-z
+-3 x-y,+x,-z
+101 +x+1/3,+y+2/3,+z+2/3
+102 -y+1/3,x-y+2/3,+z+2/3
+103 y-x+1/3,-x+2/3,+z+2/3
+-101 -x+2/3,-y+1/3,-z+1/3
+-102 +y+2/3,y-x+1/3,-z+1/3
+-103 x-y+2/3,+x+1/3,-z+1/3
+201 +x+2/3,+y+1/3,+z+1/3
+202 -y+2/3,x-y+1/3,+z+1/3
+203 y-x+2/3,-x+1/3,+z+1/3
+-201 -x+1/3,-y+2/3,-z+2/3
+-202 +y+1/3,y-x+2/3,-z+2/3
+-203 x-y+1/3,+x+2/3,-z+2/3
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Fe Fe1 0.3022(5) 0.0278(4) -0.2887(16) 1.0 Uiso 0.0314(22) 18
+P P1 0.42628(27) 0.04033(28) -0.4214(13) 1.0 Uiso 0.0314(22) 18
+O O1 0.4774(4) 0.0910(5) -0.4821(28) 1.0 Uiso 0.0314(22) 18
+O O2 0.3916(5) 0.0561(6) -0.2836(18) 1.0 Uiso 0.0314(22) 18
+O O3 0.2894(5) -0.0557(5) -0.2704(18) 1.0 Uiso 0.0314(22) 18
+O O100 0.2095(8) -0.0092(9) -0.214(4) 1.0 Uiso 0.0385(22) 18
+N N1 0.46191(15) 0.01835(19) -0.0630(8) 1.0 Uiso 0.0314(22) 18
+C C1 0.44516(35) -0.00542(25) -0.2798(8) 1.0 Uiso 0.0314(22) 18
+C C2 0.47608(17) -0.05833(11) 0.0456(16) 1.0 Uiso 0.0314(22) 18
+C C3 0.44649(17) -0.02662(21) 0.1014(9) 1.0 Uiso 0.0314(22) 18
+O O101 0.4234(15) -0.1478(15) -0.484(5) 0.90612 Uiso 0.0484(22) 18
+O O102 0.36573(28) -0.2739(4) -0.1659(12) 0.8787 Uiso 0.0484(22) 18
+O O103 0.4171(19) -0.2110(14) -0.844(5) 0.74824 Uiso 0.0484(22) 18
+
+# If you change Z, be sure to change all 3 of the following
+_chemical_formula_sum            'C3 Fe N O6.53 P'
+_chemical_formula_weight         241.38
+_cell_formula_units_Z            18
+
+# MOLECULAR GEOMETRY
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Fe1 O2 2.216(13) . 1_555 N
+Fe1 O2 2.218(12) . 102_544 N
+Fe1 O3 2.184(13) . 1_555 N
+Fe1 O3 2.308(12) . 203_555 N
+Fe1 O100 2.315(18) . 1_555 N
+Fe1 N1 2.260(10) . 102_544 N
+P1 O1 1.477(7) . 1_555 N
+P1 O2 1.533(7) . 1_555 N
+P1 O3 1.503(13) . 102_544 N
+P1 C1 1.8500(21) . 1_555 N
+O1 P1 1.477(7) . 1_555 N
+O2 Fe1 2.216(13) . 1_555 N
+O2 Fe1 2.218(12) . 203_555 N
+O2 P1 1.533(7) . 1_555 N
+O3 Fe1 2.184(13) . 1_555 N
+O3 Fe1 2.308(12) . 102_544 N
+O3 P1 1.503(13) . 203_555 N
+O100 Fe1 2.315(18) . 1_555 N
+N1 Fe1 2.260(10) . 203_555 N
+N1 C1 1.5097(16) . 1_555 N
+N1 C2 1.5292(14) . -1_655 N
+N1 C3 1.5293(16) . 1_555 N
+C1 P1 1.8500(21) . 1_555 N
+C1 N1 1.5097(16) . 1_555 N
+C2 N1 1.5292(14) . -1_655 N
+C2 C3 1.5296(17) . 1_555 N
+C3 N1 1.5293(16) . 1_555 N
+C3 C2 1.5296(17) . 1_555 N
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 P1 O2 108.9(7) 1_555 . 1_555 N
+O1 P1 O3 112.9(9) 1_555 . 102_544 N
+O1 P1 C1 108.6(6) 1_555 . 1_555 N
+O2 P1 O3 103.3(7) 1_555 . 102_544 N
+O2 P1 C1 111.1(6) 1_555 . 1_555 N
+O3 P1 C1 112.0(6) 102_544 . 1_555 N
+C1 N1 C2 112.3(5) 1_555 . -1_655 N
+C1 N1 C3 111.9(4) 1_555 . 1_555 N
+C2 N1 C3 107.61(30) -1_655 . 1_555 N
+P1 C1 N1 106.2(4) 1_555 . 1_555 N
+N1 C2 C3 107.73(28) -1_655 . 1_555 N
+N1 C3 C2 107.79(30) 1_555 . 1_555 N
+
+
+
+# start Validation Reply Form
+_vrf_RADNT01_STA12FE-AP          
+;
+PROBLEM: The radiation type should contain one of the following
+RESPONSE: Fe K\a~1~ radiation used
+;

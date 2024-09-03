@@ -50,8 +50,9 @@ def _load_pre_trained_weights(model, config):
 
 def get_attention():
     config = yaml.load(open("config_ft_transformer.yaml", "r"), Loader=yaml.FullLoader)
-    config['gpu'] = 'cpu'
-    transformer = Transformer(**config['Transformer'])
+    config['gpu'] = 'cuda'
+    device = torch.device('cuda')
+    transformer = Transformer(**config['Transformer']).to(device).to(torch.float16)
     model = _load_pre_trained_weights(transformer, config)
     with open('benchmark_datasets/QMOF/mofid/QMOF_small_mofid.csv') as f:
         reader = csv.reader(f)
@@ -64,15 +65,12 @@ def get_attention():
         if len(s) < maxLen:
             maxLen = len(s)
             shortest = s
-    
+
+    print(shortest)
+
     tokenizer = MOFTokenizer('tokenizer/vocab_full.txt', model_max_length = 512, padding_side='right')
     token = np.array(tokenizer.encode(shortest, max_length=512, truncation=True,padding='max_length'))
-    # model_transformer(torch.from_numpy(token))
+    token = torch.from_numpy(token).to(device).long()  # Keep token as Long tensor
+    print(model(token).detach().cpu().numpy().shape)
 
-    attention = {}
-    def hookAttention(name):
-        # the hook signature
-        def hook(model, input, output):
-            attention[name] = output.detach()
-        return hook
-    h = model.layer-name.register_forward_hook(getActivation(name))
+get_attention()

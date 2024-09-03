@@ -1,0 +1,275 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_CO2_mmen_Mn
+_audit_block_doi                 10.5517/cc12cvlw
+_database_code_depnum_ccdc_archive 'CCDC 994498'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1038/nature14327 2015
+_audit_update_record             
+;
+2014-03-31 deposited with the CCDC.	2024-07-10 downloaded from the CCDC.
+;
+_iucr_compatibility_tag          ?
+
+
+#==============================================================================
+
+#data_CO2_mmen_Mn
+
+_chemical_name_systematic        
+;
+catena-[(methyl(2-methylammonio)ethyl)carbamate)(u6-4,4'-dioxidobiphenyl-3,3'-dicarboxylate)dimanganese]
+;
+
+_chemical_name_common            CO2-mmen-Mn2(dobpdc)
+_chemical_formula_moiety         'Mn2 (C14 O6 H6) (C5 N2 O2 H12)1.68'
+_chemical_formula_sum            'Mn2 C22.4 N3.36 H26.16 O9.36'
+_chemical_compound_source        synthesis
+
+loop_
+_atom_type_symbol
+_atom_type_description
+#   _atom_type_scat_dispersion_real
+#   _atom_type_scat_dispersion_imag
+_atom_type_scat_source
+
+C C 'International Tables for Crystallography (Vol. IV)'
+H H 'International Tables for Crystallography (Vol. IV)'
+N N 'International Tables for Crystallography (Vol. IV)'
+O O 'International Tables for Crystallography (Vol. IV)'
+Mn Mn 'International Tables for Crystallography (Vol. IV)'
+
+#==============================================================================
+
+# 4. POWDER SPECIMEN AND CRYSTAL DATA
+
+
+_exptl_crystal_colour            Gray
+_diffrn_ambient_temperature      100
+_diffrn_ambient_pressure         ?
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_h-m   'P 32 2 1'
+_symmetry_int_tables_number      154
+_chemical_absolute_configuration ?
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.413729
+_diffrn_source_type              synchrotron
+
+_chemical_name_mineral           ??
+_cell_length_a                   21.68188(39)
+_cell_length_b                   21.68188(39)
+_cell_length_c                   7.07940(12)
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_volume                     2882.18(12)
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x, -x+y, -z-1/3'
+'-x+y, -x, z+1/3'
+'-y, x-y, z-1/3'
+'y, x, -z'
+'x-y, -y, -z+1/3'
+'x, y, z'
+
+_cell_formula_units_Z            3
+_cell_measurement_temperature    100
+
+_pd_calibration_special_details  
+; ?
+;
+_cell_special_details            
+; ?
+;
+
+_exptl_crystal_density_diffrn    0.63
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             ?
+
+#==============================================================================
+
+# 5. EXPERIMENTAL DATA
+
+_exptl_special_details           
+; ?
+;
+
+# This following item is used to identify the equipment used to record the
+# powder pattern when the diffractogram was measured at a laboratory
+# other than the authors' home institution, e.g. when neutron or synchrotron
+# radiation is used.
+
+# DATASET # 1  DEBYE SCHERRER MODE
+
+_pd_instr_location               
+; 11-BM, Advanced Photon Source, Argonne National Lab
+;
+
+_diffrn_source_target            ?
+_diffrn_measurement_device_type  custom
+_diffrn_detector_type            ?
+_pd_meas_scan_method             step # options are 'step', 'cont',
+# 'tof', 'fixed' or
+# 'disp' (= dispersive)
+_pd_meas_special_details         
+;  ?
+;
+
+# The following six items are used for angular dispersive measurements only.
+
+_diffrn_radiation_monochromator  Si(111)
+
+# The following four items give details of the measured (not processed)
+# powder pattern.  Angles are in degrees.
+
+_pd_meas_number_of_points        3820
+_pd_meas_2theta_range_min        2
+_pd_meas_2theta_range_max        21.1
+_pd_meas_2theta_range_inc        0.005
+
+
+# The following three items are used for time-of-flight measurements only.
+
+_pd_instr_dist_src/spec          ?
+_pd_instr_dist_spec/detc         ?
+_pd_meas_2theta_fixed            ?
+
+# The following fields are used to identify the programs used.
+
+_computing_data_collection       ?
+_computing_cell_refinement       'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_data_reduction        ?
+_computing_structure_solution    'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_structure_refinement  'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_molecular_graphics    ?
+_computing_publication_material  'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+
+#==============================================================================
+
+# 6. REFINEMENT DATA
+
+# Use the next field to give any special details about the fitting of the
+# powder pattern.
+
+_pd_proc_ls_special_details      
+; 
+;
+
+# The next three items are given as text
+_pd_proc_ls_profile_function     ?
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_pref_orient_corr     ?
+_pd_proc_ls_prof_R_factor        0.051
+_pd_proc_ls_prof_wR_factor       0.067
+_pd_proc_ls_prof_wR_expected     0.051
+
+_refine_special_details          
+; ?
+;
+
+_refine_ls_structure_factor_coef Inet
+_refine_ls_matrix_type           fullcycle
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_extinction_method     none
+_refine_ls_extinction_coef       ?
+_refine_ls_number_parameters     76
+_refine_ls_number_restraints     ?
+_refine_ls_number_constraints    ?
+# The following item is 'CHI squared'
+_refine_ls_goodness_of_fit_all   1.31
+
+_refine_ls_restrained_S_all      ?
+_refine_ls_restrained_S_obs      ?
+_refine_ls_shift/su_max          ?
+_refine_ls_shift/su_mean         ?
+
+
+# The following four items apply to angular dispersive measurements.
+# 2theta minimum, maximum and increment (in degrees) are for the 
+# intensities used in the refinement.
+_pd_proc_2theta_range_min        ?
+_pd_proc_2theta_range_max        ?
+_pd_proc_2theta_range_inc        ?
+
+loop_
+_pd_proc_wavelength
+?
+
+_pd_block_diffractogram_id       ? # The id used for the block
+# containing the powder 
+# pattern profile (section 11).
+
+# Give appropriate details in the next two text fields.
+_pd_proc_info_excluded_regions   ?
+_pd_proc_info_data_reduction     ?
+
+#==============================================================================
+
+# 7. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Mn Mn 6 0.60964(28) 0.27167(25) 1.14546(59) 1 1.157(81)
+O1x O 6 0.5091(12) 0.1956(10) 1.0430(32) 0.8386(85) 0.42(59)
+C1x C 0 0.4519(22) 0.1910(26) 1.0591(54) 0.8386(85) 3.4(11)
+O2x O 0 0.4250(17) 0.2009(16) 1.2115(54) 0.8386(85) 6.9(11)
+N1m N 0 0.4430(18) 0.2274(18) 0.9052(49) 0.8386(85) 3.7(12)
+C1m C 0 0.3730(24) 0.2269(22) 0.8629(51) 0.8386(85) 4.9(13)
+C2m C 0 0.4568(21) 0.2054(28) 0.7289(64) 0.8386(85) 5.3(13)
+C3m C 0 0.4183(27) 0.1293(28) 0.6614(75) 0.8386(85) 7.1(16)
+N2m N 0 0.4445(35) 0.1254(33) 0.467(12) 0.8386(85) 25.0(36)
+C4m C 6 0.4003(17) 0.0532(16) 0.3702(45) 0.8386(85) 0.08(85)
+O1 O 6 0.65949(94) 0.23870(90) 0.9591(26) 1 0.83(20)
+O2 O 6 0.64384(95) 0.2823(10) 0.5949(22) 1 0.83(20)
+O3 O 6 0.5935(11) 0.20226(94) 0.3786(26) 1 0.83(20)
+C1 C 6 0.6319(15) 0.1798(17) 0.8707(44) 1 0.83(20)
+C2 C 6 0.6112(16) 0.1649(18) 0.6812(45) 1 0.83(20)
+C3 C 6 0.5761(16) 0.0958(16) 0.6167(43) 1 0.83(20)
+C4 C 6 0.5634(14) 0.0386(15) 0.7140(43) 1 0.83(20)
+C5 C 6 0.5878(15) 0.0498(14) 0.8971(36) 1 0.83(20)
+C6 C 6 0.6133(17) 0.1144(14) 0.9872(40) 1 0.83(20)
+C7 C 6 0.6177(17) 0.2191(15) 0.5421(42) 1 0.83(20)
+H1 H 6 0.58266 0.00968 0.96495 1 0.83(20)
+H2 H 6 0.62577 0.11883 0.11707 1 0.83(20)
+H3 H 6 0.56208 0.08548 0.48814 1 0.83(20)
+H1b H 6 0.38643 0.25928 0.7582 0.8386(85) 15
+H2b H 6 0.33805 0.17997 0.8224 0.8386(85) 15
+H3b H 6 0.35343 0.24231 0.9617 0.8386(85) 15
+H4b H 6 0.44646 0.23081 0.63267 0.8386(85) 15
+H5b H 6 0.50675 0.21903 0.72235 0.8386(85) 15
+H6b H 6 0.42753 0.10011 0.74794 0.8386(85) 15
+H7b H 6 0.36758 0.11208 0.65673 0.8386(85) 15
+H8b H 6 0.43291 0.14895 0.387 0.8386(85) 15
+H9b H 6 0.49114 0.14453 0.4697 0.8386(85) 15
+H10b H 6 0.36973 0.05651 0.27755 0.8386(85) 15
+H11b H 6 0.43152 0.03987 0.30962 0.8386(85) 15
+H12b H 6 0.37187 0.01795 0.46279 0.8386(85) 15
+
+
+

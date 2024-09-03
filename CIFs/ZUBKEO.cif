@@ -1,0 +1,438 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_CUBDC
+_audit_block_doi                 10.5517/cc14gw9s
+_database_code_depnum_ccdc_archive 'CCDC 1056985'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1002/ejic.201301543 2014
+_audit_update_record             
+;
+2015-03-30 deposited with the CCDC.	2024-07-14 downloaded from the CCDC.
+;
+
+_pd_block_id                     
+2010-09-09T23:28|CUBDC_phase1|Cantwell_Carson||
+
+#==============================================================================
+# 7. CHEMICAL, STRUCTURAL AND CRYSTAL DATA
+
+_pd_char_particle_morphology     Plate-like
+
+_chemical_name_systematic        
+; copper 1,4-benzenedicarboxylate
+;
+_chemical_name_common            'copper terephalate'
+_chemical_formula_moiety         'C8 H4 Cu O4'
+_chemical_formula_structural     'Cu (C8 H4 O4)'
+_chemical_formula_analytical     'C8 H4 Cu O4'
+_chemical_melting_point          593
+_chemical_compound_source        'see text'
+# for minerals and
+# natural products
+_symmetry_space_group_name_Hall  '-P 1'
+
+_exptl_crystal_F_000             0
+_exptl_crystal_density_diffrn    1.383
+_exptl_crystal_density_meas      0.0
+_exptl_crystal_density_method    'not measured'
+_exptl_absorpt_coefficient_mu    2.713
+_exptl_crystal_colour            blue
+_cell_measurement_temperature    295.0
+_diffrn_ambient_temperature      295.0
+
+_cell_special_details            
+; calculated from powder diffraction data
+;
+
+_geom_special_details            
+'Data may reflect anisotropic strain from delamination during the desolvation of MeOH.'
+
+# The following item identifies the program(s) used (if appropriate).
+_computing_structure_solution    'Cerius2 (Accelrys, Inc.)'
+
+#==============================================================================
+
+# 8. Phase information from GSAS
+
+_pd_phase_name                   'Cu (C8 H4 O4)'
+_cell_length_a                   5.2502
+_cell_length_b                   9.66899
+_cell_length_c                   10.76792
+_cell_angle_alpha                90.291
+_cell_angle_beta                 91.059
+_cell_angle_gamma                92.413
+_cell_volume                     546.03674
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_H-M   'P -1'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+-1 -x,-y,-z
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Cu Cu1 0.7082 0.4348 0.4882 1.0 Uiso 0.025 2
+O O1 0.4901 0.2663 0.4723 1.0 Uiso 0.025 2
+O O2 0.1152 0.3776 0.5023 1.0 Uiso 0.025 2
+O O5 0.6789 0.4464 0.6708 1.0 Uiso 0.025 2
+O O6 0.692 0.4351 0.3082 1.0 Uiso 0.025 2
+C C1 0.8993 0.1201 0.5683 1.0 Uiso 0.025 2
+C C2 0.118 0.13 0.4932 1.0 Uiso 0.025 2
+C C3 0.2499 0.2679 0.488 1.0 Uiso 0.025 2
+C C4 0.2193 0.01 0.4256 1.0 Uiso 0.025 2
+C C9 0.3022 0.5653 -0.053 1.0 Uiso 0.025 2
+C C10 0.4983 0.5031 0.8715 1.0 Uiso 0.025 2
+C C11 0.4949 0.5053 0.7337 1.0 Uiso 0.025 2
+C C12 0.6963 0.4379 -0.0749 1.0 Uiso 0.025 2
+H H1 0.8315 0.2046 0.6159 1.0 Uiso 0.025 2
+H H2 0.3743 0.0193 0.3752 1.0 Uiso 0.025 2
+H H5 0.1655 0.6103 -0.0922 1.0 Uiso 0.025 2
+H H6 0.8330 0.3962 0.8711 1.0 Uiso 0.025 2
+
+
+# If you change Z, be sure to change all 3 of the following
+_chemical_formula_sum            'C8 H4 Cu O4'
+_chemical_formula_weight         227.66
+_cell_formula_units_Z            2
+
+# MOLECULAR GEOMETRY
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cu1 Cu1 2.58516 . -1_666 N
+Cu1 O1 1.95645 . 1_555 N
+Cu1 O2 2.23234 . 1_655 N
+Cu1 O2 2.00334 . -1_666 N
+Cu1 O5 1.97805 . 1_555 N
+Cu1 O6 1.93854 . 1_555 N
+O1 C3 1.2762 . 1_555 N
+O2 C3 1.30936 . 1_555 N
+O5 C11 1.33525 . 1_555 N
+O6 C11 1.23791 . -1_666 N
+C1 C2 1.41682 . 1_655 N
+C1 C4 1.38233 . -1_656 N
+C1 H1 1.04112 . 1_555 N
+C2 C3 1.47816 . 1_555 N
+C2 C4 1.48884 . 1_555 N
+C4 H2 0.98768 . 1_555 N
+C9 C10 1.46995 . 1_554 N
+C9 C12 1.37761 . -1_665 N
+C9 H5 0.94844 . 1_555 N
+C10 C11 1.48387 . 1_555 N
+C10 C12 1.35937 . 1_556 N
+C12 H6 1.02625 . 1_554 N
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Cu1 O2 171.4512 1_555 . -1_666 N
+O1 Cu1 O5 94.3106 1_555 . 1_555 N
+O1 Cu1 O6 84.5306 1_555 . 1_555 N
+O2 Cu1 O5 86.8501 -1_666 . 1_555 N
+O2 Cu1 O6 93.1626 -1_666 . 1_555 N
+O5 Cu1 O6 172.1396 1_555 . 1_555 N
+Cu1 O1 C3 121.5148 1_555 . 1_555 N
+Cu1 O2 C3 119.5423 -1_666 . 1_555 N
+Cu1 O5 C11 126.8348 1_555 . 1_555 N
+Cu1 O6 C11 112.8435 1_555 . -1_666 N
+C2 C1 C4 115.4324 1_655 . -1_656 N
+C2 C1 H1 122.6657 1_655 . 1_555 N
+C4 C1 H1 121.9019 -1_656 . 1_555 N
+C1 C2 C3 115.9931 1_455 . 1_555 N
+C1 C2 C4 123.3996 1_455 . 1_555 N
+C3 C2 C4 120.5784 1_555 . 1_555 N
+O1 C3 O2 126.585 1_555 . 1_555 N
+O1 C3 C2 114.9724 1_555 . 1_555 N
+O2 C3 C2 118.4234 1_555 . 1_555 N
+C1 C4 C2 121.1644 -1_656 . 1_555 N
+C1 C4 H2 117.0435 -1_656 . 1_555 N
+C2 C4 H2 121.7899 1_555 . 1_555 N
+C10 C9 C12 123.355 1_554 . -1_665 N
+C10 C9 H5 119.9827 1_554 . 1_555 N
+C12 C9 H5 116.6621 -1_665 . 1_555 N
+C9 C10 C11 123.2924 1_556 . 1_555 N
+C9 C10 C12 121.2845 1_556 . 1_556 N
+C11 C10 C12 115.4211 1_555 . 1_556 N
+O5 C11 O6 128.1507 1_555 . -1_666 N
+O5 C11 C10 120.1913 1_555 . 1_555 N
+O6 C11 C10 111.6563 -1_666 . 1_555 N
+C9 C12 C10 115.3604 -1_665 . 1_554 N
+C9 C12 H6 124.3184 -1_665 . 1_554 N
+C10 C12 H6 120.3169 1_554 . 1_554 N
+
+
+
+# Powder diffraction data for histogram  1
+
+#==============================================================================
+# 9. INSTRUMENT CHARACTERIZATION
+
+
+# The following item is used to identify the equipment used to record
+# the powder pattern when the diffractogram was measured at a laboratory
+# other than the authors' home institution, e.g. when neutron or synchrotron
+# radiation is used.
+
+_pd_instr_location               
+; 
+Advanced photon source, Argonne National Laboratory, Argonne, IL USA
+;
+
+
+
+_pd_meas_scan_method             cont # options are 'step', 'cont',
+# 'tof', 'fixed' or
+# 'disp' (= dispersive)
+
+
+# Describe any processing performed on the data, prior to refinement.
+# For example: a manual Lp correction or a precomputed absorption correction
+_pd_proc_info_data_reduction     None
+
+# The following item is used for angular dispersive measurements only.
+
+_diffrn_radiation_monochromator  synchrotron
+
+# 10. Specimen size and mounting information
+
+# The next three fields give the specimen dimensions in mm.  The equatorial
+# plane contains the incident and diffracted beam.
+
+_pd_spec_size_axial              1 # perpendicular to
+# equatorial plane
+
+_pd_spec_size_equat              1 # parallel to
+# scattering vector
+# in transmission
+
+_pd_spec_size_thick              1 # parallel to
+# scattering vector
+# in reflection
+
+_pd_spec_mounting                'kapton tube' # This field should be
+# used to give details of the
+# container.
+
+_pd_spec_mount_mode              transmission # options are 'reflection'
+# or 'transmission'
+
+_pd_spec_shape                   cylinder # options are 'cylinder'
+# 'flat_sheet' or 'irregular'
+
+# phase table
+loop_
+_pd_phase_id
+_pd_phase_block_id
+_pd_phase_mass_%
+_pd_proc_ls_pref_orient_corr
+_pd_proc_ls_profile_function
+_pd_proc_ls_peak_cutoff
+
+
+1 2013-09-04T13:42|CUBDC|Cantwell_Carson|| ?
+;   March-Dollase
+ AXIS  1 Ratio=     0.850 Frac     0.540  h= 0.000  k= 0.000  l= 1.000
+ AXIS  2 Ratio=     0.941 Frac     0.460  h= 0.000  k= 1.000  l= 0.000
+ Preferred orientation correction range: Min=   0.84403, Max=   1.29710
+;
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ #1(GU)   =   10.283 #2(GV)   =    0.308 #3(GW)   =   -0.035
+ #4(GP)   =    0.055 #5(LX)   =    1.016 #6(LY)   =    0.000
+ #7(S/L)  =   0.0005 #8(H/L)  =   0.0011
+ #9(trns) =     0.00 #10(shft)=  -0.0096
+ #11(stec)=    44.69 #12(ptec)=    -0.99 #13(sfec)=     0.00
+ #14(L11) =    1.758 #15(L22) =    0.209 #16(L33) =    0.021
+ #17(L12) =   -0.381 #18(L13) =    0.056 #19(L23) =   -0.159
+ Peak tails are ignored  where the intensity is below 0.0001 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+0.0005
+
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_polarisn_ratio 0.99
+_diffrn_radiation_wavelength     0.413537
+_diffrn_radiation_type           synchrotron
+_pd_proc_ls_prof_R_factor        0.0584
+_pd_proc_ls_prof_wR_factor       0.0753
+_pd_proc_ls_prof_wR_expected     0.0639
+_refine_ls_R_Fsqd_factor         0.25906
+_refine_ls_goodness_of_fit_all   1.1777
+
+_pd_proc_ls_background_function  
+;   GSAS Background function number 1 with 32 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    234.858     2:   -157.430     3:    14.8567     4:    26.6385    
+      5:   -34.4897     6:   -9.92175     7:    65.1213     8:   -49.7086    
+      9:    5.86600    10:    25.6709    11:   -41.3348    12:    20.1595    
+     13:    9.71303    14:   -19.5157    15:    12.6467    16:    5.94273    
+     17:   -19.3136    18:    16.1071    19:   -7.58792    20:   -2.17654    
+     21:    10.3314    22:   -6.46415    23:   -1.37751    24:    5.18177    
+     25:   -5.77246    26:    3.13927    27:  -0.900456    28:    1.99111    
+     29:   -2.70334    30:    2.80778    31:   -2.29562    32:    1.56370  
+;
+
+_exptl_absorpt_process_details   
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_correction_T_max  1.00000
+# Extinction correction
+_gsas_exptl_extinct_corr_T_min   1.00000
+_gsas_exptl_extinct_corr_T_max   1.00000
+_pd_proc_info_datetime           2013-09-04T13:42:29
+_pd_calc_method                  'Rietveld Refinement'
+
+## Commented out due to molecular weight calcuation errors,
+## Included for reference to scattering factors used
+# loop_ _atom_type_symbol
+# _atom_type_scat_dispersion_real
+# _atom_type_scat_dispersion_imag
+# _atom_type_scat_Cromer_Mann_a1
+# _atom_type_scat_Cromer_Mann_a2
+# _atom_type_scat_Cromer_Mann_a3
+# _atom_type_scat_Cromer_Mann_a4
+# _atom_type_scat_Cromer_Mann_b1
+# _atom_type_scat_Cromer_Mann_b2
+# _atom_type_scat_Cromer_Mann_b3
+# _atom_type_scat_Cromer_Mann_b4
+# _atom_type_scat_Cromer_Mann_c
+# _atom_type_scat_source
+
+# Cu    0.000    0.000
+# 13.3380 3.58280 7.16760 0.24700 5.61580 11.3966 1.67350 64.8126 1.19100 
+# International_Tables_Vol_C 
+# O    0.000    0.000
+# 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700 32.9089 0.25080 
+# International_Tables_Vol_C 
+# C    0.000    0.000
+# 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500 51.6512 0.21560 
+# International_Tables_Vol_C 
+# H    0.000    0.000
+# 0.49300 10.5109 0.32291 26.1257 0.14019 3.14236 0.04081 57.7997 0.00304 
+# International_Tables_Vol_C       
+
+#---- raw/calc data loop -----
+
+loop_
+_pd_meas_2theta_scan
+_pd_meas_intensity_total
+_pd_proc_ls_weight
+_pd_proc_intensity_bkg_calc
+_pd_calc_intensity_total
+0.5000 350(27) 0.001333 373.6 373.6
+0.5010 334(27) 0.001395 375.3 375.3
+0.5020 355(28) 0.001315 377.0 377.0
+0.5030 383(29) 0.001220 378.7 378.7
+0.5040 409(30) 0.001139 380.3 380.3
+0.5050 431(30) 0.001080 381.9 381.9
+0.5060 373(28) 0.001259 383.4 383.4
+0.5070 358(28) 0.001313 385.0 385.0
+0.5080 408(30) 0.001144 386.5 386.5
+0.5090 421(30) 0.001112 388.0 388.0
+0.5100 381(28) 0.001232 389.4 389.4
+0.5110 368(28) 0.001268 390.9 390.9
+0.5120 382(29) 0.001227 392.3 392.3
+0.5130 395(29) 0.001191 393.6 393.6
+0.5140 378(28) 0.001243 395.0 395.0
+0.5150 381(28) 0.001233 396.3 396.3
+0.5160 362(28) 0.001290 397.6 397.6
+0.5170 358(28) 0.001303 398.9 398.9
+0.5180 376(28) 0.001242 400.2 400.2
+0.5190 380(29) 0.001229 401.4 401.4
+0.5200 366(28) 0.001278 402.6 402.6
+0.5210 398(29) 0.001177 403.8 403.8
+0.5220 400(29) 0.001168 404.9 404.9
+0.5230 347(27) 0.001342 406.1 406.1
+0.5240 366(28) 0.001272 407.2 407.2
+0.5250 398(29) 0.001177 408.3 408.3
+0.5260 408(29) 0.001149 409.4 409.4
+0.5270 393(29) 0.001187 410.4 410.4
+0.5280 379(29) 0.001230 411.5 411.5
+0.5290 392(29) 0.001190 412.5 412.5
+0.5300 379(28) 0.001235 413.5 413.5
+0.5310 366(28) 0.001276 414.4 414.4
+0.5320 347(27) 0.001352 415.4 415.4
+0.5330 390(29) 0.001202 416.3 416.3
+0.5340 432(30) 0.001085 417.2 417.2
+0.5350 410(30) 0.001145 418.1 418.1
+0.5360 429(30) 0.001087 419.0 419.0
+0.5370 441(31) 0.001059 419.8 419.8
+0.5380 443(31) 0.001059 420.7 420.7
+0.5390 419(30) 0.001121 421.5 421.5
+0.5400 410(30) 0.001145 422.3 422.3
+0.5410 400(29) 0.001173 423.0 423.0
+0.5420 395(29) 0.001184 423.8 423.8
+0.5430 423(30) 0.001101 424.5 424.5
+0.5440 440(31) 0.001060 425.3 425.3
+0.5450 408(29) 0.001149 426.0 426.0
+0.5460 454(31) 0.001036 426.7 426.7
+0.5470 454(31) 0.001036 427.3 427.3
+0.5480 425(30) 0.001101 428.0 428.0
+0.5490 431(30) 0.001088 428.6 428.6
+0.5500 441(31) 0.001060 429.3 429.3
+0.5510 456(31) 0.001029 429.9 429.9
+0.5520 438(31) 0.001075 430.5 430.5
+0.5530 402(29) 0.001166 431.1 431.1
+0.5540 417(30) 0.001116 431.6 431.6
+0.5550 466(32) 0.001005 432.2 432.2
+0.5560 437(30) 0.001076 432.7 432.7
+0.5570 412(30) 0.001137 433.2 433.2
+0.5580 446(31) 0.001050 433.7 433.7
+0.5590 488(32) 0.000957 434.2 434.2
+0.5600 473(32) 0.000990 434.7 434.7
+0.5610 459(31) 0.001018 435.2 435.2
+0.5620 469(32) 0.000993 435.6 435.6
+0.5630 437(31) 0.001067 436.1 436.1
+0.5640 452(31) 0.001031 436.5 436.5
+0.5650 464(32) 0.001008 436.9 436.9
+0.5660 488(32) 0.000961 437.3 437.3
+0.5670 475(32) 0.000986 437.7 437.7
+0.5680 479(32) 0.000975 438.0 438.0
+0.5690 533(34) 0.000873 438.4 438.4
+0.5700 558(34) 0.000841 438.8 438.8
+0.5710 560(35) 0.000837 439.1 43

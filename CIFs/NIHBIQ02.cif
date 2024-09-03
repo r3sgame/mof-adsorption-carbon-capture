@@ -1,0 +1,489 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_6-Benzene-at-290K
+_audit_block_doi                 10.5517/ccnnndb
+_database_code_depnum_ccdc_archive 'CCDC 615672'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1002/adfm.200600676 2007
+_audit_update_record             
+;
+2006-07-21 deposited with the CCDC.	2024-07-11 downloaded from the CCDC.
+;
+
+_audit_creation_method           SHELXL-97
+_chemical_name_systematic        
+;
+?
+;
+_chemical_name_common            ?
+_chemical_melting_point          ?
+_chemical_formula_moiety         ?
+_chemical_formula_sum            'C12 H12 Fe3 O12'
+_chemical_formula_weight         515.77
+
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+_symmetry_cell_setting           Monoclinic
+_symmetry_space_group_name_H-M   'P 2(1)/c'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+
+_cell_length_a                   11.5008(3)
+_cell_length_b                   10.1568(2)
+_cell_length_c                   18.9745(4)
+_cell_angle_alpha                90.00
+_cell_angle_beta                 126.3570(10)
+_cell_angle_gamma                90.00
+_cell_volume                     1784.98(7)
+_cell_formula_units_Z            4
+_cell_measurement_temperature    290
+_cell_measurement_reflns_used    16231
+_cell_measurement_theta_min      3.395
+_cell_measurement_theta_max      27.485
+
+_exptl_crystal_description       plate
+_exptl_crystal_colour            'yellow green'
+_exptl_crystal_size_max          0.18
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.08
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_diffrn    1.919
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             1032
+_exptl_absorpt_coefficient_mu    2.466
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_correction_T_min  0.745
+_exptl_absorpt_correction_T_max  0.829
+_exptl_absorpt_process_details   
+;
+multi-scan from symmetry-related measurements
+Sortav (Blessing 1995, 1997)
+;
+
+_exptl_special_details           
+;
+?
+;
+
+_diffrn_ambient_temperature      290
+_diffrn_radiation_wavelength     0.71073
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_monochromator  graphite
+_diffrn_measurement_device_type  'NONIUS KappaCCD Diffractometer'
+_diffrn_measurement_method       CCD
+_diffrn_detector_area_resol_mean 0.76
+_diffrn_standards_number         ?
+_diffrn_standards_interval_count ?
+_diffrn_standards_interval_time  ?
+_diffrn_standards_decay_%        None
+_diffrn_reflns_number            32045
+_diffrn_reflns_av_R_equivalents  0.0800
+_diffrn_reflns_av_sigmaI/netI    0.0655
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_l_min       -24
+_diffrn_reflns_limit_l_max       24
+_diffrn_reflns_theta_min         3.54
+_diffrn_reflns_theta_max         27.48
+_reflns_number_total             4072
+_reflns_number_gt                2638
+_reflns_threshold_expression     >2sigma(I)
+
+_computing_data_collection       'KappaCCD (Nonius B. V., 1998)'
+_computing_cell_refinement       'HKL Scalepack (Otwinowski & Minor, 1997)'
+_computing_data_reduction        
+'HKL Denzo (Otwinowski & Minor, 1997) & maXus (Mackay et al., 1998)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1997)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_molecular_graphics    'Bruker SHELXTL V5.1 (Sheldrick, 1998)'
+_computing_publication_material  'SHELXL-97 (Sheldrick, 1997)'
+
+_refine_special_details          
+;
+Refinement of F^2^ against ALL reflections. The weighted R-factor wR and
+goodness of fit S are based on F^2^, conventional R-factors R are based
+on F, with F set to zero for negative F^2^. The threshold expression of
+F^2^ > 2sigma(F^2^) is used only for calculating R-factors(gt) etc. and is
+not relevant to the choice of reflections for refinement. R-factors based
+on F^2^ are statistically about twice as large as those based on F, and R-
+factors based on ALL data will be even larger.
+;
+
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_matrix_type           full
+_refine_ls_weighting_scheme      calc
+_refine_ls_weighting_details     
+'calc w=1/[\s^2^(Fo^2^)+(0.0339P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_atom_sites_solution_hydrogens   geom
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_extinction_method     SHELXL
+_refine_ls_extinction_coef       0.0033(4)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_number_reflns         4072
+_refine_ls_number_parameters     272
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0704
+_refine_ls_R_factor_gt           0.0312
+_refine_ls_wR_factor_ref         0.0698
+_refine_ls_wR_factor_gt          0.0630
+_refine_ls_goodness_of_fit_ref   0.930
+_refine_ls_restrained_S_all      0.930
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Fe1 Fe 0.38014(4) 0.06845(4) 0.13429(2) 0.02457(12) Uani 1 1 d . . .
+Fe2 Fe 0.56045(4) -0.12905(4) 0.30100(2) 0.02714(12) Uani 1 1 d . . .
+Fe3 Fe 0.5000 0.0000 0.0000 0.02841(15) Uani 1 2 d S . .
+Fe4 Fe 0.0000 0.0000 0.0000 0.02877(15) Uani 1 2 d S . .
+O1 O 0.44575(19) 0.18122(17) 0.25004(11) 0.0298(4) Uani 1 1 d . . .
+O2 O 0.5508(2) 0.03750(18) 0.36021(12) 0.0399(5) Uani 1 1 d . . .
+O3 O 0.5840(2) -0.02428(17) 0.21221(12) 0.0316(5) Uani 1 1 d . . .
+O4 O 0.6700(2) -0.0308(2) 0.13359(13) 0.0445(5) Uani 1 1 d . . .
+O5 O 0.4682(2) 0.24404(18) 0.11962(11) 0.0312(4) Uani 1 1 d . . .
+O6 O 0.5118(2) 0.20274(19) 0.02124(13) 0.0426(5) Uani 1 1 d . . .
+O7 O 0.3410(2) -0.09741(17) 0.18825(11) 0.0315(5) Uani 1 1 d . . .
+O8 O 0.1031(2) -0.1320(2) 0.10666(13) 0.0441(5) Uani 1 1 d . . .
+O9 O 0.3340(2) -0.01951(18) 0.02039(12) 0.0323(5) Uani 1 1 d . . .
+O10 O 0.1057(2) -0.0880(2) -0.04600(13) 0.0416(5) Uani 1 1 d . . .
+O11 O 0.17100(18) 0.14495(17) 0.07106(11) 0.0297(5) Uani 1 1 d . . .
+O12 O 0.2159(2) 0.35791(18) 0.10994(12) 0.0370(5) Uani 1 1 d . . .
+C1 C 0.5059(3) 0.1482(3) 0.32875(19) 0.0351(7) Uani 1 1 d . . .
+C2 C 0.6810(3) -0.0427(3) 0.2016(2) 0.0387(8) Uani 1 1 d . . .
+C3 C 0.5061(4) 0.2759(3) 0.0711(2) 0.0399(8) Uani 1 1 d . . .
+C4 C 0.2284(3) -0.1571(3) 0.1680(2) 0.0378(8) Uani 1 1 d . . .
+C5 C 0.2191(4) -0.0802(3) -0.0392(2) 0.0389(8) Uani 1 1 d . . .
+C6 C 0.1344(3) 0.2636(3) 0.06944(19) 0.0361(7) Uani 1 1 d . . .
+C7 C 0.1734(7) 0.3970(8) -0.0913(4) 0.156(3) Uani 1 1 d . . .
+H7 H 0.2017 0.3366 -0.0470 0.187 Uiso 1 1 calc R . .
+C8 C 0.1285(7) 0.5165(8) -0.0883(3) 0.146(3) Uani 1 1 d . . .
+H8 H 0.1305 0.5403 -0.0402 0.176 Uiso 1 1 calc R . .
+C9 C 0.0794(5) 0.6045(5) -0.1551(4) 0.0928(16) Uani 1 1 d . . .
+H9 H 0.0458 0.6870 -0.1537 0.111 Uiso 1 1 calc R . .
+C10 C 0.0808(6) 0.5690(5) -0.2226(4) 0.0943(16) Uani 1 1 d . . .
+H10 H 0.0472 0.6270 -0.2689 0.113 Uiso 1 1 calc R . .
+C11 C 0.1309(6) 0.4492(5) -0.2235(3) 0.0975(16) Uani 1 1 d . . .
+H11 H 0.1328 0.4258 -0.2702 0.117 Uiso 1 1 calc R . .
+C12 C 0.1779(6) 0.3635(5) -0.1580(3) 0.1007(17) Uani 1 1 d . . .
+H12 H 0.2134 0.2817 -0.1588 0.121 Uiso 1 1 calc R . .
+H1 H 0.525(3) 0.216(3) 0.3702(17) 0.033(8) Uiso 1 1 d . . .
+H2 H 0.771(4) -0.066(3) 0.251(2) 0.057(10) Uiso 1 1 d . . .
+H3 H 0.526(4) 0.368(3) 0.069(2) 0.070(11) Uiso 1 1 d . . .
+H4 H 0.244(3) -0.234(3) 0.206(2) 0.057(9) Uiso 1 1 d . . .
+H5 H 0.215(3) -0.123(3) -0.087(2) 0.059(10) Uiso 1 1 d . . .
+H6 H 0.032(3) 0.278(3) 0.0308(18) 0.038(8) Uiso 1 1 d . . .
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Fe1 0.0233(2) 0.0259(2) 0.0255(2) -0.00035(16) 0.01498(17) 0.00016(16)
+Fe2 0.0279(2) 0.0260(2) 0.0275(2) 0.00269(17) 0.01639(19) 0.00170(17)
+Fe3 0.0274(3) 0.0335(3) 0.0304(3) -0.0034(2) 0.0205(3) -0.0010(2)
+Fe4 0.0212(3) 0.0349(3) 0.0300(3) -0.0045(2) 0.0151(3) -0.0032(2)
+O1 0.0336(11) 0.0251(9) 0.0272(10) -0.0009(8) 0.0161(9) -0.0007(8)
+O2 0.0535(14) 0.0313(11) 0.0340(11) 0.0038(9) 0.0254(11) 0.0080(10)
+O3 0.0271(11) 0.0385(11) 0.0334(10) 0.0086(8) 0.0202(9) 0.0069(8)
+O4 0.0358(12) 0.0695(15) 0.0345(11) 0.0051(10) 0.0243(10) 0.0068(11)
+O5 0.0392(12) 0.0294(10) 0.0362(10) -0.0005(9) 0.0283(10) -0.0024(9)
+O6 0.0595(15) 0.0369(12) 0.0524(13) -0.0075(10) 0.0447(12) -0.0030(10)
+O7 0.0253(11) 0.0320(10) 0.0339(11) 0.0016(8) 0.0157(9) -0.0035(8)
+O8 0.0296(12) 0.0559(14) 0.0386(12) 0.0070(10) 0.0158(11) -0.0064(10)
+O9 0.0274(11) 0.0422(11) 0.0330(10) -0.0105(9) 0.0210(9) -0.0077(9)
+O10 0.0310(12) 0.0542(14) 0.0490(12) -0.0163(10) 0.0288(10) -0.0089(10)
+O11 0.0217(10) 0.0293(11) 0.0344(11) -0.0043(8) 0.0145(9) -0.0008(8)
+O12 0.0302(11) 0.0342(11) 0.0390(11) -0.0067(9) 0.0163(10) -0.0019(9)
+C1 0.0422(19) 0.0325(17) 0.0298(17) -0.0036(14) 0.0209(15) 0.0004(14)
+C2 0.0296(18) 0.051(2) 0.0336(17) 0.0067(15) 0.0179(16) 0.0065(15)
+C3 0.052(2) 0.0286(17) 0.0535(19) -0.0007(15) 0.0390(18) -0.0042(15)
+C4 0.0332(19) 0.0394(18) 0.0357(17) 0.0062(14) 0.0176(15) -0.0024(15)
+C5 0.0377(19) 0.051(2) 0.0370(17) -0.0121(15) 0.0271(16) -0.0060(15)
+C6 0.0239(17) 0.0411(19) 0.0372(16) -0.0061(15) 0.0147(14) -0.0019(15)
+C7 0.171(6) 0.239(8) 0.109(5) 0.103(5) 0.111(5) 0.134(6)
+C8 0.125(5) 0.240(8) 0.060(3) 0.008(4) 0.047(4) 0.089(5)
+C9 0.076(3) 0.090(4) 0.112(4) -0.035(3) 0.055(3) -0.012(3)
+C10 0.111(4) 0.092(4) 0.121(4) 0.038(3) 0.091(4) 0.027(3)
+C11 0.121(4) 0.116(4) 0.065(3) 0.008(3) 0.060(3) 0.032(4)
+C12 0.124(5) 0.096(4) 0.099(4) 0.025(3) 0.075(4) 0.047(3)
+
+_geom_special_details            
+;
+All esds (except the esd in the dihedral angle between two l.s. planes)
+are estimated using the full covariance matrix. The cell esds are taken
+into account individually in the estimation of esds in distances, angles
+and torsion angles; correlations between esds in cell parameters are only
+used when they are defined by crystal symmetry. An approximate (isotropic)
+treatment of cell esds is used for estimating esds involving l.s. planes.
+;
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Fe1 O9 2.0953(18) . ?
+Fe1 O11 2.0994(17) . ?
+Fe1 O3 2.1118(18) . ?
+Fe1 O5 2.1489(19) . ?
+Fe1 O7 2.1533(18) . ?
+Fe1 O1 2.1773(18) . ?
+Fe2 O2 2.0698(19) . ?
+Fe2 O12 2.0824(19) 2_645 ?
+Fe2 O1 2.1388(18) 2_645 ?
+Fe2 O3 2.1413(19) . ?
+Fe2 O5 2.1511(18) 2_645 ?
+Fe2 O7 2.1562(18) . ?
+Fe3 O6 2.0871(19) 3_655 ?
+Fe3 O6 2.0871(19) . ?
+Fe3 O4 2.114(2) . ?
+Fe3 O4 2.114(2) 3_655 ?
+Fe3 O9 2.1702(19) 3_655 ?
+Fe3 O9 2.1702(19) . ?
+Fe4 O10 2.073(2) 3 ?
+Fe4 O10 2.073(2) . ?
+Fe4 O8 2.110(2) . ?
+Fe4 O8 2.110(2) 3 ?
+Fe4 O11 2.1701(17) . ?
+Fe4 O11 2.1701(17) 3 ?
+O1 C1 1.263(3) . ?
+O1 Fe2 2.1388(18) 2_655 ?
+O2 C1 1.234(3) . ?
+O3 C2 1.260(4) . ?
+O4 C2 1.225(4) . ?
+O5 C3 1.272(4) . ?
+O5 Fe2 2.1511(18) 2_655 ?
+O6 C3 1.235(3) . ?
+O7 C4 1.266(3) . ?
+O8 C4 1.228(3) . ?
+O9 C5 1.278(3) . ?
+O10 C5 1.234(4) . ?
+O11 C6 1.271(3) . ?
+O12 C6 1.238(3) . ?
+O12 Fe2 2.0824(19) 2_655 ?
+C1 H1 0.97(3) . ?
+C2 H2 0.92(3) . ?
+C3 H3 0.97(3) . ?
+C4 H4 1.00(3) . ?
+C5 H5 0.98(3) . ?
+C6 H6 0.96(3) . ?
+C7 C8 1.334(8) . ?
+C7 C12 1.341(7) . ?
+C7 H7 0.9300 . ?
+C8 C9 1.370(8) . ?
+C8 H8 0.9300 . ?
+C9 C10 1.340(6) . ?
+C9 H9 0.9300 . ?
+C10 C11 1.351(6) . ?
+C10 H10 0.9300 . ?
+C11 C12 1.341(6) . ?
+C11 H11 0.9300 . ?
+C12 H12 0.9300 . ?
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O9 Fe1 O11 93.70(7) . . ?
+O9 Fe1 O3 91.68(7) . . ?
+O11 Fe1 O3 170.23(8) . . ?
+O9 Fe1 O5 94.07(7) . . ?
+O11 Fe1 O5 95.00(7) . . ?
+O3 Fe1 O5 92.75(7) . . ?
+O9 Fe1 O7 99.23(7) . . ?
+O11 Fe1 O7 93.98(7) . . ?
+O3 Fe1 O7 77.09(7) . . ?
+O5 Fe1 O7 163.42(7) . . ?
+O9 Fe1 O1 171.56(7) . . ?
+O11 Fe1 O1 88.64(7) . . ?
+O3 Fe1 O1 87.21(7) . . ?
+O5 Fe1 O1 77.64(7) . . ?
+O7 Fe1 O1 88.68(7) . . ?
+O2 Fe2 O12 92.83(8) . 2_645 ?
+O2 Fe2 O1 169.75(8) . 2_645 ?
+O12 Fe2 O1 90.21(7) 2_645 2_645 ?
+O2 Fe2 O3 95.36(8) . . ?
+O12 Fe2 O3 89.92(7) 2_645 . ?
+O1 Fe2 O3 94.43(7) 2_645 . ?
+O2 Fe2 O5 91.72(8) . 2_645 ?
+O12 Fe2 O5 91.26(7) 2_645 2_645 ?
+O1 Fe2 O5 78.43(7) 2_645 2_645 ?
+O3 Fe2 O5 172.76(7) . 2_645 ?
+O2 Fe2 O7 90.51(8) . . ?
+O12 Fe2 O7 166.18(8) 2_645 . ?
+O1 Fe2 O7 88.85(7) 2_645 . ?
+O3 Fe2 O7 76.41(7) . . ?
+O5 Fe2 O7 102.05(7) 2_645 . ?
+O6 Fe3 O6 180.00(12) 3_655 . ?
+O6 Fe3 O4 89.63(8) 3_655 . ?
+O6 Fe3 O4 90.37(8) . . ?
+O6 Fe3 O4 90.37(8) 3_655 3_655 ?
+O6 Fe3 O4 89.63(8) . 3_655 ?
+O4 Fe3 O4 180.00(15) . 3_655 ?
+O6 Fe3 O9 91.10(7) 3_655 3_655 ?
+O6 Fe3 O9 88.90(7) . 3_655 ?
+O4 Fe3 O9 86.65(8) . 3_655 ?
+O4 Fe3 O9 93.35(8) 3_655 3_655 ?
+O6 Fe3 O9 88.90(7) 3_655 . ?
+O6 Fe3 O9 91.10(7) . . ?
+O4 Fe3 O9 93.35(8) . . ?
+O4 Fe3 O9 86.65(8) 3_655 . ?
+O9 Fe3 O9 180.00(8) 3_655 . ?
+O10 Fe4 O10 180.00(8) 3 . ?
+O10 Fe4 O8 90.38(8) 3 . ?
+O10 Fe4 O8 89.62(8) . . ?
+O10 Fe4 O8 89.62(8) 3 3 ?
+O10 Fe4 O8 90.38(8) . 3 ?
+O8 Fe4 O8 180.00(13) . 3 ?
+O10 Fe4 O11 89.28(7) 3 . ?
+O10 Fe4 O11 90.72(7) . . ?
+O8 Fe4 O11 92.75(7) . . ?
+O8 Fe4 O11 87.25(7) 3 . ?
+O10 Fe4 O11 90.72(7) 3 3 ?
+O10 Fe4 O11 89.28(7) . 3 ?
+O8 Fe4 O11 87.25(7) . 3 ?
+O8 Fe4 O11 92.75(7) 3 3 ?
+O11 Fe4 O11 180.00(11) . 3 ?
+C1 O1 Fe2 128.47(18) . 2_655 ?
+C1 O1 Fe1 132.25(18) . . ?
+Fe2 O1 Fe1 96.81(7) 2_655 . ?
+C1 O2 Fe2 128.61(19) . . ?
+C2 O3 Fe1 132.45(19) . . ?
+C2 O3 Fe2 126.11(19) . . ?
+Fe1 O3 Fe2 99.60(8) . . ?
+C2 O4 Fe3 136.2(2) . . ?
+C3 O5 Fe1 134.01(18) . . ?
+C3 O5 Fe2 127.94(18) . 2_655 ?
+Fe1 O5 Fe2 97.30(8) . 2_655 ?
+C3 O6 Fe3 135.6(2) . . ?
+C4 O7 Fe1 134.05(18) . . ?
+C4 O7 Fe2 127.95(18) . . ?
+Fe1 O7 Fe2 97.84(8) . . ?
+C4 O8 Fe4 135.9(2) . . ?
+C5 O9 Fe1 127.94(19) . . ?
+C5 O9 Fe3 116.36(18) . . ?
+Fe1 O9 Fe3 115.67(8) . . ?
+C5 O10 Fe4 140.8(2) . . ?
+C6 O11 Fe1 127.99(18) . . ?
+C6 O11 Fe4 117.60(17) . . ?
+Fe1 O11 Fe4 114.41(8) . . ?
+C6 O12 Fe2 132.02(19) . 2_655 ?
+O2 C1 O1 126.3(3) . . ?
+O2 C1 H1 115.3(15) . . ?
+O1 C1 H1 118.2(15) . . ?
+O4 C2 O3 127.2(3) . . ?
+O4 C2 H2 117(2) . . ?
+O3 C2 H2 116(2) . . ?
+O6 C3 O5 126.8(3) . . ?
+O6 C3 H3 115(2) . . ?
+O5 C3 H3 118(2) . . ?
+O8 C4 O7 127.0(3) . . ?
+O8 C4 H4 116.9(19) . . ?
+O7 C4 H4 116.0(19) . . ?
+O10 C5 O9 126.7(3) . . ?
+O10 C5 H5 114.0(19) . . ?
+O9 C5 H5 119.2(19) . . ?
+O12 C6 O11 126.9(3) . . ?
+O12 C6 H6 119.3(17) . . ?
+O11 C6 H6 113.7(17) . . ?
+C8 C7 C12 120.3(5) . . ?
+C8 C7 H7 119.9 . . ?
+C12 C7 H7 119.9 . . ?
+C7 C8 C9 120.8(5) . . ?
+C7 C8 H8 119.6 . . ?
+C9 C8 H8 119.6 . . ?
+C10 C9 C8 118.5(5) . . ?
+C10 C9 H9 120.7 . . ?
+C8 C9 H9 120.7 . . ?
+C9 C10 C11 120.1(5) . . ?
+C9 C10 H10 120.0 . . ?
+C11 C10 H10 120.0 . . ?
+C12 C11 C10 120.9(5) . . ?
+C12 C11 H11 119.6 . . ?
+C10 C11 H11 119.6 . . ?
+C7 C12 C11 119.4(5) . . ?
+C7 C12 H12 120.3 . . ?
+C11 C12 H12 120.3 . . ?
+
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_site_symmetry_A
+C1 H1 O3 0.97(3) 2.94(3) 3.433(3) 112.7(17) 2_655
+C1 H1 O6 0.97(3) 3.07(3) 3.917(4) 147(2) 4_566
+C1 H1 O9 0.97(3) 3.19(3) 4.089(3) 156(2) 2_655
+C2 H2 O12 0.92(3) 2.66(3) 3.192(4) 117(3) 2_645
+C3 H3 O2 0.97(3) 2.64(3) 3.194(4) 117(3) 2_655
+C4 H4 O5 1.00(3) 3.00(3) 3.571(4) 117(2) 2_645
+C5 H5 O4 0.98(3) 2.52(3) 2.970(4) 108(2) 3_655
+C5 H5 O6 0.98(3) 2.73(3) 3.161(4) 107(2) 3_655
+C6 H6 O8 0.96(3) 2.57(3) 3.097(3) 115(2) 3
+C6 H6 O10 0.96(3) 2.62(3) 3.090(4) 110(2) 3
+
+_diffrn_measured_fraction_theta_max 0.997
+_diffrn_reflns_theta_full        27.48
+_diffrn_measured_fraction_theta_full 0.997
+_refine_diff_density_max         0.438
+_refine_diff_density_min         -0.496
+_refine_diff_density_rms         0.083

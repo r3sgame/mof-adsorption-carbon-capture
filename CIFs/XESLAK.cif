@@ -1,0 +1,286 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_STA12CO-AP
+_audit_block_doi                 10.5517/cczrr0g
+_database_code_depnum_ccdc_archive 'CCDC 916546'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1016/j.micromeso.2011.12.003 2012
+_audit_update_record             
+;
+2012-12-20 deposited with the CCDC.	2024-07-13 downloaded from the CCDC.
+;
+
+_pd_block_id                     
+2011-01-22T18:56|STA12CO-AP|MTWharmby|Stoe_STADI_P
+
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_creation_date             2011-01-22T18:56
+# 5. OVERALL REFINEMENT & COMPUTING DETAILS
+
+_refine_special_details          
+; ?
+;
+_pd_proc_ls_special_details      
+; ?
+;
+
+# The following items are used to identify the programs used.
+_computing_molecular_graphics    ?
+_computing_publication_material  ?
+
+_refine_ls_weighting_scheme      ?
+_refine_ls_weighting_details     ?
+_refine_ls_hydrogen_treatment    ?
+_refine_ls_extinction_method     ?
+_refine_ls_extinction_coef       ?
+_refine_ls_number_constraints    ?
+
+_refine_ls_restrained_S_all      ?
+_refine_ls_restrained_S_obs      ?
+
+#==============================================================================
+# 6. SAMPLE PREPARATION DATA
+
+# (In the unusual case where multiple samples are used in a single
+# Rietveld study, this information should be moved into the phase
+# blocks)
+
+# The following three fields describe the preparation of the material.
+# The cooling rate is in K/min. The pressure at which the sample was
+# prepared is in kPa. The temperature of preparation is in K.
+
+_pd_prep_cool_rate               ?
+_pd_prep_pressure                ?
+_pd_prep_temperature             ?
+
+_pd_char_colour                  violet
+_refine_ls_shift/su_max          0.05
+_refine_ls_shift/su_mean         0.01
+_computing_structure_refinement  GSAS
+_refine_ls_number_parameters     46
+_refine_ls_goodness_of_fit_all   2.05
+_refine_ls_number_restraints     43
+_refine_ls_matrix_type           full
+
+_refine_diff_density_max         0.526
+_refine_diff_density_min         -0.480
+#==============================================================================
+# 7. CHEMICAL, STRUCTURAL AND CRYSTAL DATA
+
+_pd_char_particle_morphology     ?
+
+_chemical_name_systematic        
+; ?
+;
+_chemical_name_common            ?
+_chemical_formula_moiety         'C3 Co N O4 P, 2.55(O)'
+_chemical_formula_structural     ?
+_chemical_formula_analytical     ?
+_chemical_melting_point          ?
+_chemical_compound_source        ? # for minerals and
+# natural products
+_symmetry_space_group_name_Hall  '-R 3'
+
+_exptl_crystal_F_000             ?
+_exptl_crystal_density_diffrn    1.703 #Non-H atoms only
+_exptl_crystal_density_meas      1.882
+_exptl_crystal_density_method    'He pycnometry'
+
+_cell_measurement_temperature    298
+
+_cell_special_details            
+; ?
+;
+
+_geom_special_details            ?
+
+# The following item identifies the program(s) used (if appropriate).
+_computing_structure_solution    ?
+
+#==============================================================================
+
+# 8. Phase information from GSAS
+
+_pd_phase_name                   'STA-12(Co) As-Prepared'
+_cell_length_a                   28.0942(19)
+_cell_length_b                   28.0942
+_cell_length_c                   6.28460(34)
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_volume                     4295.8(5)
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_H-M   'R -3'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,x-y,+z
+3 y-x,-x,+z
+-1 -x,-y,-z
+-2 +y,y-x,-z
+-3 x-y,+x,-z
+101 +x+1/3,+y+2/3,+z+2/3
+102 -y+1/3,x-y+2/3,+z+2/3
+103 y-x+1/3,-x+2/3,+z+2/3
+-101 -x+2/3,-y+1/3,-z+1/3
+-102 +y+2/3,y-x+1/3,-z+1/3
+-103 x-y+2/3,+x+1/3,-z+1/3
+201 +x+2/3,+y+1/3,+z+1/3
+202 -y+2/3,x-y+1/3,+z+1/3
+203 y-x+2/3,-x+1/3,+z+1/3
+-201 -x+1/3,-y+2/3,-z+2/3
+-202 +y+1/3,y-x+2/3,-z+2/3
+-203 x-y+1/3,+x+2/3,-z+2/3
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Co Co1 0.3068(4) 0.03248(34) -0.2832(15) 1.0 Uiso 0.0117(13) 18
+P P1 0.4224(5) 0.0310(7) -0.4295(19) 1.0 Uiso 0.0117(13) 18
+O O1 0.4747(6) 0.0825(8) -0.478(4) 1.0 Uiso 0.0117(13) 18
+O O2 0.3896(4) 0.0445(5) -0.2815(19) 1.0 Uiso 0.0117(13) 18
+O O3 0.2845(4) -0.0517(4) -0.2825(18) 1.0 Uiso 0.0117(13) 18
+O O100 0.2281(7) 0.0175(7) -0.221(4) 1.0 Uiso 0.024(5) 18
+N N1 0.44779(34) -0.0056(6) -0.0443(26) 1.0 Uiso 0.0117(13) 18
+C C1 0.4394(13) -0.0153(10) -0.2827(27) 1.0 Uiso 0.0117(13) 18
+C C2 0.5025(8) -0.0508(5) -0.001(5) 1.0 Uiso 0.0117(13) 18
+C C3 0.4515(6) -0.0503(7) 0.080(4) 1.0 Uiso 0.0117(13) 18
+O O101 0.4164(15) -0.1450(16) -0.504(6) 1.0 Uiso 0.037(9) 18
+O O102 0.3482(4) -0.2766(6) -0.1657(14) 0.827(25) Uiso 0.037(9) 18
+O O103 0.3862(19) -0.2058(15) -0.870(6) 0.72(4) Uiso 0.037(9) 18
+
+# If you change Z, be sure to change all 3 of the following
+_chemical_formula_sum            'C3 Co N O6.55 P'
+_chemical_formula_weight         244.71
+_cell_formula_units_Z            18
+
+# MOLECULAR GEOMETRY
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Co1 O2 2.175(8) . 1_555 N
+Co1 O2 2.155(9) . 102_544 N
+Co1 O3 2.121(8) . 1_555 N
+Co1 O3 2.181(9) . 203_555 N
+Co1 O100 2.071(14) . 1_555 N
+Co1 N1 2.236(13) . 102_544 N
+P1 O1 1.488(9) . 1_555 N
+P1 O2 1.487(9) . 1_555 N
+P1 O3 1.507(11) . 102_544 N
+P1 C1 1.842(9) . 1_555 N
+O1 P1 1.488(9) . 1_555 N
+O2 Co1 2.175(8) . 1_555 N
+O2 Co1 2.155(9) . 203_555 N
+O2 P1 1.487(9) . 1_555 N
+O3 Co1 2.121(8) . 1_555 N
+O3 Co1 2.181(9) . 102_544 N
+O3 P1 1.507(11) . 203_555 N
+O100 Co1 2.071(14) . 1_555 N
+N1 Co1 2.236(13) . 203_555 N
+N1 C1 1.520(6) . 1_555 N
+N1 C2 1.527(4) . -1_655 N
+N1 C3 1.525(4) . 1_555 N
+C1 P1 1.842(9) . 1_555 N
+C1 N1 1.520(6) . 1_555 N
+C2 N1 1.527(4) . -1_655 N
+C2 C3 1.527(4) . 1_555 N
+C3 N1 1.525(4) . 1_555 N
+C3 C2 1.527(4) . 1_555 N
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 Co1 O2 97.7(6) 1_555 . 102_544 N
+O2 Co1 O3 82.6(5) 1_555 . 1_555 N
+O2 Co1 O3 76.9(4) 1_555 . 203_555 N
+O2 Co1 O100 168.4(8) 1_555 . 1_555 N
+O2 Co1 N1 91.1(5) 1_555 . 102_544 N
+O2 Co1 O3 78.6(4) 102_544 . 1_555 N
+O2 Co1 O3 173.5(7) 102_544 . 203_555 N
+O2 Co1 O100 92.7(8) 102_544 . 1_555 N
+O2 Co1 N1 87.3(5) 102_544 . 102_544 N
+O3 Co1 O3 97.0(6) 1_555 . 203_555 N
+O3 Co1 O100 94.7(6) 1_555 . 1_555 N
+O3 Co1 N1 163.5(6) 1_555 . 102_544 N
+O3 Co1 O100 92.4(8) 203_555 . 1_555 N
+O3 Co1 N1 96.4(6) 203_555 . 102_544 N
+O100 Co1 N1 94.4(7) 1_555 . 102_544 N
+O1 P1 O2 108.4(12) 1_555 . 1_555 N
+O1 P1 O3 116.3(13) 1_555 . 102_544 N
+O1 P1 C1 108.1(11) 1_555 . 1_555 N
+O2 P1 O3 105.1(8) 1_555 . 102_544 N
+O2 P1 C1 106.2(10) 1_555 . 1_555 N
+O3 P1 C1 112.1(11) 102_544 . 1_555 N
+Co1 O2 Co1 97.4(4) 1_555 . 203_555 N
+Co1 O2 P1 135.1(7) 1_555 . 1_555 N
+Co1 O2 P1 116.4(7) 203_555 . 1_555 N
+Co1 O3 Co1 98.3(5) 1_555 . 102_544 N
+Co1 O3 P1 129.2(7) 1_555 . 203_555 N
+Co1 O3 P1 130.7(8) 102_544 . 203_555 N
+Co1 N1 C1 104.9(9) 203_555 . 1_555 N
+Co1 N1 C2 89.6(12) 203_555 . -1_655 N
+Co1 N1 C3 123.0(12) 203_555 . 1_555 N
+C1 N1 C2 110.4(11) 1_555 . -1_655 N
+C1 N1 C3 115.2(11) 1_555 . 1_555 N
+C2 N1 C3 110.9(10) -1_655 . 1_555 N
+P1 C1 N1 116.0(9) 1_555 . 1_555 N
+N1 C2 C3 107.7(8) -1_655 . 1_555 N
+N1 C3 C2 106.7(8) 1_555 . 1_555 N
+
+
+
+# start Validation Reply Form
+_vrf_RADNT01_STA12CO-AP          
+;
+PROBLEM: The radiation type should contain one of the following
+RESPONSE: Fe K\a~1~ radiation used
+;
+
+_vrf_PLAT306_STA12CO-AP          
+;
+PROBLEM: Isolated Oxygen Atom (H-atoms Missing ?) ....... O101
+RESPONSE: Solvent water molecule in pore; powder data, H-atoms cannot be found
+;
+# end Validation Reply Form
+#--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--eof--#
+
+
+

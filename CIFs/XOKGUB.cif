@@ -1,0 +1,374 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_Zn4Py
+_audit_block_doi                 10.5517/cc12dd51
+_database_code_depnum_ccdc_archive 'CCDC 995012'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1039/C4CE00861H 2014
+_audit_update_record             
+;
+2014-05-27 deposited with the CCDC.	2024-07-13 downloaded from the CCDC.
+;
+
+_audit_creation_method           SHELXL-2013
+_chemical_name_systematic        
+;
+ ?
+;
+_chemical_name_common            ?
+_chemical_melting_point          ?
+_chemical_formula_moiety         'C45 H39 N5 O3 Zn'
+_chemical_formula_sum            'C45 H39 N5 O3 Zn'
+_chemical_formula_weight         763.18
+
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zn Zn 0.2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           4
+_space_group_name_H-M_alt        'P 21'
+_space_group_name_Hall           'P 2yb'
+
+_shelx_space_group_comment       
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-x, y+1/2, -z'
+
+_cell_length_a                   10.372(7)
+_cell_length_b                   22.684(14)
+_cell_length_c                   18.375(11)
+_cell_angle_alpha                90
+_cell_angle_beta                 104.440(10)
+_cell_angle_gamma                90
+_cell_volume                     4187(5)
+_cell_formula_units_Z            4
+_cell_measurement_temperature    93(2)
+_cell_measurement_reflns_used    7761
+_cell_measurement_theta_min      2.10
+_cell_measurement_theta_max      25.30
+
+_exptl_crystal_description       needle
+_exptl_crystal_colour            black
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    ?
+_exptl_crystal_density_diffrn    1.211
+_exptl_crystal_F_000             1592
+_exptl_transmission_factor_min   ?
+_exptl_transmission_factor_max   ?
+_exptl_crystal_size_max          0.340
+_exptl_crystal_size_mid          0.050
+_exptl_crystal_size_min          0.020
+_exptl_absorpt_coefficient_mu    0.630
+_shelx_estimated_absorpt_T_min   0.814
+_shelx_estimated_absorpt_T_max   0.988
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'REQAB (Rigaku, 1998)'
+_exptl_absorpt_correction_T_min  0.772
+_exptl_absorpt_correction_T_max  0.987
+
+_exptl_special_details           
+;
+ ?
+;
+
+_diffrn_ambient_temperature      93(2)
+_diffrn_radiation_wavelength     0.71075
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_measurement_device_type  'VariMax DW with Saturn'
+_diffrn_measurement_method       \w
+_diffrn_detector_area_resol_mean 7.111
+_diffrn_reflns_number            29029
+_diffrn_reflns_av_unetI/netI     0.2225
+_diffrn_reflns_av_R_equivalents  0.1169
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_k_min       -27
+_diffrn_reflns_limit_k_max       27
+_diffrn_reflns_limit_l_min       -22
+_diffrn_reflns_limit_l_max       21
+_diffrn_reflns_theta_min         2.028
+_diffrn_reflns_theta_max         25.255
+_diffrn_reflns_theta_full        25.242
+_diffrn_measured_fraction_theta_max 0.992
+_diffrn_measured_fraction_theta_full 0.993
+_diffrn_reflns_Laue_measured_fraction_max 0.992
+_diffrn_reflns_Laue_measured_fraction_full 0.993
+_diffrn_reflns_point_group_measured_fraction_max 0.959
+_diffrn_reflns_point_group_measured_fraction_full 0.960
+_reflns_number_total             14538
+_reflns_number_gt                6814
+_reflns_threshold_expression     'I > 2\s(I)'
+_reflns_Friedel_coverage         0.881
+_reflns_Friedel_fraction_max     0.924
+_reflns_Friedel_fraction_full    0.925
+
+_reflns_special_details          
+;
+ Reflections were merged by SHELXL according to the crystal
+ class for the calculation of statistics and refinement.
+ 
+ _reflns_Friedel_fraction is defined as the number of unique
+ Friedel pairs measured divided by the number that would be
+ possible theoretically, ignoring centric projections and
+ systematic absences.
+;
+
+_computing_data_collection       'CrystalClear-SM Expert 2.0 r3 (Rigaku, 2009)'
+_computing_cell_refinement       'CrystalClear-SM Expert 2.0 r3'
+_computing_data_reduction        'CrystalClear-SM Expert 2.0 r3'
+_computing_structure_solution    'Il Milione (Burla, et al., 2007)'
+_computing_structure_refinement  'SHELXL-2013 (Sheldrick, 2013)'
+_computing_publication_material  'CrystalStructure 4.0 (Rigaku, 2010)'
+_computing_molecular_graphics    'CrystalStructure 4.0'
+
+_refine_special_details          
+;
+ Because only micro-crystals were obtained, and the crystals contained 
+ disordered solvents, quality of reflection data was low.
+ Rigid bond restraints with DELU command were applied to the Uij values.
+ Part of an ester moiety were solved isotropically.
+ Contributions of disordered solvents on the reflection data were removed
+ by the SQUEEZE command in the program PLATON.
+;
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_matrix_type           full
+_refine_ls_weighting_scheme      calc
+_refine_ls_weighting_details     
+'w=1/[\s^2^(Fo^2^)+(0.1068P)^2^+0.5412P] where P=(Fo^2^+2Fc^2^)/3'
+_atom_sites_solution_primary     ?
+_atom_sites_solution_secondary   ?
+_atom_sites_solution_hydrogens   geom
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_extinction_method     none
+_refine_ls_extinction_coef       .
+_refine_ls_abs_structure_details 
+;
+ Flack x determined using 1593 quotients [(I+)-(I-)]/[(I+)+(I-)]
+ (Parsons and Flack (2004), Acta Cryst. A60, s61).
+;
+_refine_ls_abs_structure_Flack   0.10(2)
+_chemical_absolute_configuration syn
+_refine_ls_number_reflns         14538
+_refine_ls_number_parameters     968
+_refine_ls_number_restraints     333
+_refine_ls_R_factor_all          0.1955
+_refine_ls_R_factor_gt           0.1136
+_refine_ls_wR_factor_ref         0.2990
+_refine_ls_wR_factor_gt          0.2384
+_refine_ls_goodness_of_fit_ref   1.046
+_refine_ls_restrained_S_all      1.041
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+
+# SQUEEZE RESULTS (APPEND TO CIF)
+# Note: Data are Listed for all Voids in the P1 Unit Cell
+# i.e. Centre of Gravity, Solvent Accessible Volume,
+# Recovered number of Electrons in the Void and
+# Details about the Squeezed Material
+loop_
+_platon_squeeze_void_nr
+_platon_squeeze_void_average_x
+_platon_squeeze_void_average_y
+_platon_squeeze_void_average_z
+_platon_squeeze_void_volume
+_platon_squeeze_void_count_electrons
+_platon_squeeze_void_content
+1 0.049 0.056 0.299 319 55 ' '
+2 -0.015 0.556 0.701 318 55 ' '
+_platon_squeeze_details          
+;
+ The asymmetric unit contains highly disordered solvent molecules
+ which could not identified. Their contribution on the diffraction
+ data  was subtracted by the SQUEEZE command in the program PLATON (Spek, 2009).
+;
+
+# start Validation Reply Form
+_vrf_PLAT213_Zn4Py               
+;
+PROBLEM: Atom N5 has ADP max/min Ratio ..... 5.5 prolat
+RESPONSE: Quality of reflection data is low.
+;
+# end Validation Reply Form
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Zn1 Zn 0.57963(19) 0.75774(8) 0.21471(12) 0.0417(6) Uani 1 1 d . U . . .
+Zn2 Zn 0.8914(2) 0.47610(9) 0.27825(14) 0.0518(7) Uani 1 1 d . U . . .
+O1 O 0.2362(12) 0.9400(6) 0.3637(8) 0.057(4) Uani 1 1 d . U . . .
+O2 O 0.9633(16) 0.7476(10) 0.6837(11) 0.123(7) Uani 1 1 d . U . . .
+O3 O 0.7472(14) 0.7496(8) 0.6456(7) 0.087(5) Uani 1 1 d . U . . .
+O4 O 1.2795(16) 0.3017(8) 0.1494(11) 0.099(6) Uani 1 1 d . U . . .
+O5 O 0.5454(17) 0.2051(9) 0.1802(14) 0.136(8) Uani 1 1 d . U . . .
+O6 O 0.3965(19) 0.2018(8) 0.0570(11) 0.099(5) Uani 1 1 d . U . . .
+N1 N 0.7267(14) 0.7011(6) 0.2140(10) 0.046(4) Uani 1 1 d . U . . .
+N2 N 0.4496(13) 0.7101(6) 0.1338(9) 0.044(4) Uani 1 1 d . U . . .
+N3 N 0.4180(14) 0.7990(7) 0.2333(9) 0.046(4) Uani 1 1 d . U . . .
+N4 N 0.6983(13) 0.7920(6) 0.3218(7) 0.031(3) Uani 1 1 d . U . . .
+N5 N 1.3480(14) 0.3243(6) -0.1519(9) 0.041(4) Uani 1 1 d . U . . .
+N6 N 0.7311(13) 0.5299(6) 0.2701(9) 0.040(3) Uani 1 1 d . U . . .
+N7 N 1.0082(15) 0.5317(7) 0.3596(10) 0.057(4) Uani 1 1 d . U . . .
+N8 N 1.0621(15) 0.4405(7) 0.2650(10) 0.055(4) Uani 1 1 d . U . . .
+N9 N 0.7880(15) 0.4326(7) 0.1754(10) 0.052(4) Uani 1 1 d . U . . .
+N10 N 0.1656(14) 0.9117(7) 0.6510(10) 0.052(4) Uani 1 1 d . U . . .
+C1 C 0.8601(17) 0.7043(7) 0.2589(12) 0.049(5) Uani 1 1 d . U . . .
+C2 C 0.9425(17) 0.6644(8) 0.2260(12) 0.049(5) Uani 1 1 d . U . . .
+C3 C 0.8592(18) 0.6352(8) 0.1698(11) 0.045(4) Uani 1 1 d . U . . .
+C4 C 0.7240(17) 0.6573(7) 0.1615(9) 0.033(3) Uani 1 1 d . U . . .
+C5 C 0.6085(19) 0.6401(8) 0.1109(12) 0.055(5) Uani 1 1 d . U . . .
+H5 H 0.6180 0.6057 0.0832 0.066 Uiso 1 1 calc R U . . .
+C6 C 0.4832(17) 0.6629(7) 0.0930(11) 0.042(4) Uani 1 1 d . U . . .
+C7 C 0.3630(19) 0.6411(9) 0.0370(11) 0.053(5) Uani 1 1 d . U . . .
+C8 C 0.2609(18) 0.6741(9) 0.0410(12) 0.056(5) Uani 1 1 d . U . . .
+C9 C 0.3108(18) 0.7163(8) 0.1052(12) 0.049(4) Uani 1 1 d . U . . .
+C10 C 0.2397(16) 0.7553(10) 0.1294(9) 0.044(4) Uani 1 1 d . U . . .
+H10 H 0.1466 0.7549 0.1071 0.053 Uiso 1 1 calc R U . . .
+C11 C 0.2868(17) 0.7988(8) 0.1858(10) 0.039(4) Uani 1 1 d . U . . .
+C12 C 0.2091(18) 0.8406(8) 0.2211(14) 0.062(6) Uani 1 1 d . U . . .
+C13 C 0.2983(17) 0.8646(8) 0.2856(13) 0.056(5) Uani 1 1 d . U . . .
+C14 C 0.4275(19) 0.8372(9) 0.2907(13) 0.053(5) Uani 1 1 d . U . . .
+C15 C 0.5243(17) 0.8574(9) 0.3539(11) 0.045(4) Uani 1 1 d . U . . .
+C16 C 0.6532(17) 0.8322(8) 0.3671(12) 0.050(4) Uani 1 1 d . U . . .
+C17 C 0.7684(15) 0.8454(7) 0.4402(10) 0.043(4) Uani 1 1 d . U . . .
+H17 H 0.7687 0.8878 0.4548 0.051 Uiso 1 1 calc R U . . .
+C18 C 0.8877(16) 0.8311(8) 0.4087(11) 0.042(4) Uani 1 1 d . U . . .
+H18 H 0.9579 0.8112 0.4485 0.050 Uiso 1 1 calc R U . . .
+C19 C 0.8271(16) 0.7849(7) 0.3437(11) 0.039(4) Uani 1 1 d . U . . .
+C20 C 0.9026(17) 0.7435(8) 0.3169(9) 0.037(4) Uani 1 1 d . U . . .
+H20 H 0.9946 0.7421 0.3418 0.045 Uiso 1 1 calc R U . . .
+C21 C 1.0887(17) 0.6542(9) 0.2608(14) 0.067(6) Uani 1 1 d . U . . .
+H21A H 1.1390 0.6607 0.2228 0.081 Uiso 1 1 calc R U . . .
+H21B H 1.1024 0.6136 0.2794 0.081 Uiso 1 1 calc R U . . .
+H21C H 1.1197 0.6817 0.3026 0.081 Uiso 1 1 calc R U . . .
+C22 C 0.9044(18) 0.5902(7) 0.1287(11) 0.045(4) Uani 1 1 d . U . . .
+C23 C 0.9431(18) 0.5558(9) 0.0893(11) 0.051(5) Uani 1 1 d . U . . .
+C24 C 0.3649(19) 0.5881(8) -0.0086(10) 0.050(5) Uani 1 1 d . U . . .
+H24A H 0.3349 0.5983 -0.0620 0.060 Uiso 1 1 calc R U . . .
+H24B H 0.3054 0.5583 0.0037 0.060 Uiso 1 1 calc R U . . .
+H24C H 0.4558 0.5724 0.0019 0.060 Uiso 1 1 calc R U . . .
+C25 C 0.112(2) 0.6669(12) 0.0019(14) 0.083(7) Uani 1 1 d . U . . .
+H25A H 0.0799 0.6294 0.0183 0.099 Uiso 1 1 calc R U . . .
+H25B H 0.0618 0.6994 0.0181 0.099 Uiso 1 1 calc R U . . .
+C26 C 0.083(3) 0.6672(13) -0.0821(15) 0.112(10) Uani 1 1 d . U . . .
+H26A H 0.1384 0.6375 -0.0986 0.134 Uiso 1 1 calc R U . . .
+H26B H 0.1036 0.7062 -0.0994 0.134 Uiso 1 1 calc R U . . .
+H26C H -0.0110 0.6582 -0.1034 0.134 Uiso 1 1 calc R U . . .
+C27 C 0.0549(17) 0.8538(8) 0.1910(11) 0.051(5) Uani 1 1 d . U . . .
+H27A H 0.0416 0.8961 0.1808 0.061 Uiso 1 1 calc R U . . .
+H27B H 0.0083 0.8419 0.2289 0.061 Uiso 1 1 calc R U . . .
+H27C H 0.0196 0.8315 0.1446 0.061 Uiso 1 1 calc R U . . .
+C28 C 0.3175(17) 0.9036(8) 0.3450(12) 0.044(4) Uani 1 1 d . U . . .
+C29 C 0.4604(15) 0.8989(9) 0.3942(12) 0.055(5) Uani 1 1 d . U . . .
+H29A H 0.5055 0.9377 0.3993 0.066 Uiso 1 1 calc R U . . .
+H29B H 0.4611 0.8838 0.4449 0.066 Uiso 1 1 calc R U . . .
+C30 C 0.7480(17) 0.8048(8) 0.5043(11) 0.053(4) Uani 1 1 d . U . . .
+H30A H 0.6604 0.8131 0.5144 0.063 Uiso 1 1 calc R U . . .
+H30B H 0.7490 0.7631 0.4888 0.063 Uiso 1 1 calc R U . . .
+C31 C 0.8555(18) 0.8150(9) 0.5740(12) 0.063(5) Uani 1 1 d . U . . .
+H31A H 0.8428 0.8542 0.5946 0.076 Uiso 1 1 calc R U . . .
+H31B H 0.9426 0.8151 0.5610 0.076 Uiso 1 1 calc R U . . .
+C32 C 0.858(3) 0.7660(12) 0.6373(13) 0.082(7) Uani 1 1 d . U . . .
+C33 C 0.748(3) 0.7040(16) 0.7041(19) 0.157(14) Uiso 1 1 d . . . . .
+H33A H 0.7175 0.6664 0.6799 0.188 Uiso 1 1 calc R U . . .
+H33B H 0.6893 0.7163 0.7355 0.188 Uiso 1 1 calc R U . . .
+H33C H 0.8392 0.6995 0.7356 0.188 Uiso 1 1 calc R U . . .
+C34 C 0.9468(16) 0.8835(7) 0.3792(11) 0.046(5) Uani 1 1 d . U . . .
+H34A H 0.9702 0.9135 0.4186 0.055 Uiso 1 1 calc R U . . .
+H34B H 0.8818 0.8997 0.3357 0.055 Uiso 1 1 calc R U . . .
+H34C H 1.0270 0.8714 0.3640 0.055 Uiso 1 1 calc R U . . .
+C35 C 1.0077(19) 0.5163(8) 0.0447(11) 0.046(4) Uani 1 1 d . U . . .
+C36 C 1.1185(17) 0.4804(8) 0.0885(10) 0.042(4) Uani 1 1 d . U . . .
+H36 H 1.1425 0.4801 0.1419 0.051 Uiso 1 1 calc R U . . .
+C37 C 1.1843(17) 0.4477(7) 0.0472(10) 0.038(4) Uani 1 1 d . U . . .
+H37 H 1.2594 0.4259 0.0740 0.045 Uiso 1 1 calc R U . . .
+C38 C 1.1514(16) 0.4433(7) -0.0305(10) 0.035(4) Uani 1 1 d . U . . .
+C39 C 1.0482(15) 0.4783(8) -0.0689(9) 0.034(4) Uani 1 1 d . U . . .
+H39 H 1.0249 0.4780 -0.1222 0.041 Uiso 1 1 calc R U . . .
+C40 C 0.9764(18) 0.5145(7) -0.0302(10) 0.043(4) Uani 1 1 d . U . . .
+H40 H 0.9049 0.5378 -0.0580 0.052 Uiso 1 1 calc R U . . .
+C41 C 1.2227(17) 0.4046(8) -0.0680(10) 0.039(4) Uani 1 1 d . U . . .
+C42 C 1.2572(17) 0.3465(8) -0.0420(10) 0.041(4) Uani 1 1 d . U . . .
+H42 H 1.2418 0.3328 0.0040 0.050 Uiso 1 1 calc R U . . .
+C43 C 1.3160(17) 0.3091(7) -0.0878(11) 0.042(4) Uani 1 1 d . U . . .
+H43 H 1.3344 0.2697 -0.0711 0.050 Uiso 1 1 calc R U . . .
+C44 C 1.3192(17) 0.3799(7) -0.1766(10) 0.039(4) Uani 1 1 d . U . . .
+H44 H 1.3392 0.3931 -0.2216 0.046 Uiso 1 1 calc R U . . .
+C45 C 1.2577(17) 0.4188(7) -0.1334(10) 0.040(4) Uani 1 1 d . U . . .
+H45 H 1.2394 0.4578 -0.1517 0.048 Uiso 1 1 calc R U . . .
+C46 C 0.6096(17) 0.5210(8) 0.2219(10) 0.041(4) Uani 1 1 d . U . . .
+C47 C 0.5126(17) 0.5638(7) 0.2438(11) 0.041(4) Uani 1 1 d . U . . .
+C48 C 0.5845(18) 0.5949(7) 0.3042(10) 0.041(4) Uani 1 1 d . U . . .
+C49 C 0.7232(18) 0.5730(8) 0.3220(13) 0.056(5) Uani 1 1 d . U . . .
+C50 C 0.8293(18) 0.5947(10) 0.3780(13) 0.060(5) Uani 1 1 d . U . . .
+H50 H 0.8096 0.6267 0.4068 0.072 Uiso 1 1 calc R U . . .
+C51 C 0.957(2) 0.5756(9) 0.3960(14) 0.069(6) Uani 1 1 d . U . . .
+C52 C 1.068(2) 0.6004(10) 0.4555(15) 0.083(7) Uani 1 1 d . U . . .
+C53 C 1.184(2) 0.5686(12) 0.4506(17) 0.097(8) Uani 1 1 d . U . . .
+C54 C 1.141(2) 0.5259(10) 0.3933(14) 0.067(5) Uani 1 1 d . U . . .
+C55 C 1.228(2) 0.4823(12) 0.3646(16) 0.077(6) Uani 1 1 d . U . . .
+H55 H 1.3181 0.4802 0.3927 0.093 Uiso 1 1 calc R U . . .
+C56 C 1.195(2) 0.4466(11) 0.3051(14) 0.069(5) Uani 1 1 d . U . . .
+C57 C 1.280(2) 0.4083(11) 0.2830(14) 0.070(5) Uani 1 1 d . U . . .
+C58 C 1.195(2) 0.3736(10) 0.2232(12) 0.059(4) Uani 1 1 d . U . . .
+C59 C 1.065(2) 0.3964(8) 0.2183(14) 0.055(4) Uani 1 1 d . U . . .
+C60 C 0.964(2) 0.3719(9) 0.1619(12) 0.054(4) Uani 1 1 d . U . . .
+C61 C 0.836(2) 0.3880(8) 0.1352(13) 0.057(4) Uani 1 1 d . U . . .
+C62 C 0.724(2) 0.3594(9) 0.0767(16) 0.083(6) Uani 1 1 d . U . . .
+H62 H 0.7474 0.3473 0.0292 0.099 Uiso 1 1 calc R U . . .
+C63 C 0.619(2) 0.4094(9) 0.0680(14) 0.072(5) Uani 1 1 d . U . . .
+H63 H 0.5281 0.3922 0.0634 0.086 Uiso 1 1 calc R U . . .
+C64 C 0.6591(17) 0.4433(7) 0.1364(12) 0.049(4) Uani 1 1 d . U . . .
+C65 C 0.5769(18) 0.4832(8) 0.1616(10) 0.041(4) Uani 1 1 d . U . . .
+H65 H 0.4867 0.4844 0.1333 0.050 Uiso 1 1 calc R U . . .
+C66 C 0.3668(16) 0.5683(9) 0.2075(13) 0.068(6) Uani 1 1 d . U . . .
+H66A H 0.3462 0.6082 0.1873 0.081 Uiso 1 1 calc R U . . .
+H66B H 0.3162 0.5603 0.2449 0.081 Uiso 1 1 calc R U . . .
+H66C H 0.3426 0.5396 0.1666 0.081 Uiso 1 1 calc R U . . .
+C67 C 0.533(2) 0.6370(9) 0.3458(13) 0.06

@@ -1,0 +1,555 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_CO_PRIME_R3M_R_publ
+_audit_block_doi                 10.5517/cc13s99h
+_database_code_depnum_ccdc_archive 'CCDC 1036246'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1021/ja506230r 2014
+_audit_update_record             
+;
+2014-10-08 deposited with the CCDC.	2024-07-11 downloaded from the CCDC.
+;
+
+_pd_block_id                     2013-03-28T11:59|CO_PRIME_R3M_R||BT1
+
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_creation_date             2013-03-28T11:59
+
+#=============================================================================
+# 5. OVERALL REFINEMENT & COMPUTING DETAILS
+
+_refine_special_details          
+; ?
+;
+_pd_proc_ls_special_details      
+; ?
+;
+
+# The following items are used to identify the programs used.
+_computing_molecular_graphics    ?
+_computing_publication_material  ?
+
+_refine_ls_weighting_scheme      ?
+_refine_ls_weighting_details     ?
+_refine_ls_hydrogen_treatment    ?
+_refine_ls_extinction_method     ?
+_refine_ls_extinction_coef       ?
+_refine_ls_number_constraints    ?
+
+_refine_ls_restrained_S_all      ?
+_refine_ls_restrained_S_obs      ?
+
+#==============================================================================
+# 6. SAMPLE PREPARATION DATA
+
+# (In the unusual case where multiple samples are used in a single
+#  Rietveld study, this information should be moved into the phase
+#  blocks)
+
+# The following three fields describe the preparation of the material.
+# The cooling rate is in K/min.  The pressure at which the sample was
+# prepared is in kPa.  The temperature of preparation is in K.
+
+_pd_prep_cool_rate               ?
+_pd_prep_pressure                ?
+_pd_prep_temperature             ?
+
+_pd_char_colour                  ? # use ICDD colour descriptions
+_refine_ls_shift/su_max          3.93
+_refine_ls_shift/su_mean         0.74
+_computing_structure_refinement  GSAS
+_refine_ls_number_parameters     55
+_refine_ls_goodness_of_fit_all   0.93
+_refine_ls_number_restraints     16
+_refine_ls_matrix_type           full
+#==============================================================================
+# 7. CHEMICAL, STRUCTURAL AND CRYSTAL DATA
+
+_pd_char_particle_morphology     ?
+
+_chemical_name_systematic        
+; ?
+;
+_chemical_name_common            ?
+_chemical_formula_moiety         ?
+_chemical_formula_structural     ?
+_chemical_formula_analytical     ?
+_chemical_melting_point          ?
+_chemical_compound_source        ? # for minerals and
+# natural products
+_symmetry_space_group_name_Hall  ?
+
+_exptl_crystal_F_000             ?
+_exptl_crystal_density_diffrn    ?
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    ?
+
+_cell_measurement_temperature    ?
+
+_cell_special_details            
+; ?
+;
+
+_geom_special_details            ?
+
+# The following item identifies the program(s) used (if appropriate).
+_computing_structure_solution    ?
+
+#==============================================================================
+
+# 8. Phase information from GSAS
+
+_pd_phase_name                   Co_dobdc_prime_bare_10K
+_cell_length_a                   25.8734(23)
+_cell_length_b                   25.8734
+_cell_length_c                   6.7677(9)
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_volume                     3923.6(6)
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_H-M   'R 3 m'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,x-y,+z
+3 y-x,-x,+z
+4 y-x,+y,+z
+5 -y,-x,+z
+6 +x,x-y,+z
+101 +x+1/3,+y+2/3,+z+2/3
+102 -y+1/3,x-y+2/3,+z+2/3
+103 y-x+1/3,-x+2/3,+z+2/3
+104 y-x+1/3,+y+2/3,+z+2/3
+105 -y+1/3,-x+2/3,+z+2/3
+106 +x+1/3,x-y+2/3,+z+2/3
+201 +x+2/3,+y+1/3,+z+1/3
+202 -y+2/3,x-y+1/3,+z+1/3
+203 y-x+2/3,-x+1/3,+z+1/3
+204 y-x+2/3,+y+1/3,+z+1/3
+205 -y+2/3,-x+1/3,+z+1/3
+206 +x+2/3,x-y+1/3,+z+1/3
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+C C1 0.6577(10) 0.8783(11) 0.837(4) 1.0 Uiso 0.044(9) 18
+C C2 0.6653(13) 0.8327(7) 0.744(5) 1.0 Uiso 0.023(10) 9
+C C6 0.6391(10) 0.8661(8) 0.040(4) 1.0 Uiso 0.015(6) 18
+C C11 0.6322(8) 0.9088(8) 0.1632(29) 1.0 Uiso 0.013(5) 18
+Co Co2 0.3282(29) 0.3756(23) 0.556(8) 1.0 Uiso 0.021(15) 18
+H H7 0.6796(26) 0.8398(13) 0.588(10) 1.0 Uiso 0.040(19) 9
+O O9 0.6699(10) 0.9263(11) 0.748(4) 1.0 Uiso 0.031(9) 18
+O O12 0.6515(10) 0.9616(10) 0.0961(33) 1.0 Uiso 0.019(7) 18
+O O15 0.6098(11) 0.8912(10) 0.334(4) 1.0 Uiso 0.034(7) 18
+C C2m 0.6281(13) 0.8141(6) 0.125(4) 1.0 Uiso 0.026(9) 9
+H H7m 0.6173(23) 0.8086(12) 0.282(8) 1.0 Uiso 0.028(14) 9
+
+# If you change Z, be sure to change all 3 of the following
+_chemical_formula_sum            'C4 H Co O3'
+_chemical_formula_weight         155.98
+_cell_formula_units_Z            18
+
+# MOLECULAR GEOMETRY
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C1 C2 1.439(30) . 1_555 N
+C1 C6 1.439(26) . 1_556 N
+C1 O9 1.271(31) . 1_555 N
+C2 C1 1.439(30) . 1_555 N
+C2 C1 1.438(30) . 6_565 N
+C2 H7 1.10(9) . 1_555 N
+C6 C1 1.439(26) . 1_554 N
+C6 C11 1.463(28) . 1_555 N
+C6 C2m 1.356(23) . 1_555 N
+C6 H7m 2.09(5) . 1_555 N
+C11 C6 1.463(28) . 1_555 N
+C11 O12 1.280(26) . 1_555 N
+C11 O15 1.272(26) . 1_555 N
+Co2 O9 2.08(6) . 3_565 N
+Co2 O9 2.01(6) . 102_654 N
+Co2 O12 2.01(7) . 102_655 N
+Co2 O12 2.15(5) . 201_445 N
+Co2 O15 2.08(6) . 3_565 N
+H7 C2 1.10(9) . 1_555 N
+O9 C1 1.271(31) . 1_555 N
+O9 Co2 2.08(6) . 2_665 N
+O9 Co2 2.01(6) . 203_565 N
+O12 C11 1.280(26) . 1_555 N
+O12 Co2 2.15(5) . 101_554 N
+O12 Co2 2.01(7) . 203_564 N
+O15 C11 1.272(26) . 1_555 N
+O15 Co2 2.08(6) . 2_665 N
+C2m C6 1.356(23) . 1_555 N
+C2m C6 1.356(23) . 6_565 N
+C2m H7m 1.09(8) . 1_555 N
+H7m C6 2.09(5) . 1_555 N
+H7m C6 2.09(5) . 6_565 N
+H7m C2m 1.09(8) . 1_555 N
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C2 C1 C6 114.1(23) 1_555 . 1_556 N
+C2 C1 O9 121.6(33) 1_555 . 1_555 N
+C6 C1 O9 124.2(27) 1_556 . 1_555 N
+C1 C2 C1 126(4) 1_555 . 6_565 N
+C1 C2 H7 117.1(18) 1_555 . 1_555 N
+C1 C2 H7 117.1(18) 6_565 . 1_555 N
+C1 C6 C11 122.1(20) 1_554 . 1_555 N
+C1 C6 C2m 120.1(20) 1_554 . 1_555 N
+C11 C6 C2m 117.8(22) 1_555 . 1_555 N
+C6 C11 O12 118.3(22) 1_555 . 1_555 N
+C6 C11 O15 116.9(20) 1_555 . 1_555 N
+O12 C11 O15 124.7(22) 1_555 . 1_555 N
+O9 Co2 O9 165(4) 3_565 . 102_654 N
+O9 Co2 O12 82.9(23) 3_565 . 102_655 N
+O9 Co2 O15 96.7(32) 3_565 . 3_565 N
+O9 Co2 O12 82.7(28) 102_654 . 102_655 N
+O9 Co2 O15 97.4(27) 102_654 . 3_565 N
+O12 Co2 O15 176.5(28) 102_655 . 3_565 N
+C1 O9 Co2 135.3(25) 1_555 . 2_665 N
+C1 O9 Co2 120.1(28) 1_555 . 203_565 N
+Co2 O9 Co2 95.3(25) 2_665 . 203_565 N
+C11 O12 Co2 128.4(25) 1_555 . 203_564 N
+C11 O15 Co2 120.4(22) 1_555 . 2_665 N
+C6 C2m C6 125.4(29) 1_555 . 6_565 N
+C6 C2m H7m 116.8(15) 1_555 . 1_555 N
+C6 C2m H7m 116.8(15) 6_565 . 1_555 N
+
+# Powder diffraction data for histogram  5
+#==============================================================================
+# 9. INSTRUMENT CHARACTERIZATION
+
+_exptl_special_details           
+; ?
+;
+
+# if regions of the data are excluded, the reason(s) are supplied here:
+_pd_proc_info_excluded_regions   
+; ?
+;
+
+# The following item is used to identify the equipment used to record
+# the powder pattern when the diffractogram was measured at a laboratory
+# other than the authors' home institution, e.g. when neutron or synchrotron
+# radiation is used.
+
+_pd_instr_location               
+; ?
+;
+_pd_calibration_special_details  
+# description of the method used
+# to calibrate the instrument
+; ?
+;
+
+_diffrn_ambient_temperature      ?
+_diffrn_source                   ?
+_diffrn_source_target            ?
+_diffrn_source_type              ?
+_diffrn_measurement_device_type  ?
+_diffrn_detector                 ?
+_diffrn_detector_type            ? # make or model of detector
+
+_pd_meas_scan_method             ? # options are 'step', 'cont',
+# 'tof', 'fixed' or
+# 'disp' (= dispersive)
+_pd_meas_special_details         
+;  ?
+;
+
+# The following two items identify the program(s) used (if appropriate).
+_computing_data_collection       ?
+_computing_data_reduction        ?
+
+# Describe any processing performed on the data, prior to refinement.
+# For example: a manual Lp correction or a precomputed absorption correction
+_pd_proc_info_data_reduction     ?
+
+# The following item is used for angular dispersive measurements only.
+
+_diffrn_radiation_monochromator  ?
+
+# The following items are used to define the size of the instrument.
+# Not all distances are appropriate for all instrument types.
+
+_pd_instr_dist_src/mono          ?
+_pd_instr_dist_mono/spec         ?
+_pd_instr_dist_src/spec          ?
+_pd_instr_dist_spec/anal         ?
+_pd_instr_dist_anal/detc         ?
+_pd_instr_dist_spec/detc         ?
+
+# 10. Specimen size and mounting information
+
+# The next three fields give the specimen dimensions in mm.  The equatorial
+# plane contains the incident and diffracted beam.
+
+_pd_spec_size_axial              ? # perpendicular to
+# equatorial plane
+
+_pd_spec_size_equat              ? # parallel to
+# scattering vector
+# in transmission
+
+_pd_spec_size_thick              ? # parallel to
+# scattering vector
+# in reflection
+
+_pd_spec_mounting                
+# This field should be
+# used to give details of the
+# container.
+; ?
+;
+
+_pd_spec_mount_mode              ? # options are 'reflection'
+# or 'transmission'
+
+_pd_spec_shape                   ? # options are 'cylinder'
+# 'flat_sheet' or 'irregular'
+
+
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+C 72.0 0.6646 International_Tables_Vol_C
+Co 18.0 0.2490 International_Tables_Vol_C
+H 18.0 -0.3739 International_Tables_Vol_C
+O 54.0 0.5803 International_Tables_Vol_C
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_wavelength     2.078
+_pd_proc_ls_prof_R_factor        0.0432
+_pd_proc_ls_prof_wR_factor       0.0542
+_pd_proc_ls_prof_wR_expected     0.0586
+_refine_ls_R_Fsqd_factor         0.06401
+
+_pd_proc_ls_background_function  
+;   GSAS Background function number 1 with 12 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    304.084     2:   -126.016     3:    130.409     4:    22.2123    
+      5:    45.0147     6:   -6.66587     7:    29.1619     8:    5.44234    
+      9:    8.61362    10:    2.65276    11:    4.70526    12:   -1.99693    
+;
+
+_exptl_absorpt_process_details   
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_correction_T_max  1.00000
+# Extinction correction
+_gsas_exptl_extinct_corr_T_min   1.00000
+_gsas_exptl_extinct_corr_T_max   1.00000
+
+_pd_proc_ls_profile_function     
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ #1(GU)   =  269.912 #2(GV)   =   -0.100 #3(GW)   =   66.938
+ #4(GP)   =    7.519 #5(LX)   =   11.231 #6(LY)   =   19.528
+ #7(S/L)  =   0.0481 #8(H/L)  =   0.0305
+ #9(trns) =     0.00 #10(shft)=   0.0000
+ #11(stec)=     0.00 #12(ptec)=     0.00 #13(sfec)=     0.00
+ #14(L11) =    0.000 #15(L22) =    0.000 #16(L33) =    0.000
+ #17(L12) =    0.000 #18(L13) =    0.000 #19(L23) =    0.000
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_info_datetime           2013-03-28T11:59:59
+_pd_calc_method                  'Rietveld Refinement'
+
+#---- raw/calc data loop -----
+_pd_meas_2theta_range_min        1.5
+_pd_meas_2theta_range_max        166.25
+_pd_meas_2theta_range_inc        0.05
+_pd_proc_2theta_range_min        1.6084
+_pd_proc_2theta_range_max        166.3584
+_pd_proc_2theta_range_inc        0.05
+
+loop_
+_pd_meas_intensity_total
+_pd_proc_ls_weight
+_pd_proc_intensity_bkg_calc
+_pd_calc_intensity_total
+3620(130) 0.0 985. .
+3210(120) 0.0 979. .
+3130(120) 0.0 974. .
+2670(110) 0.0 969. .
+2530(110) 0.0 964. .
+2102(97) 0.0 959. .
+2121(97) 0.0 954. .
+1930(93) 0.0 948. .
+1577(83) 0.0 943. .
+1652(85) 0.0 938. .
+1582(83) 0.0 934. .
+1535(82) 0.0 929. .
+1619(84) 0.0 924. .
+1368(77) 0.0 919. .
+1382(78) 0.0 914. .
+1387(78) 0.0 910. .
+1419(79) 0.0 905. .
+1414(79) 0.0 900. .
+1340(76) 0.0 896. .
+1247(74) 0.0 891. .
+1400(78) 0.0 887. .
+1396(78) 0.0 882. .
+1256(74) 0.0 878. .
+1284(75) 0.0 874. .
+1317(76) 0.0 869. .
+1354(77) 0.0 865. .
+1201(72) 0.0 861. .
+1126(70) 0.0 856. .
+1108(69) 0.0 852. .
+1140(70) 0.0 848. .
+1159(71) 0.0 844. .
+1098(69) 0.0 840. .
+1001(65) 0.0 836. .
+1033(66) 0.0 832. .
+968(64) 0.0 828. .
+950(63) 0.0 824. .
+894(61) 0.0 820. .
+964(64) 0.0 816. .
+894(61) 0.0 812. .
+810(58) 0.0 809. .
+973(64) 0.0 805. .
+852(60) 0.0 801. .
+847(60) 0.0 798. .
+936(63) 0.0 794. .
+982(65) 0.0 790. .
+754(56) 0.0 787. .
+805(58) 0.0 783. .
+912(62) 0.0 780. .
+866(60) 0.0 776. .
+852(60) 0.0 773. .
+750(56) 0.0 769. .
+894(61) 0.0 766. .
+824(59) 0.0 763. .
+824(59) 0.0 759. .
+810(58) 0.0 756. .
+819(58) 0.0 753. .
+889(61) 0.0 749. .
+764(56) 0.0 746. .
+847(60) 0.0 743. .
+736(55) 0.0 740. .
+759(56) 0.0 737. .
+833(59) 0.0 734. .
+745(55) 0.0 731. .
+726(55) 0.0 728. .
+764(56) 0.0 725. .
+717(54) 0.0 722. .
+699(53) 0.0 719. .
+652(51) 0.0 716. .
+773(57) 0.0 713. .
+792(57) 0.0 710. .
+750(56) 0.0 707. .
+541(46) 0.0 704. .
+675(52) 0.0 701. .
+675(52) 0.0 699. .
+568(47) 0.0 696. .
+573(48) 0.0 693. .
+671(52) 0.0 690. .
+666(52) 0.0 688. .
+564(47) 0.0 685. .
+661(52) 0.0 683. .
+843(59) 0.0 680. .
+680(53) 0.0 677. .
+740(55) 0.0 675. .
+643(51) 0.0 672. .
+657(52) 0.0 670. .
+759(56) 0.0 667. .
+582(48) 0.0 665. .
+768(56) 0.0 662. .
+587(48) 0.0 660. .
+633(50) 0.0 658. .
+713(54) 0.0 655. .
+527(45) 0.0 653. .
+694(53) 0.0 651. .
+610(49) 0.0 648. .
+685(53) 0.0 646. .
+722(54) 0.0 644. .
+638(51) 0.0 641. .
+671(52) 0.0 639. .
+666(52) 0.0 637. .
+610(49) 0.0 635. .
+707(37) 0.0 633. .
+642(35) 0.0 630.6 .
+633(35) 0.0 628.5 .
+636(35) 0.000816 626.4 637.9
+665(36) 0.000772 624. 636.
+609(34) 0.000865 622.2 634.9
+638(35) 0.000816 620.2 633.5
+598(33) 0.000918 618.1 632.2
+653(35) 0.000816 616.1 631.0
+570(33) 0.000918 614.1 629.8
+655(35) 0.000816 612.2 628.7
+592(33) 0.000918 610.2 627.8
+637(35) 0.000816 608.3 626.9
+568(32) 0.000977 606.4 626.2
+593(33) 0.000918 604.5 625.6
+671(36) 0.000772 603. 625.
+678(36) 0.000772 601. 625.
+704(37) 0.000730 599. 625.
+640(35) 0.000816 597.0 625.2
+669(36) 0.000772 595. 626.
+669(36) 0.000772 593. 627.
+665(36) 0.000772 592. 628.
+666(36) 0.000772 590. 630.
+774(39) 0.000657 588. 632.
+688(36) 0.000772 586. 636.
+717(37) 0.000730 585. 642.
+688(36) 0.000772 583. 650.
+730(38) 0.000693 581. 663.
+778(39) 0.000657 580. 683.
+780(39) 0.000657 578. 709.
+803(40) 0.000625 576. 743.
+825(40) 0.000625 575. 785.
+919(43) 0.000541 573. 835.
+1067(47) 0.000453 571. 891.
+974(44) 0.000517 57

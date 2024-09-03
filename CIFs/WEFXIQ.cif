@@ -1,0 +1,352 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_NiBDPSO3H250C
+_audit_block_doi                 10.5517/ccypf78
+_database_code_depnum_ccdc_archive 'CCDC 884530'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1021/ja305267m 2012
+_audit_update_record             
+;
+2012-05-30 deposited with the CCDC.	2024-07-13 downloaded from the CCDC.
+;
+
+_chemical_name_systematic        
+;
+?
+;
+_chemical_name_common            ?
+_chemical_formula_moiety         'C24 H18 N8 Ni O6 S2'
+_chemical_formula_structural     'Ni1 (C12 H9 N4 S1 O3)2'
+_chemical_formula_analytical     ?
+_chemical_formula_iupac          ?
+_chemical_formula_sum            'C24 H18 N8 Ni O6 S2'
+_chemical_formula_weight         637.27
+_chemical_melting_point          ?
+_chemical_compound_source        ?
+
+loop_
+_atom_type_symbol
+_atom_type_description
+# _atom_type_scat_dispersion_real
+# _atom_type_scat_dispersion_imag
+_atom_type_scat_source
+
+C C 'International Tables for Crystallography (Vol. IV)'
+H H 'International Tables for Crystallography (Vol. IV)'
+Ni Ni 'International Tables for Crystallography (Vol. IV)'
+N N 'International Tables for Crystallography (Vol. IV)'
+O O 'International Tables for Crystallography (Vol. IV)'
+S S 'International Tables for Crystallography (Vol. IV)'
+
+#==============================================================================
+
+# 4. POWDER SPECIMEN AND CRYSTAL DATA
+
+_space_group_crystal_system      monoclinic
+_space_group_name_H-M_alt        P21/c
+_space_group_name_Hall           ?
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x, -y, -z'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'x, y, z'
+
+_cell_length_a                   7.45937(48)
+_cell_length_b                   15.5887(18)
+_cell_length_c                   17.1515(31)
+_cell_angle_alpha                90
+_cell_angle_beta                 91.6479(82)
+_cell_angle_gamma                90
+_cell_volume                     1993.59(45)
+_cell_formula_units_Z            2
+_cell_measurement_temperature    523
+
+_pd_calibration_special_details  
+; ?
+;
+_cell_special_details            
+; ?
+;
+
+_exptl_crystal_density_diffrn    1.06
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             652
+
+# The next three fields give the specimen dimensions in mm. The equatorial
+# plane contains the incident and diffracted beam.
+_pd_spec_size_axial              5 # perpendicular to
+# equatorial plane
+
+_pd_spec_size_equat              5 # parallel to
+# scattering vector
+# in transmission
+
+_pd_spec_size_thick              0.1 # parallel to
+# scattering vector
+# in reflection
+
+# The next five fields are character fields that describe the specimen.
+
+_pd_spec_mounting                
+;
+packed powder pellet
+;
+_pd_spec_mount_mode              reflection # options are 'reflection'
+# or 'transmission'
+
+_pd_spec_shape                   flat_sheet # options are 'cylinder',
+# 'flat_sheet' or 'irregular'
+
+_pd_char_particle_morphology     plate-like
+_pd_char_colour                  yellow # use ICDD colour descriptions
+
+
+
+# The next four fields are normally only needed for transmission experiments.
+_exptl_absorpt_coefficient_mu    ?
+_exptl_absorpt_correction_type   ?
+_exptl_absorpt_correction_T_min  ?
+_exptl_absorpt_correction_T_max  ?
+
+#==============================================================================
+
+# 5. EXPERIMENTAL DATA
+
+_exptl_special_details           
+; ?
+;
+
+# This following item is used to identify the equipment used to record the
+# powder pattern when the diffractogram was measured at a laboratory
+# other than the authors' home institution, e.g. when neutron or synchrotron
+# radiation is used.
+
+_pd_instr_location               
+; ?
+;
+
+_diffrn_ambient_temperature      523
+_diffrn_source_target            Cu
+_diffrn_source_type              'sealed X-ray tube'
+_diffrn_measurement_device_type  'Bruker AXS D8 Advance'
+_diffrn_detector_type            'Bruker Lynxeye linear PSD'
+_pd_meas_scan_method             step # options are 'step', 'cont',
+# 'tof', 'fixed' or
+# 'disp' (= dispersive)
+_pd_meas_special_details         
+; ?
+;
+
+# The following six items are used for angular dispersive measurements only.
+
+loop_
+_diffrn_radiation_type
+'Cu K\a'
+_diffrn_radiation_wavelength     CuK\a~1~
+_diffrn_radiation_monochromator  'Ni filter'
+
+# The following four items give details of the measured (not processed)
+# powder pattern. Angles are in degrees.
+
+_pd_meas_number_of_points        1551
+_pd_meas_2theta_range_min        7
+_pd_meas_2theta_range_max        38
+_pd_meas_2theta_range_inc        0.02
+
+# The following three items are used for time-of-flight measurements only.
+
+_pd_instr_dist_src/spec          ?
+_pd_instr_dist_spec/detc         ?
+_pd_meas_2theta_fixed            ?
+
+# The following fields are used to identify the programs used.
+
+_computing_data_collection       ?
+_computing_cell_refinement       'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_data_reduction        ?
+_computing_structure_solution    'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_structure_refinement  'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_molecular_graphics    ?
+_computing_publication_material  'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+
+#==============================================================================
+
+# 6. REFINEMENT DATA
+
+# Use the next field to give any special details about the fitting of the
+# powder pattern.
+
+_pd_proc_ls_special_details      
+; The use of a rigid body description for the crystallographically independent
+portion of the 2,5-Di(1H-pyrazol-4-yl)benzenesulfonate
+does not allow the derivation of statistically
+meaningful s.u.'s for its atoms.
+
+S.u.'s are available only for the position of the center of mass (X, Y, Z),
+for the rotational angles (RX, RY, RZ) and
+for the rotation of some portions of the rigid body.
+
+1. 2,5-Di(1H-pyrazol-4-yl)benzenesulfonate
+
+X, Y, Z 0.631(1), 0.2135(7), 0.7605(5)
+
+RX, RY, RZ 42.8(2), -0.9(2), -48.2(2)
+
+R(C2, S) -67(1), R(C4, C10) 242(2), R(C1 C7) 56(2)
+
+
+for the rigid body described by (H = center of mass):
+
+z_matrix H
+z_matrix C1 H =r1;
+z_matrix C2 C1 =r1; H 60
+z_matrix S C2 =r9; C1 120 H 180
+z_matrix O1 S =r5; C2 109.5 C1 109.5
+z_matrix O2 S =r5; O1 109.5 C2 120
+z_matrix O3 S =r5; O1 109.5 C2 -120
+z_matrix C3 C2 =r1; C1 120 H 0
+z_matrix H3 C3 =r2; C2 120 C1 180
+z_matrix C4 C3 =r1; C2 120 C1 0
+z_matrix C5 C4 =r1; C3 120 C2 0
+z_matrix H5 C5 =r2; C4 120 C3 180
+z_matrix C6 C5 =r1; C4 120 C3 0
+z_matrix H6 C6 =r2; C5 120 C4 180
+z_matrix C7 C1 =r3; C2 120 C3 180
+z_matrix C8 C7 =r4; C1 126 C2 0
+z_matrix H8 C8 =r2; C7 126 C1 0
+z_matrix N1 C8 =r4; C7 108 C1 180
+z_matrix H1N N1 =r2; C8 126 C7 180
+z_matrix N2 N1 =r4; C8 108 C7 0
+z_matrix C9 N2 =r4; N1 108 C8 0
+z_matrix H9 C9 =r2; N2 126 N1 180
+z_matrix C10 C4 =r3; C3 120 C2 180
+z_matrix C11 C10 =r4; C4 126 C3 0
+z_matrix H11 C11 =r2; C10 126 C4 0
+z_matrix N3 C11 =r4; C10 108 C4 180
+z_matrix N4 N3 =r4; C11 108 C10 0
+z_matrix H4N N4 =r2; N3 126 C11 180
+z_matrix C12 N4 =r4; N3 108 C11 0
+z_matrix H12 C12 =r2; N4 126 N3 180
+
+
+prm r1 1.39
+prm r2 0.95
+prm r3 1.45
+prm r4 1.36
+prm r5 1.52
+prm r9 1.77
+;
+
+# The next three items are given as text
+_pd_proc_ls_profile_function     'fundamental parameters approach'
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_pref_orient_corr     ?
+_pd_proc_ls_prof_R_factor        0.0245
+_pd_proc_ls_prof_wR_factor       0.033
+_pd_proc_ls_prof_wR_expected     0.011
+
+_refine_special_details          
+; ?
+;
+
+_refine_ls_structure_factor_coef Inet
+_refine_ls_matrix_type           fullcycle
+_refine_ls_weighting_scheme      1/[Y~i~]
+_refine_ls_hydrogen_treatment    ?
+_refine_ls_extinction_method     none
+_refine_ls_extinction_coef       ?
+_refine_ls_number_parameters     37
+_refine_ls_number_restraints     0
+_refine_ls_number_constraints    ?
+# The following item is 'CHI squared'
+_refine_ls_goodness_of_fit_all   ?
+
+_refine_ls_restrained_S_all      ?
+_refine_ls_restrained_S_obs      ?
+_refine_ls_shift/su_max          .01
+_refine_ls_shift/su_mean         ?
+
+
+# The following four items apply to angular dispersive measurements.
+# 2theta minimum, maximum and increment (in degrees) are for the
+# intensities used in the refinement.
+_pd_proc_2theta_range_min        7
+_pd_proc_2theta_range_max        38
+_pd_proc_2theta_range_inc        0.02
+
+loop_
+_pd_proc_wavelength
+1.540562
+1.544390
+
+_pd_block_diffractogram_id       ? # The id used for the block
+# containing the powder
+# pattern profile (section 11).
+
+# Give appropriate details in the next two text fields.
+_pd_proc_info_excluded_regions   ?
+_pd_proc_info_data_reduction     ?
+
+#==============================================================================
+
+# 7. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Ni1 Ni 2 0 0 0 1 5
+C1 C 4 0.5374086 0.1724856 0.8188535 1 7
+C2 C 4 0.691509 0.1353674 0.790092 1 7
+S S 4 0.769044 0.03592584 0.8277356 1 7
+O1 O 4 0.6108927 -0.0242477 0.8374098 1 7
+O2 O 4 0.8631352 0.05026472 0.9064419 1 7
+O3 O 4 0.8999124 -0.003550189 0.7716681 1 7
+C3 C 4 0.7847205 0.1763418 0.7317685 1 7
+H3 H 4 0.8900409 0.1509733 0.7121113 1 7
+C4 C 4 0.7238314 0.2544344 0.7022065 1 7
+C5 C 4 0.569731 0.2915526 0.730968 1 7
+H5 H 4 0.5281162 0.3449252 0.7107638 1 7
+C6 C 4 0.4765195 0.2505782 0.7892915 1 7
+H6 H 4 0.3711991 0.2759467 0.8089487 1 7
+C7 C 4 0.4401736 0.1297426 0.8796945 1 7
+C8 C 4 0.5093438 0.1047835 0.9503349 1 7
+H8 H 4 0.6298499 0.1122919 0.9684813 1 7
+N1 N 4 0.3757115 0.06718837 0.9904362 1 7
+H1N H 4 0.3864827 0.04382476 1.041513 1 7
+N2 N 4 0.2239521 0.06891235 0.9445798 1 7
+C9 C 4 0.2637919 0.107573 0.8761377 1 7
+H9 H 4 0.182658 0.117372 0.8333555 1 7
+C10 C 4 0.8210664 0.2971774 0.6413655 1 7
+C11 C 4 0.9017642 0.3752371 0.6471913 1 7
+H11 H 4 0.9043253 0.4113334 0.6918367 1 7
+N3 N 4 0.978152 0.3925496 0.5778825 1 7
+N4 N 4 0.9446644 0.3251896 0.5292215 1 7
+H4N H 4 0.9824538 0.3201884 0.4769934 1 7
+C12 C 4 0.8475801 0.2662464 0.5684561 1 7
+H12 H 4 0.8056468 0.2128426 0.5484464 1 7
+

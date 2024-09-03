@@ -1,0 +1,208 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_CPL-11
+_audit_block_doi                 10.5517/ccv7k3q
+_database_code_depnum_ccdc_archive 'CCDC 781823'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1039/C0SC00272K 2010
+_audit_update_record             
+;
+2010-06-21 deposited with the CCDC.	2024-07-09 downloaded from the CCDC.
+;
+
+
+#==============================================================================
+# 5. CHEMICAL DATA
+
+_chemical_name_systematic        
+;
+coordination pillared layer strcuture
+;
+_chemical_name_common            ?
+_chemical_formula_moiety         'C12 H6 Cu N5 O4'
+_chemical_formula_structural     'C12 H6 Cu N5 O4'
+_chemical_formula_analytical     ?
+_chemical_formula_iupac          'C12 H6 Cu N5 O4'
+_chemical_formula_sum            'C12 H6 Cu N5 O4'
+_chemical_formula_weight         347.75
+_chemical_melting_point          ?
+_chemical_compound_source        ?
+
+#==============================================================================
+
+
+
+#==============================================================================
+
+# 6. CRYSTAL DATA
+
+_space_group_crystal_system      monoclinic
+_space_group_name_H-M_alt        'P 21/c'
+_symmetry_Int_Tables_number      14
+
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y+1/2,-z+1/2
+3 -x,-y,-z
+4 x,-y+1/2,z+1/2
+
+_cell_length_a                   4.651(2)
+_cell_length_b                   34.683(4)
+_cell_length_c                   10.812(1)
+_cell_angle_alpha                90.0
+_cell_angle_beta                 95.80(2)
+_cell_angle_gamma                90.0
+_cell_volume                     1735.0(6)
+_cell_formula_units_Z            4
+_cell_measurement_temperature    300
+
+_pd_calibration_special_details  
+; ?
+;
+_cell_special_details            
+; ?
+;
+
+_pd_char_colour                  'dark purple'
+#=======================================================================
+
+#=======================================================================
+
+# 7. EXPERIMENTAL DATA
+
+_exptl_special_details           
+; ?
+;
+
+_pd_instr_location               
+;
+SPring-8
+;
+
+_diffrn_ambient_temperature      300
+_diffrn_source                   synchrotron
+_diffrn_detector                 'Imaging Plate'
+_diffrn_measurement_device_type  Debye-Scherrer
+_pd_meas_scan_method             0.01
+
+_pd_meas_special_details         
+; ?
+;
+
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+synchrotron 0.80101
+
+_pd_meas_number_of_points        2801
+_pd_meas_2theta_range_min        2.0
+_pd_meas_2theta_range_max        30.0
+_pd_meas_2theta_range_inc        0.01
+
+_pd_calc_method                  'Rietveld Refinement'
+
+#==============================================================================
+
+# 8. REFINEMENT DATA
+
+_pd_proc_ls_special_details      
+; ?
+;
+
+# The next three items are given as text
+_pd_proc_ls_profile_function     'split Pearson VII function'
+
+_pd_proc_ls_prof_R_factor        0.0300
+_pd_proc_ls_prof_wR_factor       0.0436
+_pd_proc_ls_prof_wR_expected     0.0318
+_refine_special_details          
+;
+;
+
+_refine_ls_structure_factor_coef Inet
+_refine_ls_matrix_type           ?
+_refine_ls_weighting_sheme       ?
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_extinction_method     none
+_refine_ls_extinction_coef       ?
+_refine_ls_number_parameters     ?
+_refine_ls_number_constraints    20
+_refine_ls_goodness_of_fit_all   1.3685
+_refine_ls_R_I_factor            0.0362
+
+
+
+# The following four items apply to angular dispersive measurements.
+# 2theta minimum, maximum and increment (in degrees) are for the
+# intensities used in the refinement.
+_pd_proc_2theta_range_min        2.0
+_pd_proc_2theta_range_max        30.0
+_pd_proc_2theta_range_inc        0.01
+
+#==============================================================================
+
+
+
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+
+loop_
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+Cu1 4 1.0 0.91605 0.19795 0.88529 Uiso 2.564 Cu
+O2 4 1.0 0.68291 0.18978 0.72015 Uiso 2.0 O
+C3 4 1.0 0.5708 0.21019 0.63233 Uiso 2.0 C
+O4 4 1.0 0.49513 0.19935 0.52551 Uiso 2.0 O
+C5 4 1.0 0.6602 0.24915 0.69669 Uiso 2.0 C
+N6 4 1.0 0.81472 0.24775 0.80618 Uiso 2.0 N
+C7 4 1.0 0.91119 0.28107 0.86186 Uiso 2.0 C
+C8 4 1.0 0.81301 0.31565 0.80664 Uiso 2.0 C
+N9 4 1.0 0.6549 0.31728 0.69965 Uiso 2.0 N
+C10 4 1.0 0.56732 0.28436 0.64376 Uiso 2.0 C
+C11 4 1.0 0.37398 0.28621 0.52126 Uiso 2.0 C
+O12 4 1.0 0.45077 0.30329 0.43632 Uiso 2.0 O
+O13 4 1.0 0.12249 0.27081 0.51264 Uiso 2.0 O
+C14 4 1.0 0.06033 0.41674 0.40149 Uiso 2.0 C
+C15 4 1.0 -0.03187 0.37785 0.38337 Uiso 2.0 C
+N16 4 1.0 0.11641 0.3487 0.44685 Uiso 2.0 N
+C17 4 1.0 0.38438 0.35503 0.50157 Uiso 2.0 C
+C18 4 1.0 0.49757 0.39205 0.50588 Uiso 2.0 C
+C19 4 1.0 0.32346 0.4225 0.47385 Uiso 2.0 C
+C20 4 1.0 0.44092 0.46322 0.48731 Uiso 2.0 C
+N21 4 1.0 0.44835 0.48562 0.38598 Uiso 2.0 N
+N22 4 1.0 0.5279 0.47681 0.6001 Uiso 2.0 N
+H23 4 1.0 1.0504 0.2793 0.9302 Uiso 1.0 H
+H24 4 1.0 0.8564 0.3392 0.8543 Uiso 1.0 H
+H25 4 1.0 -0.0533 0.4381 0.3666 Uiso 1.0 H
+H26 4 1.0 -0.1898 0.3745 0.3207 Uiso 1.0 H
+H27 4 1.0 0.4934 0.3337 0.531 Uiso 1.0 H
+H28 4 1.0 0.6953 0.396 0.5425 Uiso 1.0 H
+#======================================================================
+#END OF CIF
+
+

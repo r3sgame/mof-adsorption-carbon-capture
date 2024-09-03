@@ -1,0 +1,404 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_CaBTB
+_audit_block_doi                 10.5517/cc123g8x
+_database_code_depnum_ccdc_archive 'CCDC 986428'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1039/C4CE01237B 2014
+_audit_update_record             
+;
+2014-07-12 deposited with the CCDC.	2024-07-11 downloaded from the CCDC.
+;
+
+#==============================================================================
+# start Validation Reply Form
+_vrf_PLAT029_I                   
+;
+PROBLEM: _diffrn_measured_fraction_theta_full Low ....... 0.930 Note
+RESPONSE: When the intensity data were collected with synchrotron radiation,
+the detector could not cover enough diffraction angles. 
+;
+_vrf_PLAT411_I                   
+;
+PROBLEM: PLAT411_ALERT_2_A Short Inter H...H Contact H15C .. H8TB .. 1.74 Ang.
+RESPONSE: H15C and H8TB are respectively bonded to the C atoms (C15T and C8T)
+of the occluded THF molecules which show large thermal motions. 
+H10B and H23E are also the THF carbons atoms, C10T and C23', respectively. 
+The THF H15C atom is engaged in a bad contact with H52A, the H atom of the
+BTB linker. Thus, all the bad contacts are ascribed to the large thermal 
+motion of the free THF guest in the pore. 
+;
+
+#==============================================================================
+_audit_creation_method           SHELXL-97
+_chemical_name_systematic        
+; 
+ ? 
+;
+_chemical_name_common            ?
+_chemical_melting_point          ?
+_chemical_formula_moiety         'O0.50), 2(C2 H4 O0.50),2(H2 O)'
+
+_chemical_formula_sum            'C156 H174 Ca5 O44'
+_chemical_formula_weight         2953.35
+
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0050 0.0020 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0150 0.0080 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2690 0.3960 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21/c'
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_Int_Tables_number      14
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+
+_cell_length_a                   16.135(3)
+_cell_length_b                   26.792(5)
+_cell_length_c                   18.630(4)
+_cell_angle_alpha                90.00
+_cell_angle_beta                 110.57(3)
+_cell_angle_gamma                90.00
+_cell_volume                     7540(3)
+_cell_formula_units_Z            2
+_cell_measurement_temperature    100(2)
+
+_exptl_crystal_description       block
+_exptl_crystal_colour            colourless
+_exptl_crystal_size_max          0.35
+_exptl_crystal_size_mid          0.30
+_exptl_crystal_size_min          0.30
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_diffrn    1.301
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             3124
+_exptl_absorpt_coefficient_mu    0.358
+_exptl_absorpt_correction_type   none
+_exptl_absorpt_correction_T_min  ?
+_exptl_absorpt_correction_T_max  ?
+_exptl_absorpt_process_details   ?
+
+_exptl_special_details           
+; 
+ ? 
+;
+
+_diffrn_ambient_temperature      100(2)
+_diffrn_radiation_wavelength     0.80000
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_source         'PLSII 2D bending magnet'
+_diffrn_radiation_monochromator  'Si(111) double crystal monochromator'
+_diffrn_measurement_device_type  'ADSC Q210 CCD area detector'
+_diffrn_measurement_method       'omega scan'
+_diffrn_detector_area_resol_mean ?
+_diffrn_standards_number         ?
+_diffrn_standards_interval_count ?
+_diffrn_standards_interval_time  ?
+_diffrn_standards_decay_%        ?
+_diffrn_reflns_number            23192
+_diffrn_reflns_av_R_equivalents  0.0360
+_diffrn_reflns_av_sigmaI/netI    0.0437
+_diffrn_reflns_limit_h_min       -18
+_diffrn_reflns_limit_h_max       18
+_diffrn_reflns_limit_k_min       -28
+_diffrn_reflns_limit_k_max       28
+_diffrn_reflns_limit_l_min       -21
+_diffrn_reflns_limit_l_max       21
+_diffrn_reflns_theta_min         1.57
+_diffrn_reflns_theta_max         28.07
+_reflns_number_total             11946
+_reflns_number_gt                9436
+_reflns_threshold_expression     >2sigma(I)
+
+_computing_data_collection       'PAL ADSC Quantum-210 ADX Program'
+_computing_cell_refinement       HKL3000
+_computing_data_reduction        HKL3000
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_molecular_graphics    SHELX-TL
+_computing_publication_material  SHELX-TL
+
+_refine_special_details          
+; 
+ Refinement of F^2^ against ALL reflections.  The weighted R-factor wR and 
+ goodness of fit S are based on F^2^, conventional R-factors R are based 
+ on F, with F set to zero for negative F^2^. The threshold expression of 
+ F^2^ > 2sigma(F^2^) is used only for calculating R-factors(gt) etc. and is 
+ not relevant to the choice of reflections for refinement.  R-factors based 
+ on F^2^ are statistically about twice as large as those based on F, and R- 
+ factors based on ALL data will be even larger. 
+TITL CaBTB in P2(1)/c
+CELL 0.80000  16.1350  26.7920  18.6300  90.000 110.574  90.000
+ZERR 2.00      0.0032   0.0054   0.0037   0.000   0.030   0.000
+LATT 1
+SYMM -X, 0.5+Y, 0.5-Z
+SFAC C H O Ca
+DISP C 0.005 0.002 14.981
+DISP Ca 0.269 0.396 1814.419
+DISP H -0 0 0.629
+DISP O 0.015 0.008 44.819
+UNIT 312 348 88 10
+L.S. 24
+Damp
+ACTA
+BOND
+EQIV $1   x-1, y, z
+EQIV $5   -x+1, y+1/2, -z+1/2
+EQIV $12 -x, -y, -z
+EQIV $13 x+1, -y+1/2, z+1/2
+HTAB O1W O10_$5
+HTAB O1W O6'
+HTAB O1W O6T
+HTAB O2W O9_$12
+HTAB O2W O2T
+HTAB O3W O5_$13
+HTAB O3W O4W
+HTAB O4W O1T
+HTAB O4W O8_$13
+HTAB O4  O1_$1
+DELU C23T C24T
+REM SIMU C18T C19T
+FMAP 2
+PLAN 10
+SHEL 999 0.85
+TEMP -173
+WGHT    0.200000
+EXTI    0.007372
+FVAR       0.19959
+CA1   4    0.952259    0.432049    0.970845    11.00000    0.02614    0.05798 =
+         0.02406   -0.00484    0.00859   -0.00143
+CA2   4    0.278707   -0.063006    0.444780    11.00000    0.02983    0.05317 =
+         0.02222   -0.00049    0.01025   -0.00081
+CA3   4    0.500000    0.000000    0.500000    10.50000    0.02516    0.05100 =
+         0.02239    0.00021    0.00851    0.00024
+O1W   3    0.870495    0.480352    0.864763    11.00000    0.03778    0.07899 =
+         0.03322    0.00053    0.00382   -0.00568
+ 
+DFIX 2.74 0.005 Ca1 H1WA Ca1 H1WB
+DFIX 0.84 0.001 O1W H1WA O1W H1WB
+DFIX 1.34 0.005 H1WA H1WB
+H1WA  2    0.834521    0.498314    0.876496    11.00000   -1.20000
+H1WB  2    0.839697    0.461663    0.829191    11.00000   -1.20000
+ 
+O2W   3    0.175710   -0.122866    0.376437    11.00000    0.03935    0.08747 =
+         0.03913   -0.01253    0.01692   -0.01271
+DFIX 2.74 0.005 Ca2 H2WA Ca2 H2WB
+DFIX 0.84 0.001 O2W H2WA O2W H2WB
+DFIX 1.34 0.005 H2WA H2WB
+ 
+H2WA  2    0.125117   -0.115277    0.376233    11.00000   -1.20000
+H2WB  2    0.171912   -0.122927    0.330301    11.00000   -1.20000
+O3W   3    1.063075    0.493865    0.956424    11.00000    0.02372    0.06748 =
+         0.02547   -0.00285    0.00847    0.00038
+DFIX 2.90 0.005 Ca1 H3WA Ca1 H3WB
+DFIX 0.84 0.001 O3W H3WA O3W H3WB
+DFIX 1.34 0.005 H3WA H3WB
+H3WA  2    1.114062    0.481713    0.976193    11.00000   -1.20000
+H3WB  2    1.054511    0.497251    0.909533    11.00000   -1.20000
+ 
+O4W   3    1.057198    0.508552    0.813127    11.00000    0.03889    0.09755 =
+         0.03248   -0.00280    0.01189   -0.00628
+DFIX 0.84 0.001 O4W H4WA O4W H4WB
+DFIX 1.34 0.005 H4WA H4WB
+H4WA  2    1.027470    0.491171    0.775309    11.00000   -1.20000
+H4WB  2    1.105319    0.514447    0.806821    11.00000   -1.20000
+ 
+O1    3    0.852446    0.364837    0.908698    11.00000    0.02924    0.07544 =
+         0.05354   -0.02361    0.02156   -0.00841
+O2    3    0.787524    0.414684    0.964817    11.00000    0.02771    0.06256 =
+         0.02471   -0.00617    0.01004   -0.00185
+O3    3    0.023818    0.384809    0.897722    11.00000    0.03304    0.06344 =
+         0.03804   -0.01209    0.01718   -0.00443
+O4    3   -0.061024    0.320725    0.836829    11.00000    0.03719    0.08631 =
+         0.06222   -0.03503    0.02727   -0.01433
+FLAT O3 O4 C20 H4O
+DFIX 2.20 O3 H4O
+DFIX 0.84 O4 H4O
+H4O   2   -0.089201    0.333414    0.861667    11.00000   -1.20000
+O5    3    0.240763    0.016942    0.483785    11.00000    0.02639    0.06016 =
+         0.02593   -0.00431    0.00730   -0.00114
+O6    3    0.380526   -0.004747    0.545726    11.00000    0.02678    0.05505 =
+         0.02640   -0.00087    0.01142    0.00244
+O7    3    0.375904   -0.006152    0.386630    11.00000    0.03670    0.06247 =
+         0.02292    0.00384    0.00732    0.00215
+O8    3    0.234267   -0.023223    0.324938    11.00000    0.03722    0.06697 =
+         0.02647    0.00613    0.01007   -0.00483
+O9    3   -0.029593    0.117377   -0.412431    11.00000    0.03645    0.07560 =
+         0.03163   -0.00158    0.00634    0.00237
+O10   3    0.084303    0.073990   -0.415932    11.00000    0.03268    0.07293 =
+         0.02854   -0.00154    0.00719   -0.00160
+O11   3    0.502629    0.415188   -0.004457    11.00000    0.05292    0.05377 =
+         0.03857   -0.00029    0.02372   -0.00333
+O12   3    0.626649    0.376789    0.066756    11.00000    0.04071    0.06120 =
+         0.05296   -0.00240    0.01985   -0.00727
+C1    1    0.452062    0.272400    0.789475    11.00000    0.02877    0.05724 =
+         0.02346   -0.00202    0.00954   -0.00273
+C2    1    0.377447    0.291264    0.801728    11.00000    0.03318    0.05572 =
+         0.02499   -0.00500    0.01162   -0.00068
+AFIX  43
+H2A   2    0.383569    0.319705    0.833638    11.00000   -1.20000
+AFIX   0
+C3    1    0.294204    0.269479    0.768388    11.00000    0.02985    0.06359 =
+         0.02342    0.00127    0.01165   -0.00112
+C4    1    0.286636    0.227172    0.723182    11.00000    0.03009    0.05623 =
+         0.02536   -0.00251    0.01084   -0.00188
+AFIX  43
+H4A   2    0.230262    0.212063    0.699797    11.00000   -1.20000
+AFIX   0
+C5    1    0.360435    0.206510    0.711555    11.00000    0.03204    0.05632 =
+         0.02392   -0.00261    0.01010   -0.00207
+C6    1    0.442376    0.229933    0.744344    11.00000    0.02774    0.05580 =
+         0.02956   -0.00109    0.01174    0.00108
+AFIX  43
+H6A   2    0.492583    0.216589    0.735652    11.00000   -1.20000
+AFIX   0
+C7    1    0.538944    0.299103    0.823646    11.00000    0.02995    0.06307 =
+         0.02654   -0.00424    0.00933   -0.00393
+C8    1    0.618369    0.276736    0.826961    11.00000    0.03469    0.05827 =
+         0.05163   -0.01715    0.01606   -0.00357
+AFIX  43
+H8A   2    0.618170    0.243754    0.808177    11.00000   -1.20000
+AFIX   0
+C9    1    0.697687    0.302586    0.857655    11.00000    0.02543    0.07311 =
+         0.05431   -0.01980    0.01326    0.00100
+AFIX  43
+H9A   2    0.751118    0.287379    0.858261    11.00000   -1.20000
+AFIX   0
+C10   1    0.700111    0.349992    0.887274    11.00000    0.02911    0.05877 =
+         0.03045   -0.00862    0.01165   -0.00230
+C11   1    0.621004    0.371865    0.884020    11.00000    0.03222    0.05664 =
+         0.02625   -0.00452    0.00817   -0.00018
+AFIX  43
+H11A  2    0.621288    0.404544    0.903897    11.00000   -1.20000
+AFIX   0
+C12   1    0.542271    0.346846    0.852408    11.00000    0.02703    0.06080 =
+         0.02690   -0.00412    0.00758    0.00141
+AFIX  43
+H12A  2    0.488832    0.362752    0.850272    11.00000   -1.20000
+AFIX   0
+C13   1    0.784786    0.378355    0.922719    11.00000    0.03047    0.05973 =
+         0.02896   -0.00526    0.01178   -0.00216
+C14   1    0.217386    0.290151    0.785281    11.00000    0.03077    0.05611 =
+         0.02482   -0.00038    0.01185    0.00376
+C15   1    0.215574    0.340474    0.804505    11.00000    0.03155    0.06210 =
+         0.02508   -0.00071    0.01104   -0.00257
+AFIX  43
+H15A  2    0.260752    0.362225    0.801527    11.00000   -1.20000
+AFIX   0
+C16   1    0.148970    0.359216    0.827856    11.00000    0.03468    0.05827 =
+         0.03077   -0.00364    0.01123   -0.00016
+AFIX  43
+H16A  2    0.149941    0.393161    0.842871    11.00000   -1.20000
+AFIX   0
+C17   1    0.080464    0.327735    0.829096    11.00000    0.03347    0.06094 =
+         0.03201   -0.00752    0.01140    0.00061
+C18   1    0.079068    0.277948    0.805584    11.00000    0.03054    0.07398 =
+         0.03507   -0.00947    0.01470   -0.00714
+AFIX  43
+H18A  2    0.031239    0.256812    0.804153    11.00000   -1.20000
+AFIX   0
+C19   1    0.147252    0.259585    0.784476    11.00000    0.03542    0.05703 =
+         0.03297   -0.00951    0.01312   -0.00267
+AFIX  43
+H19A  2    0.146254    0.225688    0.769230    11.00000   -1.20000
+AFIX   0
+C20   1    0.012331    0.347465    0.857913    11.00000    0.03116    0.06777 =
+         0.03587   -0.00750    0.01472   -0.00210
+C21   1    0.350374    0.160581    0.664685    11.00000    0.03113    0.05375 =
+         0.03012   -0.00167    0.01300   -0.00257
+C22   1    0.272560    0.151667    0.602044    11.00000    0.02989    0.05876 =
+         0.02587   -0.00295    0.01003    0.00113
+AFIX  43
+H22A  2    0.226676    0.175916    0.588218    11.00000   -1.20000
+AFIX   0
+C23   1    0.261796    0.108129    0.560241    11.00000    0.03023    0.05783 =
+         0.02544   -0.00188    0.01141   -0.00091
+AFIX  43
+H23A  2    0.208670    0.102641    0.517949    11.00000   -1.20000
+AFIX   0
+C24   1    0.328267    0.072212    0.579645    11.00000    0.02633    0.05450 =
+         0.02605   -0.00080    0.01260   -0.00128
+C25   1    0.406836    0.081002    0.641370    11.00000    0.02587    0.05892 =
+         0.02900   -0.00190    0.00814    0.00193
+AFIX  43
+H25A  2    0.453226    0.057080    0.654101    11.00000   -1.20000
+AFIX   0
+C26   1    0.417165    0.124381    0.683881    11.00000    0.02548    0.06156 =
+         0.02937   -0.00471    0.00860   -0.00058
+AFIX  43
+H26A  2    0.470068    0.129654    0.726491    11.00000   -1.20000
+AFIX   0
+C27   1    0.315606    0.025849    0.533484    11.00000    0.02852    0.05906 =
+         0.02275   -0.00028    0.01185   -0.00408
+C28   1    0.295347    0.126103    0.076548    11.00000    0.04988    0.06520 =
+         0.02552    0.00265    0.00809   -0.01139
+C29   1    0.241399    0.112789    0.002754    11.00000    0.05032    0.06912 =
+         0.02699    0.00172    0.00650   -0.01809
+AFIX  43
+H29A  2    0.204479    0.084207   -0.004663    11.00000   -1.20000
+AFIX   0
+C30   1    0.240758    0.140912   -0.060697    11.00000    0.05278    0.06502 =
+         0.02972    0.00340    0.01290   -0.01037
+C31   1    0.293392    0.182589   -0.049089    11.00000    0.05021    0.06864 =
+         0.01835    0.00224    0.00579   -0.01006
+AFIX  43
+H31A  2    0.294137    0.201298   -0.092175    11.00000   -1.20000
+AFIX   0
+C32   1    0.346081    0.198270    0.024693    11.00000    0.04426    0.06158 =
+         0.02801    0.00317    0.01098   -0.00784
+C33   1    0.347314    0.169402    0.086935    11.00000    0.04066    0.06876 =
+         0.02533    0.00234    0.00333   -0.01029
+AFIX  43
+H33A  2    0.383773    0.179057    0.137192    11.00000   -1.20000
+AFIX   0
+C34   1    0.297760    0.094769    0.142442    11.00000    0.04460    0.06431 =
+         0.02660    0.00311    0.00586   -0.01048
+C35   1    0.376388    0.087209    0.204720    11.00000    0.04051    0.07124 =
+         0.03095    0.00147    0.00814   -0.01440
+AFIX  43
+H35A  2    0.429070    0.103164    0.204971    11.00000   -1.20000
+AFIX   0
+C36   1    0.379242    0.057296    0.265463    11.00000    0.04087    0.06231 =
+         0.02519   -0.00008    0.00467   -0.00662
+AFIX  43
+H36A  2    0.433228    0.053461    0.307461    11.00000   -1.20000
+AFIX   0
+C37   1    0.303608    0.032615    0.265821    11.00000    0.03856    0.05301 =
+         0.02561   -0.00109    0.00877   -0.00460
+C38   1    0.223732    0.040464    0.203922    11.00000    0.03608    0.06063 =
+         0.02672    0.00004    0.00616   -0.00690
+AFIX  43
+H38A  2    0.171148    0.024466    0.203827    11.00000   -1.20000
+AFIX   0
+C39   1    0.220956    0.070629    0.144356    11.00000    0.04483    0.06091 =
+         0.02542    0.00360    0.00414   -0.00807
+AFIX  43
+H39A  2    0.166371    0.0754

@@ -1,0 +1,391 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_NiBDPSO3HRT
+_audit_block_doi                 10.5517/ccypf56
+_database_code_depnum_ccdc_archive 'CCDC 884528'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1021/ja305267m 2012
+_audit_update_record             
+;
+2012-05-30 deposited with the CCDC.	2024-07-13 downloaded from the CCDC.
+;
+
+_chemical_name_systematic        
+;
+?
+;
+_chemical_name_common            ?
+_chemical_formula_moiety         'C30 H32 N10 Ni O8 S2'
+_chemical_formula_structural     'Ni1 (C12 H9 N4 S1 O3)2 (C3 H7 N1 O1)2'
+_chemical_formula_analytical     ?
+_chemical_formula_iupac          ?
+_chemical_formula_sum            'C30 H32 N10 Ni O8 S2'
+_chemical_formula_weight         783.46
+_chemical_melting_point          ?
+_chemical_compound_source        ?
+
+loop_
+_atom_type_symbol
+_atom_type_description
+# _atom_type_scat_dispersion_real
+# _atom_type_scat_dispersion_imag
+_atom_type_scat_source
+
+C C 'International Tables for Crystallography (Vol. IV)'
+H H 'International Tables for Crystallography (Vol. IV)'
+Ni Ni 'International Tables for Crystallography (Vol. IV)'
+N N 'International Tables for Crystallography (Vol. IV)'
+O O 'International Tables for Crystallography (Vol. IV)'
+S S 'International Tables for Crystallography (Vol. IV)'
+
+#==============================================================================
+
+# 4. POWDER SPECIMEN AND CRYSTAL DATA
+
+_space_group_crystal_system      monoclinic
+_space_group_name_H-M_alt        P21/c
+_space_group_name_Hall           ?
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x, -y, -z'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'x, y, z'
+
+_cell_length_a                   7.5258(13)
+_cell_length_b                   16.3434(45)
+_cell_length_c                   17.6314(49)
+_cell_angle_alpha                90
+_cell_angle_beta                 94.065(15)
+_cell_angle_gamma                90
+_cell_volume                     2163.14(92)
+_cell_formula_units_Z            2
+_cell_measurement_temperature    298
+
+_pd_calibration_special_details  
+; ?
+;
+_cell_special_details            
+; ?
+;
+
+_exptl_crystal_density_diffrn    1.20
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             782
+
+# The next three fields give the specimen dimensions in mm. The equatorial
+# plane contains the incident and diffracted beam.
+_pd_spec_size_axial              5 # perpendicular to
+# equatorial plane
+
+_pd_spec_size_equat              5 # parallel to
+# scattering vector
+# in transmission
+
+_pd_spec_size_thick              0.2 # parallel to
+# scattering vector
+# in reflection
+
+# The next five fields are character fields that describe the specimen.
+
+_pd_spec_mounting                
+;
+packed powder pellet
+;
+_pd_spec_mount_mode              reflection # options are 'reflection'
+# or 'transmission'
+
+_pd_spec_shape                   flat_sheet # options are 'cylinder',
+# 'flat_sheet' or 'irregular'
+
+_pd_char_particle_morphology     plate-like
+_pd_char_colour                  yellow # use ICDD colour descriptions
+
+
+
+# The next four fields are normally only needed for transmission experiments.
+_exptl_absorpt_coefficient_mu    ?
+_exptl_absorpt_correction_type   ?
+_exptl_absorpt_correction_T_min  ?
+_exptl_absorpt_correction_T_max  ?
+
+#==============================================================================
+
+# 5. EXPERIMENTAL DATA
+
+_exptl_special_details           
+; ?
+;
+
+# This following item is used to identify the equipment used to record the
+# powder pattern when the diffractogram was measured at a laboratory
+# other than the authors' home institution, e.g. when neutron or synchrotron
+# radiation is used.
+
+_pd_instr_location               
+; ?
+;
+
+_diffrn_ambient_temperature      298
+_diffrn_source_target            Cu
+_diffrn_source_type              'sealed X-ray tube'
+_diffrn_measurement_device_type  'Bruker AXS D8 Advance'
+_diffrn_detector_type            'Bruker Lynxeye linear PSD'
+_pd_meas_scan_method             step # options are 'step', 'cont',
+# 'tof', 'fixed' or
+# 'disp' (= dispersive)
+_pd_meas_special_details         
+; ?
+;
+
+# The following six items are used for angular dispersive measurements only.
+
+loop_
+_diffrn_radiation_type
+'Cu K\a'
+_diffrn_radiation_wavelength     CuK\a~1~
+_diffrn_radiation_monochromator  'Ni filter'
+
+# The following four items give details of the measured (not processed)
+# powder pattern. Angles are in degrees.
+
+_pd_meas_number_of_points        2451
+_pd_meas_2theta_range_min        6
+_pd_meas_2theta_range_max        55
+_pd_meas_2theta_range_inc        0.02
+
+# The following three items are used for time-of-flight measurements only.
+
+_pd_instr_dist_src/spec          ?
+_pd_instr_dist_spec/detc         ?
+_pd_meas_2theta_fixed            ?
+
+# The following fields are used to identify the programs used.
+
+_computing_data_collection       ?
+_computing_cell_refinement       'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_data_reduction        ?
+_computing_structure_solution    'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_structure_refinement  'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_molecular_graphics    ?
+_computing_publication_material  'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+
+#==============================================================================
+
+# 6. REFINEMENT DATA
+
+# Use the next field to give any special details about the fitting of the
+# powder pattern.
+
+_pd_proc_ls_special_details      
+; The use of a rigid body description for the crystallographically independent
+portion of the 2,5-Di(1H-pyrazol-4-yl)benzenesulfonate
+and for the dimethylformamide solvent does not allow
+the derivation of statistically meaningful s.u.'s for their atoms.
+
+S.u.'s are available only for the position of the center of mass (X, Y, Z),
+for the rotational angles (RX, RY, RZ) and
+for the rotation of some portions of the rigid body
+
+1. 2,5-Di(1H-pyrazol-4-yl)benzenesulfonate
+
+X, Y, Z 0.626(3), 0.743(1), 0.707(1)
+
+RX, RY, RZ 141.4(3), -9.3(4), 311.5(4)
+
+R(C2, S) -285(2), R(C4, C10) 168(3)
+
+for the rigid body described by (H = center of mass):
+
+z_matrix H
+z_matrix C1 H =r1;
+z_matrix C2 C1 =r1; H 60
+z_matrix S C2 =r9; C1 120 H 180
+z_matrix O1 S =r5; C2 109.5 C1 109.5
+z_matrix O2 S =r5; O1 109.5 C2 120
+z_matrix O3 S =r5; O1 109.5 C2 -120
+z_matrix C3 C2 =r1; C1 120 H 0
+z_matrix H3 C3 =r2; C2 120 C1 180
+z_matrix C4 C3 =r1; C2 120 C1 0
+z_matrix C5 C4 =r1; C3 120 C2 0
+z_matrix H5 C5 =r2; C4 120 C3 180
+z_matrix C6 C5 =r1; C4 120 C3 0
+z_matrix H6 C6 =r2; C5 120 C4 180
+z_matrix C7 C1 =r3; C2 120 C3 180
+z_matrix C8 C7 =r4; C1 126 C2 0
+z_matrix H8 C8 =r2; C7 126 C1 0
+z_matrix N1 C8 =r4; C7 108 C1 180
+z_matrix H1N N1 =r2; C8 126 C7 180
+z_matrix N2 N1 =r4; C8 108 C7 0
+z_matrix C9 N2 =r4; N1 108 C8 0
+z_matrix H9 C9 =r2; N2 126 N1 180
+z_matrix C10 C4 =r3; C3 120 C2 180
+z_matrix C11 C10 =r4; C4 126 C3 0
+z_matrix H11 C11 =r2; C10 126 C4 0
+z_matrix N3 C11 =r4; C10 108 C4 180
+z_matrix N4 N3 =r4; C11 108 C10 0
+z_matrix H4N N4 =r2; N3 126 C11 180
+z_matrix C12 N4 =r4; N3 108 C11 0
+z_matrix H12 C12 =r2; N4 126 N3 180
+
+
+prm r1 1.39
+prm r2 0.95
+prm r3 1.45
+prm r4 1.36
+prm r5 1.52
+prm r9 1.77
+
+2. dimethylformamide
+
+X, Y, Z 0.295(8), 0.638(5), 0.842(3)
+
+RX, RY, RZ -67(2), -335(3), -137(3)
+
+for the rigid body described by:
+
+
+rigid
+z_matrix Oa
+z_matrix C11a Oa 1.25
+z_matrix Ha C11a =r8; Oa 120
+z_matrix N1a C11a =r6; Oa 120 Ha 180
+z_matrix C21a N1a =r7; C11a 120 Oa 0
+z_matrix C31a N1a =r7; C11a 120 Oa 180
+z_matrix H21a C21a =r8; N1a 109.5 C11a 0
+z_matrix H22a C21a =r8; N1a 109.5 C11a 120
+z_matrix H23a C21a =r8; N1a 109.5 C11a 240
+z_matrix H31a C31a =r8; N1a 109.5 C11a 0
+z_matrix H32a C31a =r8; N1a 109.5 C11a 120
+z_matrix H33a C31a =r8; N1a 109.5 C11a 240
+
+
+prm r6 1.45
+prm r7 1.50
+prm r8 0.95
+;
+
+# The next three items are given as text
+_pd_proc_ls_profile_function     'fundamental parameters approach'
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_pref_orient_corr     ?
+_pd_proc_ls_prof_R_factor        0.046
+_pd_proc_ls_prof_wR_factor       0.062
+_pd_proc_ls_prof_wR_expected     0.032
+
+_refine_special_details          
+; ?
+;
+
+_refine_ls_structure_factor_coef Inet
+_refine_ls_matrix_type           fullcycle
+_refine_ls_weighting_scheme      1/[Y~i~]
+_refine_ls_hydrogen_treatment    ?
+_refine_ls_extinction_method     none
+_refine_ls_extinction_coef       ?
+_refine_ls_number_parameters     29
+_refine_ls_number_restraints     0
+_refine_ls_number_constraints    ?
+# The following item is 'CHI squared'
+_refine_ls_goodness_of_fit_all   ?
+
+_refine_ls_restrained_S_all      ?
+_refine_ls_restrained_S_obs      ?
+_refine_ls_shift/su_max          .01
+_refine_ls_shift/su_mean         ?
+
+
+# The following four items apply to angular dispersive measurements.
+# 2theta minimum, maximum and increment (in degrees) are for the
+# intensities used in the refinement.
+_pd_proc_2theta_range_min        6
+_pd_proc_2theta_range_max        55
+_pd_proc_2theta_range_inc        0.02
+
+loop_
+_pd_proc_wavelength
+1.540562
+1.544390
+
+_pd_block_diffractogram_id       ? # The id used for the block
+# containing the powder
+# pattern profile (section 11).
+
+# Give appropriate details in the next two text fields.
+_pd_proc_info_excluded_regions   ?
+_pd_proc_info_data_reduction     ?
+
+#==============================================================================
+
+# 7. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Ni Ni 2 0 0 0 1 3
+C1 C 4 0.5477872 0.7033147 0.6434671 1 5
+C2 C 4 0.6924539 0.6681933 0.6847435 1 5
+S S 4 0.7775717 0.5729487 0.6561733 1 5
+O1 O 4 0.9239851 0.5448688 0.7141637 1 5
+O2 O 4 0.853044 0.582246 0.5789251 1 5
+O3 O 4 0.6285735 0.509979 0.6508137 1 5
+C3 C 4 0.7702766 0.7078686 0.7484565 1 5
+H3 H 4 0.8691495 0.6838648 0.776667 1 5
+C4 C 4 0.7034326 0.7826653 0.7708931 1 5
+C5 C 4 0.5587659 0.8177867 0.7296166 1 5
+H5 H 4 0.5130812 0.8689067 0.7449509 1 5
+C6 C 4 0.4809432 0.7781114 0.6659036 1 5
+H6 H 4 0.3820703 0.8021152 0.6376931 1 5
+C7 C 4 0.4666052 0.6619268 0.5770039 1 5
+C8 C 4 0.5417279 0.6510024 0.50982 1 5
+H8 H 4 0.6566046 0.6691479 0.4981954 1 5
+N1 N 4 0.423522 0.6095407 0.4621994 1 5
+H1N H 4 0.4413315 0.593639 0.4114702 1 5
+N2 N 4 0.275344 0.5948403 0.4999522 1 5
+C9 C 4 0.3019709 0.6272166 0.5709053 1 5
+H9 H 4 0.2199663 0.6258299 0.6094421 1 5
+C10 C 4 0.7846146 0.8240532 0.8373562 1 5
+C11 C 4 0.7539074 0.9026722 0.8580612 1 5
+H11 H 4 0.6755033 0.9401157 0.8315186 1 5
+N3 N 4 0.8551481 0.9182769 0.9234352 1 5
+N4 N 4 0.9484255 0.8493021 0.9431336 1 5
+H4N H 4 1.029754 0.8429196 0.98645 1 5
+C12 C 4 0.9048334 0.7910687 0.8899339 1 5
+H12 H 4 0.9503654 0.7368665 0.8895642 1 5
+Oa O 4 0.29482 0.6383198 0.8424899 1 5
+Ha H 4 0.3389623 0.5236895 0.8541125 1 5
+N1a N 4 0.5317356 0.5875971 0.92201 1 5
+C11a C 4 0.377366 0.5770975 0.8688739 1 5
+C21a C 4 0.592373 0.6719255 0.9453176 1 5
+H21a H 4 0.5160068 0.7113323 0.9203856 1 5
+H22a H 4 0.5887559 0.6777105 0.9987997 1 5
+H23a H 4 0.7108147 0.6802176 0.9315498 1 5
+C31a C 4 0.6307909 0.5141303 0.9536708 1 5
+H31a H 4 0.5757885 0.4657883 0.933384 1 5
+H32a H 4 0.7507335 0.5162573 0.9402294 1 5
+H33a H 4 0.6286748 0.5137502 1.007479 1 5
+_iucr_compatibility_tag          ?
