@@ -43,7 +43,7 @@ def _save_config_file(model_checkpoints_folder):
         os.makedirs(model_checkpoints_folder)
         shutil.copy('./config_ft_transformer.yaml', os.path.join(model_checkpoints_folder, 'config_ft_transformer.yaml'))
 
-
+#Define fine-tuning functions
 class FineTune(object):
     def __init__(self, config, log_dir):
         self.config = config
@@ -325,7 +325,7 @@ class FineTune(object):
         print('MAE {mae_errors.avg:.3f}'.format(mae_errors=mae_errors))
         return losses.avg, mae_errors.avg
 
-
+#Run fine-tuning procedure
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Transformer finetuning')
     parser.add_argument('--seed', default=1, type=int,
@@ -378,7 +378,8 @@ if __name__ == "__main__":
         mode='a', index=False, header=False
     )
 
-    #CO2 Model: Val - MSE 1.0135 (0.6730) MAE 1.037 (0.999) Test - MSE 0.2805 (0.4837) MAE 0.683 (0.878)
+    #FINE TUNING RESULTS ON TEST SET
+    #CO2 Model: MSE 0.2805 (0.4837) MAE 0.683 (0.878)
 
     #N2 Model:
     #Val: Epoch [%d] Validate: [282/282], Loss 0.4431 (0.5568), MAE 0.088 (0.084)MAE 0.084
