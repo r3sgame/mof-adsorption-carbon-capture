@@ -1,5 +1,5 @@
 batch_size: 64
-epochs: 200
+epochs: 85
 eval_every_n_epochs: 1
 fine_tune_from: ./training_results/pretraining
 trained_with: 'CGCNN'
@@ -23,10 +23,10 @@ dataloader:
   randomSeed: 1
 
 dataset:
-  # data_name: 'hMOF_CO2_0.5'
-  # dataPath: './benchmark_datasets/hMOF/mofid/hMOF_CO2_0.5_small_mofid.csv'
-  data_name: 'QMOF'
-  dataPath: './benchmark_datasets/QMOF/mofid/QMOF_small_mofid.csv'
+  data_name: 'regenerability'
+  dataPath: './benchmark_datasets/regenerability/mofid/regenerability_small_mofid.csv'
+  # data_name: 'QMOF'
+  # dataPath: './benchmark_datasets/QMOF/mofid/QMOF_small_mofid.csv'
 
 Transformer:
   ntoken: 4021

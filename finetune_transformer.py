@@ -30,6 +30,7 @@ from torch.utils.tensorboard import SummaryWriter
 from dataset.dataset_finetune_transformer import MOF_ID_Dataset
 # from dataset.dataset_finetune import collate_pool, get_train_val_test_loader
 #from model.cgcnn_finetune import CrystalGraphConvNet
+import joblib
 
 import warnings
 warnings.simplefilter("ignore")
@@ -87,7 +88,7 @@ class FineTune(object):
         self.criterion = nn.MSELoss()
 
         self.normalizer = Normalizer(torch.from_numpy(self.train_dataset.label))
-
+        joblib.dump(self.normalizer, os.path.join(self.writer.log_dir, 'normalizer.pkl'))
 
     def _get_device(self):
         # device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -342,6 +343,8 @@ if __name__ == "__main__":
         pressure = config['dataset']['data_name'].split('_')[-1]
     if 'QMOF' in config['dataset']['data_name']:
         task_name = 'QMOF'
+    if 'regenerability' in config['dataset']['data_name']:
+        task_name = 'regenerability'
 
     # ftf: finetuning from
     # ptw: pre-trained with
@@ -374,3 +377,9 @@ if __name__ == "__main__":
         os.path.join(log_dir, fn),
         mode='a', index=False, header=False
     )
+
+    #CO2 Model: Val - MSE 1.0135 (0.6730) MAE 1.037 (0.999) Test - MSE 0.2805 (0.4837) MAE 0.683 (0.878)
+
+    #N2 Model:
+    #Val: Epoch [%d] Validate: [282/282], Loss 0.4431 (0.5568), MAE 0.088 (0.084)MAE 0.084
+    #Test: [281/282], Loss 0.5729 (0.4725), MAE 0.091 (0.080) MAE 0.080
