@@ -1,5 +1,7 @@
 # Identifying optimal metal-organic frameworks for adsorption-based carbon capture using natural language processing
 
+## [Read the paper](https://docs.google.com/document/d/1zm9vep4UVej5GFiulpjX60IibpaK2EQztXNkPm2Zaeg/edit?usp=sharing)
+
 Download this repository and run finetune_transformer.py to train the model on the CO2 adsorption capacity dataset. This will fine tune MOFormer on the provided CSV file in benchmark_datasets. If you want to train a different model, go into config_ft_transformer.yaml and change the dataset file path (and preferably the name) to the appropriate metadata for N2 adsorption capacity and regenerability.
 
 - CO2 adsorption filepath: ./benchmark_datasets/hMOF/mofid/hMOF_CO2_1_small_mofid.csv
